@@ -5,15 +5,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <!-- Primary Meta Tags -->
-    <title>PT. BorSya Cipta Communica (BCC)</title>
-    <meta name="title" content="PT. BorSya Cipta Communica (BCC)" />
+    <title>Magitha Citra Nusantara</title>
+    <meta name="title" content="Magitha Citra Nusantara" />
     <meta name="description"
         content='A company that focuses on providing telecommunication materials and services based on fiber optic technology. Currently, PT. BCC is quite taken into account in Indonesian telecommunications. With the motto "The Power of Change" spurred PT. BCC to always adapt to various changes and technological advances. The quality of production and the trust of partners is a priority for us.' />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://borsyacipta.com" />
-    <meta property="og:title" content="PT. BorSya Cipta Communica (BCC)" />
+    <meta property="og:url" content="https://mcncommunicaphp artisan config:cache.com" />
+    <meta property="og:title" content="Magitha Citra Nusantara" />
     <meta property="og:description"
         content='A company that focuses on providing telecommunication materials and services based on fiber optic technology. Currently, PT. BCC is quite taken into account in Indonesian telecommunications. With the motto "The Power of Change" spurred PT. BCC to always adapt to various changes and technological advances. The quality of production and the trust of partners is a priority for us.' />
     <meta property="og:image"
