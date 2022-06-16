@@ -125,10 +125,10 @@
                         <div class="col-xxl-10 col-xl-10 col-lg-10">
                             <div class="top_info_wrapper">
                                 <div class="top_info_single has_left_icon theme_1">
-                                    <a href="mailto:humas@borsyacipta.com"><i class="flaticon-email"></i></a>
+                                    <a href="mailto:humas@mcncommunica.com"><i class="flaticon-email"></i></a>
                                     <div class="top_info_single_right">
                                         <span>Email Address</span>
-                                        <a href="mailto:humas@borsyacipta.com">humas@borsyacipta.com</a>
+                                        <a href="mailto:humas@mcncommunica.com">humas@mcncommunica.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -137,9 +137,9 @@
                             <div class="top_info_single header_top_right text-end has_left_icon theme_1">
                                 <div class="top_info_single_right">
                                     <span>Get Support</span>
-                                    <a href="tel:622254412751">622254412751</a>
+                                    <a href="tel:6285158562311">6285158562311</a>
                                 </div>
-                                <a href="tel:622254412751"><i class="flaticon-call ml-20"></i></a>
+                                <a href="tel:6285158562311"><i class="flaticon-call ml-20"></i></a>
                             </div>
                         </div>
                     </div>
@@ -241,8 +241,8 @@
                                 Commercial Estate Blok A2 No.7 Bandung</span></a>
                         <a href="tel:622254412751" class="theme-2"><i
                                 class="fal fa-phone"></i><span>622254412751</span></a>
-                        <a href="mailto:humas@borsyacipta.com" class="theme-3"><i
-                                class="far fa-envelope"></i><span>humas@borsyacipta.com</span></a>
+                        <a href="mailto:humas@mcncommunica.com" class="theme-3"><i
+                                class="far fa-envelope"></i><span>humas@mcncommunica.com</span></a>
                     </div>
 
                     <div class="top_social offset_social mt-20 mb-30">
