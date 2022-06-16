@@ -11,14 +11,14 @@
                     <div class="swiper-wrapper">
                         <div class="slide3_item swiper-slide">
                             <div class="slide3_bg"
-                                data-background="https://borsyacipta.com/backend/image/slider/borysa-group.jpg"></div>
+                                data-background="https://borsyacipta.com/backend/image/slider/mcn.jpg"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-xxl-12">
                                             <div class="slide3_item_content">
                                                 <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">
-                                                    BorSya <span class="slide_line">Group</span>
+                                                    Magitha Citra <span class="slide_line">Nusantara</span>
                                                 </h2>
                                                 <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
                                                     <a href="https://borsyacipta.com/page/borsya-foundation"
