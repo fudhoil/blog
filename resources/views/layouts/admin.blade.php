@@ -178,7 +178,7 @@
                         <div class="col-xxl-2 col-lg-2">
                             <div class="logo_middle_wrapper">
                                 <a href="#" class="logo_middle"><img
-                                        src="https://borsyacipta.com/public/frontend/tionco/assets/img/logo/logo.png"
+                                        src="public/frontend/tionco/assets/img/logo/mcnlogo.png"
                                         alt="logo" /></a>
                             </div>
                         </div>
