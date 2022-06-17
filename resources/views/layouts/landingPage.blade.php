@@ -163,8 +163,8 @@
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="{{ url('page/selayang-pandang') }}">Selayang Pandang</a>
-                                                <a href="page/visi--misi.html">Visi &amp; Misi</a>
-                                                <a href="page/iso--certificate.html">ISO &amp; Certificate</a>
+                                                <a href="{{ url('page/visi-misi') }}">Visi &amp; Misi</a>
+                                                <a href="{{ url('page/iso-certificate') }}">ISO &amp; Certificate</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -236,7 +236,8 @@
             <div class="offset-widget offset-logo mb-30 pb-20">
                 <div class="row align-items-center">
                     <div class="col-8"><a href="#" class="mobile_logo"><img
-                                src="frontend/tionco/assets/img/logo/logo.png" alt="Logo"></a></div>
+                                src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="Logo"></a>
+                    </div>
                     <div class="col-4 text-end"><button class="side-info-close"><i class="fal fa-times"></i></button>
                     </div>
                 </div>
@@ -280,7 +281,7 @@
         </div>
     </div>
 
-    <main class="py-4">
+    <main class="py-0">
         @yield('content')
     </main>
 

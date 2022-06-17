@@ -9,7 +9,8 @@
                 <div class="slider3_active swiper-container">
                     <div class="swiper-wrapper">
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/borysa-group.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/borysa-group.jpg') }}">
+                            </div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -28,7 +29,7 @@
                             </div>
                         </div>
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/slide2.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide2.jpg') }}"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -47,7 +48,7 @@
                             </div>
                         </div>
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/slide3.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide3.jpg') }}"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -66,7 +67,7 @@
                             </div>
                         </div>
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/slide4.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide4.jpg') }}"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -85,7 +86,7 @@
                             </div>
                         </div>
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/slide1.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide1.jpg') }}"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -104,7 +105,7 @@
                             </div>
                         </div>
                         <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="backend/image/slider/slide5.jpg"></div>
+                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide5.jpg') }}"></div>
                             <div class="slide3_item_inner">
                                 <div class="container">
                                     <div class="row">
@@ -195,8 +196,8 @@
                 <div class="row">
                     <div class="col-xxl-12 col-12">
                         <div class="about_wrapper pl-110">
-                            <a href="#"><img src="frontend/tionco/assets/img/favicon.png" class="lazy"
-                                    alt="logo"></a>
+                            <a href="#"><img src="{{ url('frontend/tionco/assets/img/favicon.png') }}"
+                                    class="lazy" alt="logo"></a>
                             <div class="about_right">
                                 <span class="abs_about wow fadeInUp" data-wow-delay="0.3s">About</span>
                                 <h2 class="big_title wow fadeInUp" data-wow-delay="0.5s">
@@ -214,7 +215,7 @@
                                         <div class="single_counter_wrapper wow fadeInLeft" data-wow-delay="0.3s">
                                             <div class="single-counter theme_count_bg">
                                                 <img class="lazy wow fadeInLeft" data-wow-delay="0.5s"
-                                                    src="backend/image/counter/1.png" alt="counter_img">
+                                                    src="{{ url('backend/image/counter/1.png') }}" alt="counter_img">
                                                 <h2 class="white_text count_number"><span class="odometer"
                                                         data-count="100">00</span></h2>
                                                 <span class="white_text">Our Partners</span>
@@ -225,7 +226,7 @@
                                         <div class="single_counter_wrapper wow fadeInLeft" data-wow-delay="0.3s">
                                             <div class="single-counter black_count_bg">
                                                 <img class="lazy wow fadeInLeft" data-wow-delay="0.5s"
-                                                    src="backend/image/counter/2.png" alt="counter_img">
+                                                    src="{{ url('backend/image/counter/2.png') }}" alt="counter_img">
                                                 <h2 class="white_text count_number"><span class="odometer"
                                                         data-count="100">00</span></h2>
                                                 <span class="white_text">Our Clients</span>
@@ -236,7 +237,7 @@
                                         <div class="single_counter_wrapper wow fadeInLeft" data-wow-delay="0.3s">
                                             <div class="single-counter soft_count_bg">
                                                 <img class="lazy wow fadeInLeft" data-wow-delay="0.5s"
-                                                    src="backend/image/counter/3.png" alt="counter_img">
+                                                    src="{{ url('backend/image/counter/3.png') }}" alt="counter_img">
                                                 <h2 class=" count_number"><span class="odometer"
                                                         data-count="100">00</span></h2>
                                                 <span class="">Our Projects</span>
@@ -376,7 +377,7 @@
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
                                     <a href="gallery/kegiatan-a.html">
-                                        <img src="backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg"
+                                        <img src="{{ url('backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
@@ -395,7 +396,7 @@
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
                                     <a href="gallery/kegiatan-b.html">
-                                        <img src="backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg"
+                                        <img src="{{ url('backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
@@ -414,7 +415,7 @@
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
                                     <a href="gallery/kegiatan-c.html">
-                                        <img src="backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg"
+                                        <img src="{{ url('backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
@@ -433,7 +434,7 @@
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
                                     <a href="gallery/sekolah-smk.html">
-                                        <img src="backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg"
+                                        <img src="{{ url('backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
@@ -468,8 +469,8 @@
                 <div class="row g-0 align-items-center">
                     <div class="col-xxl-5 col-xl-5 col-lg-6">
                         <div class="about3_img_wrapper text-xl-end pr_5 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="about3_img"><img src="backend/image/setting/intro.png" alt="img"
-                                    class="lazy"></div>
+                            <div class="about3_img"><img src="{{ url('backend/image/setting/intro.png') }}"
+                                    alt="img" class="lazy"></div>
                         </div>
                     </div>
                     <div class="col-xxl-7 col-xl-7 col-lg-6">
@@ -515,7 +516,8 @@
                                 <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="blog_img img_effect_white w_img">
                                         <a href="page/splitter-modular.html"><img
-                                                src="backend/image/news/middle/splitter-modular.png" alt="blog-img"></a>
+                                                src="{{ url('backend/image/news/middle/splitter-modular.png') }}"
+                                                alt="blog-img"></a>
                                     </div>
                                     <div class="blog_content blog_content2 blog_border2">
                                         <div class="author_meta2 pt-15 mt-25 is_bordertop">
@@ -534,7 +536,7 @@
                                 <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="blog_img img_effect_white w_img">
                                         <a href="page/fiber-optical-patch-cord.html"><img
-                                                src="backend/image/news/middle/fiber-optical-patch-cord.png"
+                                                src="{{ url('backend/image/news/middle/fiber-optical-patch-cord.png') }}"
                                                 alt="blog-img"></a>
                                     </div>
                                     <div class="blog_content blog_content2 blog_border2">
@@ -555,7 +557,7 @@
                                 <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="blog_img img_effect_white w_img">
                                         <a href="page/pre-connectorized-drop-cable.html"><img
-                                                src="backend/image/news/middle/pre-connectorized-drop-cable.png"
+                                                src="{{ url('backend/image/news/middle/pre-connectorized-drop-cable.png') }}"
                                                 alt="blog-img"></a>
                                     </div>
                                     <div class="blog_content blog_content2 blog_border2">
@@ -576,7 +578,7 @@
                                 <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="blog_img img_effect_white w_img">
                                         <a href="page/fttx-outdoor--drop-cable-rectangle-type.html"><img
-                                                src="backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png"
+                                                src="{{ url('backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png') }}"
                                                 alt="blog-img"></a>
                                     </div>
                                     <div class="blog_content blog_content2 blog_border2">
@@ -619,8 +621,8 @@
                                             written
                                             or spoken statement extolling the virtue of a product.</p>
                                     </div>
-                                    <img src="frontend/tionco/assets/img/hero/testimonial1.png" alt="img"
-                                        class="lazy">
+                                    <img src="{{ url('frontend/tionco/assets/img/hero/testimonial1.png') }}"
+                                        alt="img" class="lazy">
                                 </div>
                             </div>
                             <div class="testimonial_slide swiper-slide">
@@ -631,8 +633,8 @@
                                             written
                                             or spoken statement extolling the virtue of a product.</p>
                                     </div>
-                                    <img src="frontend/tionco/assets/img/hero/testimonial2.png" alt="img"
-                                        class="lazy">
+                                    <img src="{{ url('frontend/tionco/assets/img/hero/testimonial2.png') }}"
+                                        alt="img" class="lazy">
                                 </div>
                             </div>
                             <div class="testimonial_slide swiper-slide">
@@ -643,8 +645,8 @@
                                             written
                                             or spoken statement extolling the virtue of a product.</p>
                                     </div>
-                                    <img src="frontend/tionco/assets/img/hero/testimonial3.png" alt="img"
-                                        class="lazy">
+                                    <img src="{{ url('frontend/tionco/assets/img/hero/testimonial3.png') }}"
+                                        alt="img" class="lazy">
                                 </div>
                             </div>
                         </div>
@@ -657,7 +659,7 @@
         <!-- testimonial_slider_area-end -->
 
         <!-- brand_area-start -->
-        <div class="brand_area pt-115 pb-120 fix" data-background="frontend/tionco/assets/img/bg/map.png">
+        <div class="brand_area pt-115 pb-120 fix" data-background="{{ url('frontend/tionco/assets/img/bg/map.png') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
@@ -672,32 +674,33 @@
                 </div>
                 <div class="brand_wrapper wow fadeInUp" data-wow-delay="0.7s">
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/9.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/9.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/8.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/8.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/7.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/7.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/6.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/6.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/5.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/5.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/4.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/4.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/3.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/3.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/2.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/2.png') }}" alt="brand" class="lazy">
                     </div>
                     <div class="single_brand">
-                        <img src="backend/image/promotion/big/1.png" alt="brand" class="lazy">
+                        <img src="{{ url('backend/image/promotion/big/1.png') }}" alt="brand" class="lazy">
                     </div>
+
 
                 </div>
             </div>
@@ -723,7 +726,7 @@
                             <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
                                 <div class="single_blog3_img img_effect_white w_img">
                                     <a href="page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.html"><img
-                                            src="backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg"
+                                            src="{{ url('backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg') }}"
                                             alt="img" class="lazy"></a>
                                 </div>
                                 <div class="single_blog3_content">
@@ -742,7 +745,7 @@
                             <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
                                 <div class="single_blog3_img img_effect_white w_img">
                                     <a href="page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.html"><img
-                                            src="backend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg"
+                                            src="b{{ url('ackend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg') }}"
                                             alt="img" class="lazy"></a>
                                 </div>
                                 <div class="single_blog3_content">
@@ -762,7 +765,7 @@
                                 <div class="single_blog3_img img_effect_white w_img">
                                     <a
                                         href="page/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.html"><img
-                                            src="backend/image/news/middle/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg"
+                                            src="{{ url('backend/image/news/middle/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg') }}"
                                             alt="img" class="lazy"></a>
                                 </div>
                                 <div class="single_blog3_content">

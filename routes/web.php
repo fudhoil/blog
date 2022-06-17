@@ -23,4 +23,6 @@ Route::get('/welcome', 'HomeController@index')->name('welcome');
 Route::get('/home', 'HomeController@admin')->name('home');
 Route::prefix('page')->group(function () {
     Route::get('/selayang-pandang', 'PageController@selayangPandang');
+    Route::get('/visi-misi', 'PageController@visiMisi');
+    Route::get('/iso-certificate', 'PageController@isoCertificate');
 });

@@ -15,4 +15,14 @@ class PageController extends Controller
     {
         return view('page/selayang-pandang');
     }
+
+    public function visiMisi()
+    {
+        return view('page/visi-misi');
+    }
+
+    public function isoCertificate()
+    {
+        return view('page/iso-certificate');
+    }
 }
