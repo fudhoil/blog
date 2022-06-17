@@ -28,19 +28,19 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="frontend/tionco/assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('frontend/tionco/assets/img/favicon.png') }}">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
-    <link rel="stylesheet" href="frontend/tionco/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/animate.min.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/flaticon.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/odometer-theme-default.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/meanmenu.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/swipper.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/icofont.min.css">
-    <link rel="stylesheet" href="frontend/tionco/assets/css/main.css">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/odometer-theme-default.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/meanmenu.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/swipper.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/icofont.min.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/main.css') }}">
     <!-- Livewire Styles -->
     <style>
         [wire\:loading] {
@@ -57,7 +57,7 @@
     </style>
     <!-- Livewire Scripts -->
 
-    <script src="livewire/livewire.js?id=d7d975b5d122717a1ee0" data-turbolinks-eval="false"></script>
+    <script src="{{ url('livewire/livewire.js?id=d7d975b5d122717a1ee0') }}" data-turbolinks-eval="false"></script>
     <script data-turbolinks-eval="false">
         if (window.livewire) {
             console.warn(
@@ -162,7 +162,7 @@
                                         <a href="#">About Us</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="page/selayang-pandang.html">Selayang Pandang</a>
+                                                <a href="{{ url('page/selayang-pandang') }}">Selayang Pandang</a>
                                                 <a href="page/visi--misi.html">Visi &amp; Misi</a>
                                                 <a href="page/iso--certificate.html">ISO &amp; Certificate</a>
                                             </li>
@@ -178,8 +178,8 @@
                     </div>
                     <div class="col-xxl-2 col-lg-2">
                         <div class="logo_middle_wrapper">
-                            <a href="#" class="logo_middle"><img src="frontend/tionco/assets/img/logo/logo.png"
-                                    alt="logo"></a>
+                            <a href="#" class="logo_middle"><img
+                                    src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xxl-5 col-lg-5 text-end">
@@ -211,8 +211,8 @@
             <div class="row align-items-center">
                 <div class="col-8">
                     <div class="logo_middle_mobile">
-                        <a href="#" class="mobile_middle"><img src="frontend/tionco/assets/img/logo/logo.png"
-                                alt="logo"></a>
+                        <a href="#" class="mobile_middle"><img
+                                src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-4 text-end">
@@ -270,7 +270,7 @@
                     <a href="https://www.facebook.com/MagithaGroup" target="_blank" class="facebook"><i
                             class="fab fa-facebook-f"></i></a>
                     <a href="" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com/borsyagroup" target="_blank" class="linkedin"><i
+                    <a href="https://instagram.com/magithagroup" target="_blank" class="linkedin"><i
                             class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/channel/UChBtMxlGvuk9MCR7ZogYytw" target="_blank"
                         class="youtube"><i class="fab fa-youtube"></i></a>
@@ -369,7 +369,7 @@
                             <a href="https://www.facebook.com/MagithaGroup" target="_blank"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://instagram.com/borsyagroup" target="_blank"><i
+                            <a href="https://instagram.com/magithagroup" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/channel/UChBtMxlGvuk9MCR7ZogYytw" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
@@ -385,37 +385,40 @@
     <!-- footer_area-end -->
 
     <!-- JS here -->
-    <script src="frontend/tionco/assets/js/jquery.min.js"></script>
-    <script src="frontend/tionco/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="frontend/tionco/assets/js/swipper-bundle.min.js"></script>
-    <script src="frontend/tionco/assets/js/jquery.meanmenu.min.js"></script>
-    <script src="frontend/tionco/assets/js/wow.min.js"></script>
-    <script src="frontend/tionco/assets/js/jquery.scrollUp.min.js"></script>
-    <script src="frontend/tionco/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="frontend/tionco/assets/js/isotope.pkgd.min.js"></script>
-    <script src="frontend/tionco/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="frontend/tionco/assets/js/mouse-wheel.min.js"></script>
-    <script src="frontend/tionco/assets/js/odometer.min.js"></script>
-    <script src="frontend/tionco/assets/js/appair.min.js"></script>
-    <script src="frontend/tionco/assets/js/back-to-top.min.js"></script>
-    <script src="frontend/tionco/assets/js/main.js"></script>
-    <script src="public/js/app.js"></script>
-    <script type="text/javascript" src="frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js"></script>
-    <script type="text/javascript" src="frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js"></script>
+    <script src="{{ url('frontend/tionco/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/swipper-bundle.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/jquery.meanmenu.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/wow.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/mouse-wheel.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/odometer.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/appair.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/back-to-top.min.js') }}"></script>
+    <script src="{{ url('frontend/tionco/assets/js/main.js') }}"></script>
+    <script src="{{ url('js/app.js') }}"></script>
+    <script type="text/javascript" src="{{ url('frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url('frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js') }}">
+    </script>
 
     <!--====== YOUTUBE JS ======-->
-    <script type="text/javascript" src="frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js">
-    </script>
+    <script type="text/javascript"
+        src="{{ url('frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js') }}"></script>
     <link rel="stylesheet" type="text/css" media="screen"
-        href="frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css">
+        href="{{ url('frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css') }}">
     <script type="text/javascript"
-        src="frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js"></script>
+        src="{{ url('frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js') }}">
+    </script>
     <script type="text/javascript"
-        src="frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js"></script>
+        src="{{ url('frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js') }}">
+    </script>
     <!--====== LEAFLET ======-->
-    <link rel="stylesheet" href="leaflet%401.5.1/dist/leaflet.css">
+    <link rel="stylesheet" href="{{ url('leaflet%401.5.1/dist/leaflet.css') }}">
     <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <script src="leaflet%401.5.1/dist/leaflet.js"></script>
+    <script src="{{ url('leaflet%401.5.1/dist/leaflet.js') }}"></script>
 
     <script>
         $(document).ready(function() {
