@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.landingPage')
 @section('content')
     <div class="offcanvas-overlay"></div>
     <!-- slide-bar end -->
@@ -218,7 +218,8 @@
                 <div class="row">
                     <div class="col-xxl-12 col-12">
                         <div class="about_wrapper pl-110">
-                            <a href="#"><img src="https://borsyacipta.com/public/frontend/tionco/assets/img/favicon.png"
+                            <a href="#"><img
+                                    src="https://borsyacipta.com/public/frontend/tionco/assets/img/favicon.png"
                                     class="lazy" alt="logo" /></a>
                             <div class="about_right">
                                 <span class="abs_about wow fadeInUp" data-wow-delay="0.3s">About</span>
@@ -456,8 +457,7 @@
                                     </h4>
                                     <div class="p_meta">
                                         <a href="https://borsyacipta.com/gallery/kegiatan-c"><i
-                                                class="fal fa-user"></i><span
-                                                class="p_meta_author">Surabaya</span></a>
+                                                class="fal fa-user"></i><span class="p_meta_author">Surabaya</span></a>
                                         <a href="https://borsyacipta.com/gallery/kegiatan-c"><i
                                                 class="fal fa-clock"></i><span class="p_meta_time">2021-09-04
                                                 08:46:34</span></a>
@@ -615,7 +615,8 @@
                                             <div class="">
                                                 <div class="author_text2">
                                                     <h4 class="theme-2 dmsans">
-                                                        <a href="https://borsyacipta.com/page/pre-connectorized-drop-cable">PRE-CONNECTORIZED
+                                                        <a
+                                                            href="https://borsyacipta.com/page/pre-connectorized-drop-cable">PRE-CONNECTORIZED
                                                             DROP CABLE</a>
                                                     </h4>
                                                     <span class="designation2 dmsans">Optical Fiber Cables</span>
