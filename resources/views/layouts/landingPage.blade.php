@@ -375,6 +375,7 @@
                                     class="fab fa-youtube"></i></a>
                             <a href="https://www.facebook.com/MagithaGroup" target="_blank"><i
                                     class="fab fa-linkedin-in"></i></a>
+                            <div><a href="{{ url('login') }}">Login</a></div>
                         </div>
                     </div>
                 </div>
