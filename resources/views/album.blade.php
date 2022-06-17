@@ -35,7 +35,7 @@
                             </div>
                             <a href="gallery/sekolah-smk.html" class="c_dirsign"><i class="fal fa-long-arrow-right"></i></a>
                             <div class="cportfolio_text">
-                                <span class="cportfolio_sub">SMK Borsya Telekomunikasi</span>
+                                <span class="cportfolio_sub">SMK Magitha Telekomunikasi</span>
                                 <h4 class="cportfolio_title theme-3"><a href="gallery/sekolah-smk.html">Peletakan Batu
                                         Pertama</a></h4>
                             </div>

@@ -1,1388 +1,1388 @@
-Uri: http://www.borsyacipta.com/
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\index.htm
+Uri: 
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\index.htm
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/album
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\album.html
+Uri: album
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\album.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/backend/image/counter/1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\1.png
+Uri: backend/image/counter/1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\1.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/counter/2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\2.png
+Uri: backend/image/counter/2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\2.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/counter/3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\3.png
+Uri: backend/image/counter/3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\3.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/03a45af2690e0dba695cc4267ece64e3.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\03a45af2690e0dba695cc4267ece64e3.jpeg
+Uri: backend/image/gallery/03a45af2690e0dba695cc4267ece64e3.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\03a45af2690e0dba695cc4267ece64e3.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/063b9473c4b63ad13f72cd851f146016.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\063b9473c4b63ad13f72cd851f146016.jpeg
+Uri: backend/image/gallery/063b9473c4b63ad13f72cd851f146016.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\063b9473c4b63ad13f72cd851f146016.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/229a672c23de5062d0cf445bb2a8ca76.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\229a672c23de5062d0cf445bb2a8ca76.jpeg
+Uri: backend/image/gallery/229a672c23de5062d0cf445bb2a8ca76.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\229a672c23de5062d0cf445bb2a8ca76.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/3584b58eb90bff3a19aca7702ee5bb41.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\3584b58eb90bff3a19aca7702ee5bb41.jpeg
+Uri: backend/image/gallery/3584b58eb90bff3a19aca7702ee5bb41.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\3584b58eb90bff3a19aca7702ee5bb41.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\43bcb420f1fb214ea703759c8a1bfc59.jpeg
+Uri: backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\43bcb420f1fb214ea703759c8a1bfc59.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/561e4529c63ce2cc02cadfb514f4aa1a.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\561e4529c63ce2cc02cadfb514f4aa1a.jpeg
+Uri: backend/image/gallery/561e4529c63ce2cc02cadfb514f4aa1a.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\561e4529c63ce2cc02cadfb514f4aa1a.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\594acdae2c1d3535d03ee88daeceda7d.jpeg
+Uri: backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\594acdae2c1d3535d03ee88daeceda7d.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/981b57b62c0a5c0db27654dd8ce0612b.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\981b57b62c0a5c0db27654dd8ce0612b.jpeg
+Uri: backend/image/gallery/981b57b62c0a5c0db27654dd8ce0612b.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\981b57b62c0a5c0db27654dd8ce0612b.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\9f7f757d5a225bf20ec539e40a010302.jpeg
+Uri: backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\9f7f757d5a225bf20ec539e40a010302.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/d13813021465b143f5a6519b6ecf4b9b.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\d13813021465b143f5a6519b6ecf4b9b.jpeg
+Uri: backend/image/gallery/d13813021465b143f5a6519b6ecf4b9b.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\d13813021465b143f5a6519b6ecf4b9b.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/dad92b14c0b33a7b8a4975dba2073c5e.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\dad92b14c0b33a7b8a4975dba2073c5e.jpeg
+Uri: backend/image/gallery/dad92b14c0b33a7b8a4975dba2073c5e.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\dad92b14c0b33a7b8a4975dba2073c5e.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
+Uri: backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/gallery/f9b103ee85b22c3da59b593fa56e53d6.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\f9b103ee85b22c3da59b593fa56e53d6.jpeg
+Uri: backend/image/gallery/f9b103ee85b22c3da59b593fa56e53d6.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\f9b103ee85b22c3da59b593fa56e53d6.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+Uri: backend/image/news/big/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/borsya-foundation.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\borsya-foundation-1.jpg
+Uri: backend/image/news/big/magitha-foundation.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\magitha-foundation-1.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/fiber-optical-patch-cord.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\fiber-optical-patch-cord.png
+Uri: backend/image/news/big/fiber-optical-patch-cord.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\fiber-optical-patch-cord.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/fttx-outdoor--drop-cable-rectangle-type.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\fttx-outdoor--drop-cable-rectangle-type.png
+Uri: backend/image/news/big/fttx-outdoor--drop-cable-rectangle-type.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\fttx-outdoor--drop-cable-rectangle-type.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/iso--certificate.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\iso--certificate.jpg
+Uri: backend/image/news/big/iso--certificate.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\iso--certificate.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+Uri: backend/image/news/big/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/pre-connectorized-drop-cable.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\pre-connectorized-drop-cable.png
+Uri: backend/image/news/big/pre-connectorized-drop-cable.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\pre-connectorized-drop-cable.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/sekapur-sirih.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\sekapur-sirih.jpg
+Uri: backend/image/news/big/sekapur-sirih.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\sekapur-sirih.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/selayang-pandang.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\selayang-pandang.jpeg
+Uri: backend/image/news/big/selayang-pandang.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\selayang-pandang.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+Uri: backend/image/news/big/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/splitter-modular.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\splitter-modular.png
+Uri: backend/image/news/big/splitter-modular.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\splitter-modular.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/big/visi--misi.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\visi--misi.jpg
+Uri: backend/image/news/big/visi--misi.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\visi--misi.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+Uri: backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/borsya-foundation.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\borsya-foundation.jpg
+Uri: backend/image/news/middle/magitha-foundation.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\magitha-foundation.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/fiber-optical-patch-cord.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\fiber-optical-patch-cord.png
+Uri: backend/image/news/middle/fiber-optical-patch-cord.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\fiber-optical-patch-cord.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\fttx-outdoor--drop-cable-rectangle-type.png
+Uri: backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\fttx-outdoor--drop-cable-rectangle-type.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/iso--certificate.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\iso--certificate.jpg
+Uri: backend/image/news/middle/iso--certificate.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\iso--certificate.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+Uri: backend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/pre-connectorized-drop-cable.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\pre-connectorized-drop-cable.png
+Uri: backend/image/news/middle/pre-connectorized-drop-cable.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\pre-connectorized-drop-cable.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/sekapur-sirih.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\sekapur-sirih.jpg
+Uri: backend/image/news/middle/sekapur-sirih.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\sekapur-sirih.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/selayang-pandang.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\selayang-pandang.jpeg
+Uri: backend/image/news/middle/selayang-pandang.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\selayang-pandang.jpeg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+Uri: backend/image/news/middle/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/splitter-modular.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\splitter-modular.png
+Uri: backend/image/news/middle/splitter-modular.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\splitter-modular.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/news/middle/visi--misi.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\visi--misi.jpg
+Uri: backend/image/news/middle/visi--misi.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\visi--misi.jpg
 Content Type: image/jpeg
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\1.png
+Uri: backend/image/promotion/big/1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\1.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\2.png
+Uri: backend/image/promotion/big/2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\2.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\3.png
+Uri: backend/image/promotion/big/3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\3.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/4.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\4.png
+Uri: backend/image/promotion/big/4.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\4.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/5.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\5.png
+Uri: backend/image/promotion/big/5.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\5.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/6.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\6.png
+Uri: backend/image/promotion/big/6.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\6.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/7.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\7.png
+Uri: backend/image/promotion/big/7.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\7.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/8.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\8.png
+Uri: backend/image/promotion/big/8.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\8.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/promotion/big/9.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\9.png
+Uri: backend/image/promotion/big/9.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\9.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/backend/image/setting/intro.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\setting\intro.png
+Uri: backend/image/setting/intro.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\setting\intro.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/category/articles
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\articles.html
+Uri: category/articles
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\articles.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/category/pages
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\pages.html
+Uri: category/pages
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\pages.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/category/products
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\products.html
+Uri: category/products
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\products.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/category/services
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\services.html
+Uri: category/services
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\services.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/category/site.webmanifest
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\site.webmanifest.html
+Uri: category/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\site.webmanifest.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/gallery/kegiatan-a
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-a.html
+Uri: gallery/kegiatan-a
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-a.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/gallery/kegiatan-b
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-b.html
+Uri: gallery/kegiatan-b
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-b.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/gallery/kegiatan-c
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-c.html
+Uri: gallery/kegiatan-c
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-c.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/gallery/sekolah-smk
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\sekolah-smk.html
+Uri: gallery/sekolah-smk
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\sekolah-smk.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/livewire/livewire.js?id=d7d975b5d122717a1ee0
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\livewire\livewire.js
+Uri: livewire/livewire.js?id=d7d975b5d122717a1ee0
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\livewire\livewire.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.html
+Uri: page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/borsya-akademi
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-akademi.html
+Uri: page/magitha-akademi
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-akademi.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/borsya-boutique
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-boutique.html
+Uri: page/magitha-boutique
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-boutique.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/borsya-digital-service
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-digital-service.html
+Uri: page/magitha-digital-service
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-digital-service.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/borsya-foundation
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-foundation-1.html
+Uri: page/magitha-foundation
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-foundation-1.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/borsya-tv
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-tv.html
+Uri: page/magitha-tv
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-tv.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/ffta-fiber-to-the-antena
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\ffta-fiber-to-the-antena.html
+Uri: page/ffta-fiber-to-the-antena
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\ffta-fiber-to-the-antena.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/fiber-optical-patch-cord
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fiber-optical-patch-cord.html
+Uri: page/fiber-optical-patch-cord
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fiber-optical-patch-cord.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/ftth-fiber-to-the-home
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\ftth-fiber-to-the-home.html
+Uri: page/ftth-fiber-to-the-home
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\ftth-fiber-to-the-home.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/fttx-material-passive-solution
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fttx-material-passive-solution.html
+Uri: page/fttx-material-passive-solution
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fttx-material-passive-solution.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/fttx-outdoor--drop-cable-rectangle-type
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fttx-outdoor--drop-cable-rectangle-type.html
+Uri: page/fttx-outdoor--drop-cable-rectangle-type
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fttx-outdoor--drop-cable-rectangle-type.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/iso--certificate
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\iso--certificate.html
+Uri: page/iso--certificate
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\iso--certificate.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.html
+Uri: page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/pre-connectorized-drop-cable
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\pre-connectorized-drop-cable.html
+Uri: page/pre-connectorized-drop-cable
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\pre-connectorized-drop-cable.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/sekapur-sirih
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\sekapur-sirih.html
+Uri: page/sekapur-sirih
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\sekapur-sirih.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/selayang-pandang
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\selayang-pandang.html
+Uri: page/selayang-pandang
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\selayang-pandang.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/site.webmanifest
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\site.webmanifest.html
+Uri: page/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\site.webmanifest.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.html
+Uri: page/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/splitter-modular
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\splitter-modular.html
+Uri: page/splitter-modular
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\splitter-modular.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/page/visi--misi
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\visi--misi.html
+Uri: page/visi--misi
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\visi--misi.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/animate.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\animate.min.css
+Uri: frontend/tionco/assets/css/animate.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\animate.min.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/bootstrap.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\bootstrap.min.css
+Uri: frontend/tionco/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\bootstrap.min.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/flaticon.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\flaticon.css
+Uri: frontend/tionco/assets/css/flaticon.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\flaticon.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/fontawesome-all.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\fontawesome-all.min.css
+Uri: frontend/tionco/assets/css/fontawesome-all.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\fontawesome-all.min.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/icofont.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\icofont.min.css
+Uri: frontend/tionco/assets/css/icofont.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\icofont.min.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/magnific-popup.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\magnific-popup.css
+Uri: frontend/tionco/assets/css/magnific-popup.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\magnific-popup.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/main.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\main.css
+Uri: frontend/tionco/assets/css/main.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\main.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/meanmenu.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\meanmenu.css
+Uri: frontend/tionco/assets/css/meanmenu.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\meanmenu.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/odometer-theme-default.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\odometer-theme-default.css
+Uri: frontend/tionco/assets/css/odometer-theme-default.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\odometer-theme-default.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/css/swipper.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\swipper.css
+Uri: frontend/tionco/assets/css/swipper.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\swipper.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400.eot
+Uri: frontend/tionco/assets/fonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.eot
+Uri: frontend/tionco/assets/fonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400.svg
+Uri: frontend/tionco/assets/fonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400.svg
 Content Type: image/svg+xml
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400.ttf
+Uri: frontend/tionco/assets/fonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400.woff
+Uri: frontend/tionco/assets/fonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900.eot
+Uri: frontend/tionco/assets/fonts/fa-duotone-900.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.eot
+Uri: frontend/tionco/assets/fonts/fa-duotone-900.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900.svg
+Uri: frontend/tionco/assets/fonts/fa-duotone-900.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900.svg
 Content Type: image/svg+xml
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900.ttf
+Uri: frontend/tionco/assets/fonts/fa-duotone-900.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900.woff
+Uri: frontend/tionco/assets/fonts/fa-duotone-900.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300.eot
+Uri: frontend/tionco/assets/fonts/fa-light-300.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-1.eot
+Uri: frontend/tionco/assets/fonts/fa-light-300.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300.svg
+Uri: frontend/tionco/assets/fonts/fa-light-300.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300.svg
 Content Type: image/svg+xml
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300.ttf
+Uri: frontend/tionco/assets/fonts/fa-light-300.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300.woff
+Uri: frontend/tionco/assets/fonts/fa-light-300.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400.eot
+Uri: frontend/tionco/assets/fonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.eot
+Uri: frontend/tionco/assets/fonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400.svg
+Uri: frontend/tionco/assets/fonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400.svg
 Content Type: image/svg+xml
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400.ttf
+Uri: frontend/tionco/assets/fonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400.woff
+Uri: frontend/tionco/assets/fonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900.eot
+Uri: frontend/tionco/assets/fonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.eot
+Uri: frontend/tionco/assets/fonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900.svg
+Uri: frontend/tionco/assets/fonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900.svg
 Content Type: image/svg+xml
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900.ttf
+Uri: frontend/tionco/assets/fonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900.woff
+Uri: frontend/tionco/assets/fonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/flaticon.eot?c708bd3057ef78ead39180658bf93316
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\flaticon.eot
+Uri: frontend/tionco/assets/fonts/flaticon.eot?c708bd3057ef78ead39180658bf93316
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\flaticon.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/flaticon.ttf?c708bd3057ef78ead39180658bf93316
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\flaticon.ttf
+Uri: frontend/tionco/assets/fonts/flaticon.ttf?c708bd3057ef78ead39180658bf93316
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\flaticon.ttf
 Content Type: font/ttf
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/fonts/icofont.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\icofont.woff
+Uri: frontend/tionco/assets/fonts/icofont.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\icofont.woff
 Content Type: font/woff
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/ideal_logo_bg.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\ideal_logo_bg.png
+Uri: frontend/tionco/assets/img/bg/ideal_logo_bg.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\ideal_logo_bg.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape.png
+Uri: frontend/tionco/assets/img/bg/line_shape.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape2.png
+Uri: frontend/tionco/assets/img/bg/line_shape2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape2.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape3.png
+Uri: frontend/tionco/assets/img/bg/line_shape3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape3.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/pattern_box.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\pattern_box.png
+Uri: frontend/tionco/assets/img/bg/pattern_box.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\pattern_box.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/promo_pattern.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\promo_pattern.png
+Uri: frontend/tionco/assets/img/bg/promo_pattern.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\promo_pattern.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/slide_line3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\slide_line3.png
+Uri: frontend/tionco/assets/img/bg/slide_line3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\slide_line3.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/favicon.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\favicon.png
+Uri: frontend/tionco/assets/img/favicon.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\favicon.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial1.png
+Uri: frontend/tionco/assets/img/hero/testimonial1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial1.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial2.png
+Uri: frontend/tionco/assets/img/hero/testimonial2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial2.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial3.png
+Uri: frontend/tionco/assets/img/hero/testimonial3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial3.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/img/logo/logo.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\logo\logo.png
+Uri: frontend/tionco/assets/img/logo/logo.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\logo\logo.png
 Content Type: image/png
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/appair.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\appair.min.js
+Uri: frontend/tionco/assets/js/appair.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\appair.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/back-to-top.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\back-to-top.min.js
+Uri: frontend/tionco/assets/js/back-to-top.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\back-to-top.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/bootstrap.bundle.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\bootstrap.bundle.min.js
+Uri: frontend/tionco/assets/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\bootstrap.bundle.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/imagesloaded.pkgd.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\imagesloaded.pkgd.min.js
+Uri: frontend/tionco/assets/js/imagesloaded.pkgd.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\imagesloaded.pkgd.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/isotope.pkgd.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\isotope.pkgd.min.js
+Uri: frontend/tionco/assets/js/isotope.pkgd.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\isotope.pkgd.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.magnific-popup.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.magnific-popup.min.js
+Uri: frontend/tionco/assets/js/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.magnific-popup.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.meanmenu.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.meanmenu.min.js
+Uri: frontend/tionco/assets/js/jquery.meanmenu.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.meanmenu.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.min.js
+Uri: frontend/tionco/assets/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.scrollUp.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.scrollUp.min.js
+Uri: frontend/tionco/assets/js/jquery.scrollUp.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.scrollUp.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/main.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\main.js
+Uri: frontend/tionco/assets/js/main.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\main.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/mouse-wheel.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\mouse-wheel.min.js
+Uri: frontend/tionco/assets/js/mouse-wheel.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\mouse-wheel.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/odometer.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\odometer.min.js
+Uri: frontend/tionco/assets/js/odometer.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\odometer.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/swipper-bundle.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\swipper-bundle.min.js
+Uri: frontend/tionco/assets/js/swipper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\swipper-bundle.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/js/wow.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\wow.min.js
+Uri: frontend/tionco/assets/js/wow.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\wow.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.min.js
+Uri: frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.plugins.min.js
+Uri: frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.plugins.min.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\js\youtube-video-player.jquery.js
+Uri: frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\js\youtube-video-player.jquery.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\jquery.mousewheel.js
+Uri: frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\jquery.mousewheel.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar.css
+Uri: frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar.css
 Content Type: text/css
 
-Uri: http://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar.js
+Uri: frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/public/js/app.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\js\app.js
+Uri: public/js/app.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\js\app.js
 Content Type: application/javascript
 
-Uri: http://www.borsyacipta.com/tag/halaman
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\halaman.html
+Uri: tag/halaman
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\halaman.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/tag/optical-fiber-cables
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\optical-fiber-cables.html
+Uri: tag/optical-fiber-cables
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\optical-fiber-cables.html
 Content Type: text/html
 
-Uri: http://www.borsyacipta.com/tag/services
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\services.html
+Uri: tag/services
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\services.html
 Content Type: text/html
 
 Uri: https://a.tile.openstreetmap.org/10/818/532.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\10\818\532.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\10\818\532.png
 Content Type: image/png
 
 Uri: https://b.tile.openstreetmap.org/10/817/531.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\10\817\531.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\10\817\531.png
 Content Type: image/png
 
 Uri: https://c.tile.openstreetmap.org/10/817/532.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\10\817\532.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\10\817\532.png
 Content Type: image/png
 
 Uri: https://c.tile.openstreetmap.org/10/818/531.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\10\818\531.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\10\818\531.png
 Content Type: image/png
 
 Uri: https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\css2
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\css2
 Content Type: text/css
 
 Uri: https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriASitOB8.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\dmsans\v11\rP2Cp2ywxg089UriASitOB8.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\dmsans\v11\rP2Cp2ywxg089UriASitOB8.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriAWCrOB8.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\dmsans\v11\rP2Cp2ywxg089UriAWCrOB8.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\dmsans\v11\rP2Cp2ywxg089UriAWCrOB8.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriOZQ.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\dmsans\v11\rP2Hp2ywxg089UriOZQ.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\dmsans\v11\rP2Hp2ywxg089UriOZQ.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\poppins\v20\pxiByp8kv8JHgFVrLCz7V1s.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\poppins\v20\pxiByp8kv8JHgFVrLCz7V1s.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\poppins\v20\pxiByp8kv8JHgFVrLDz8V1s.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\poppins\v20\pxiByp8kv8JHgFVrLDz8V1s.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\poppins\v20\pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\poppins\v20\pxiByp8kv8JHgFVrLEj6V1s.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\poppins\v20\pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\poppins\v20\pxiByp8kv8JHgFVrLGT9V1s.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\poppins\v20\pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\poppins\v20\pxiEyp8kv8JHgFVrFJA.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\roboto\v30\KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\roboto\v30\KFOlCnqEu92Fr1MmSU5vAw.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
 Content Type: font/ttf
 
 Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
 Content Type: font/ttf
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/images/layers-2x.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\images\layers-2x.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\images\layers-2x.png
 Content Type: image/png
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/images/layers.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\images\layers.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\images\layers.png
 Content Type: image/png
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/images/marker-icon.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\images\marker-icon.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\images\marker-icon.png
 Content Type: image/png
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/images/marker-shadow.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\images\marker-shadow.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\images\marker-shadow.png
 Content Type: image/png
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/leaflet.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\leaflet.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\leaflet.css
 Content Type: text/css
 
 Uri: https://unpkg.com/leaflet@1.5.1/dist/leaflet.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\leaflet@1.5.1\dist\leaflet.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\leaflet@1.5.1\dist\leaflet.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\index-1.htm
+Uri: https://www.magithacitranusantara.com/
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\index-1.htm
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/album
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\album-1.html
+Uri: https://www.magithacitranusantara.com/album
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\album-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/backend/image/counter/1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\1-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/counter/1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\1-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/counter/2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\2-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/counter/2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\2-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/counter/3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\counter\3-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/counter/3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\counter\3-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/03a45af2690e0dba695cc4267ece64e3.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\03a45af2690e0dba695cc4267ece64e3-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/03a45af2690e0dba695cc4267ece64e3.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\03a45af2690e0dba695cc4267ece64e3-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/063b9473c4b63ad13f72cd851f146016.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\063b9473c4b63ad13f72cd851f146016-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/063b9473c4b63ad13f72cd851f146016.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\063b9473c4b63ad13f72cd851f146016-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/229a672c23de5062d0cf445bb2a8ca76.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\229a672c23de5062d0cf445bb2a8ca76-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/229a672c23de5062d0cf445bb2a8ca76.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\229a672c23de5062d0cf445bb2a8ca76-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/3584b58eb90bff3a19aca7702ee5bb41.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\3584b58eb90bff3a19aca7702ee5bb41-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/3584b58eb90bff3a19aca7702ee5bb41.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\3584b58eb90bff3a19aca7702ee5bb41-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\43bcb420f1fb214ea703759c8a1bfc59-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\43bcb420f1fb214ea703759c8a1bfc59-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/561e4529c63ce2cc02cadfb514f4aa1a.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\561e4529c63ce2cc02cadfb514f4aa1a-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/561e4529c63ce2cc02cadfb514f4aa1a.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\561e4529c63ce2cc02cadfb514f4aa1a-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\594acdae2c1d3535d03ee88daeceda7d-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\594acdae2c1d3535d03ee88daeceda7d-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/981b57b62c0a5c0db27654dd8ce0612b.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\981b57b62c0a5c0db27654dd8ce0612b-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/981b57b62c0a5c0db27654dd8ce0612b.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\981b57b62c0a5c0db27654dd8ce0612b-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\9f7f757d5a225bf20ec539e40a010302-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\9f7f757d5a225bf20ec539e40a010302-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/d13813021465b143f5a6519b6ecf4b9b.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\d13813021465b143f5a6519b6ecf4b9b-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/d13813021465b143f5a6519b6ecf4b9b.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\d13813021465b143f5a6519b6ecf4b9b-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/dad92b14c0b33a7b8a4975dba2073c5e.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\dad92b14c0b33a7b8a4975dba2073c5e-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/dad92b14c0b33a7b8a4975dba2073c5e.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\dad92b14c0b33a7b8a4975dba2073c5e-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\f3ddadb40c8c05c3e50a4a42c883aa98-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\f3ddadb40c8c05c3e50a4a42c883aa98-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/gallery/f9b103ee85b22c3da59b593fa56e53d6.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\gallery\f9b103ee85b22c3da59b593fa56e53d6-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/gallery/f9b103ee85b22c3da59b593fa56e53d6.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\gallery\f9b103ee85b22c3da59b593fa56e53d6-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/borsya-foundation.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\borsya-foundation.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/magitha-foundation.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\magitha-foundation.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/fiber-optical-patch-cord.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\fiber-optical-patch-cord-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/fiber-optical-patch-cord.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\fiber-optical-patch-cord-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/fttx-outdoor--drop-cable-rectangle-type.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\fttx-outdoor--drop-cable-rectangle-type-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/fttx-outdoor--drop-cable-rectangle-type.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\fttx-outdoor--drop-cable-rectangle-type-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/iso--certificate.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\iso--certificate-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/iso--certificate.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\iso--certificate-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/pre-connectorized-drop-cable.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\pre-connectorized-drop-cable-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/pre-connectorized-drop-cable.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\pre-connectorized-drop-cable-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/sekapur-sirih.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\sekapur-sirih-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/sekapur-sirih.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\sekapur-sirih-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/selayang-pandang.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\selayang-pandang-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/selayang-pandang.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\selayang-pandang-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/splitter-modular.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\splitter-modular-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/splitter-modular.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\splitter-modular-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/big/visi--misi.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\big\visi--misi-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/big/visi--misi.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\big\visi--misi-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/borsya-foundation.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\borsya-foundation-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/magitha-foundation.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\magitha-foundation-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/fiber-optical-patch-cord.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\fiber-optical-patch-cord-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/fiber-optical-patch-cord.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\fiber-optical-patch-cord-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\fttx-outdoor--drop-cable-rectangle-type-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\fttx-outdoor--drop-cable-rectangle-type-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/iso--certificate.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\iso--certificate-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/iso--certificate.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\iso--certificate-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/pre-connectorized-drop-cable.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\pre-connectorized-drop-cable-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/pre-connectorized-drop-cable.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\pre-connectorized-drop-cable-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/sekapur-sirih.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\sekapur-sirih-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/sekapur-sirih.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\sekapur-sirih-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/selayang-pandang.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\selayang-pandang-1.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/selayang-pandang.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\selayang-pandang-1.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/splitter-modular.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\splitter-modular-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/splitter-modular.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\splitter-modular-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/news/middle/visi--misi.jpg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\news\middle\visi--misi-1.jpg
+Uri: https://www.magithacitranusantara.com/backend/image/news/middle/visi--misi.jpg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\news\middle\visi--misi-1.jpg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/page/65ded5353c5ee48d0b7d48c591b8f430.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\65ded5353c5ee48d0b7d48c591b8f430.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/65ded5353c5ee48d0b7d48c591b8f430.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\65ded5353c5ee48d0b7d48c591b8f430.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/76dc611d6ebaafc66cc0879c71b5db5c.jpeg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\76dc611d6ebaafc66cc0879c71b5db5c.jpeg
+Uri: https://www.magithacitranusantara.com/backend/image/page/76dc611d6ebaafc66cc0879c71b5db5c.jpeg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\76dc611d6ebaafc66cc0879c71b5db5c.jpeg
 Content Type: image/jpeg
 
-Uri: https://www.borsyacipta.com/backend/image/page/8f85517967795eeef66c225f7883bdcb.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\8f85517967795eeef66c225f7883bdcb.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/8f85517967795eeef66c225f7883bdcb.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\8f85517967795eeef66c225f7883bdcb.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/a597e50502f5ff68e3e25b9114205d4a.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\a597e50502f5ff68e3e25b9114205d4a.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/a597e50502f5ff68e3e25b9114205d4a.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\a597e50502f5ff68e3e25b9114205d4a.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/bd686fd640be98efaae0091fa301e613.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\bd686fd640be98efaae0091fa301e613.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/bd686fd640be98efaae0091fa301e613.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\bd686fd640be98efaae0091fa301e613.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/da4fb5c6e93e74d3df8527599fa62642.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\da4fb5c6e93e74d3df8527599fa62642.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/da4fb5c6e93e74d3df8527599fa62642.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\da4fb5c6e93e74d3df8527599fa62642.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/e00da03b685a0dd18fb6a08af0923de0.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\e00da03b685a0dd18fb6a08af0923de0.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/e00da03b685a0dd18fb6a08af0923de0.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\e00da03b685a0dd18fb6a08af0923de0.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/ec5decca5ed3d6b8079e2e7e7bacc9f2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\ec5decca5ed3d6b8079e2e7e7bacc9f2.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/ec5decca5ed3d6b8079e2e7e7bacc9f2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\ec5decca5ed3d6b8079e2e7e7bacc9f2.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/eecca5b6365d9607ee5a9d336962c534.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\eecca5b6365d9607ee5a9d336962c534.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/eecca5b6365d9607ee5a9d336962c534.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\eecca5b6365d9607ee5a9d336962c534.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/page/f2217062e9a397a1dca429e7d70bc6ca.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\page\f2217062e9a397a1dca429e7d70bc6ca.png
+Uri: https://www.magithacitranusantara.com/backend/image/page/f2217062e9a397a1dca429e7d70bc6ca.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\page\f2217062e9a397a1dca429e7d70bc6ca.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\1-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\1-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\2-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\2-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\3-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\3-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/4.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\4-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/4.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\4-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/5.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\5-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/5.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\5-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/6.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\6-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/6.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\6-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/7.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\7-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/7.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\7-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/8.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\8-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/8.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\8-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/promotion/big/9.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\promotion\big\9-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/promotion/big/9.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\promotion\big\9-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/backend/image/setting/intro.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\backend\image\setting\intro-1.png
+Uri: https://www.magithacitranusantara.com/backend/image/setting/intro.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\backend\image\setting\intro-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/category/articles
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\articles-1.html
+Uri: https://www.magithacitranusantara.com/category/articles
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\articles-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/category/pages
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\pages-1.html
+Uri: https://www.magithacitranusantara.com/category/pages
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\pages-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/category/products
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\products-1.html
+Uri: https://www.magithacitranusantara.com/category/products
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\products-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/category/services
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\services-1.html
+Uri: https://www.magithacitranusantara.com/category/services
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\services-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/category/site.webmanifest
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\category\site.webmanifest-1.html
+Uri: https://www.magithacitranusantara.com/category/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\category\site.webmanifest-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/gallery/kegiatan-a
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-a-1.html
+Uri: https://www.magithacitranusantara.com/gallery/kegiatan-a
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-a-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/gallery/kegiatan-b
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-b-1.html
+Uri: https://www.magithacitranusantara.com/gallery/kegiatan-b
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-b-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/gallery/kegiatan-c
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\kegiatan-c-1.html
+Uri: https://www.magithacitranusantara.com/gallery/kegiatan-c
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\kegiatan-c-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/gallery/sekolah-smk
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\gallery\sekolah-smk-1.html
+Uri: https://www.magithacitranusantara.com/gallery/sekolah-smk
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\gallery\sekolah-smk-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/livewire/livewire.js?id=d7d975b5d122717a1ee0
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\livewire\livewire-1.js
+Uri: https://www.magithacitranusantara.com/livewire/livewire.js?id=d7d975b5d122717a1ee0
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\livewire\livewire-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.html
+Uri: https://www.magithacitranusantara.com/page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/borsya-akademi
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-akademi-1.html
+Uri: https://www.magithacitranusantara.com/page/magitha-akademi
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-akademi-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/borsya-boutique
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-boutique-1.html
+Uri: https://www.magithacitranusantara.com/page/magitha-boutique
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-boutique-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/borsya-digital-service
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-digital-service-1.html
+Uri: https://www.magithacitranusantara.com/page/magitha-digital-service
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-digital-service-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/borsya-foundation
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-foundation.html
+Uri: https://www.magithacitranusantara.com/page/magitha-foundation
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-foundation.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/borsya-tv
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\borsya-tv-1.html
+Uri: https://www.magithacitranusantara.com/page/magitha-tv
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\magitha-tv-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/ffta-fiber-to-the-antena
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\ffta-fiber-to-the-antena-1.html
+Uri: https://www.magithacitranusantara.com/page/ffta-fiber-to-the-antena
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\ffta-fiber-to-the-antena-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/fiber-optical-patch-cord
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fiber-optical-patch-cord-1.html
+Uri: https://www.magithacitranusantara.com/page/fiber-optical-patch-cord
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fiber-optical-patch-cord-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/ftth-fiber-to-the-home
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\ftth-fiber-to-the-home-1.html
+Uri: https://www.magithacitranusantara.com/page/ftth-fiber-to-the-home
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\ftth-fiber-to-the-home-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/fttx-material-passive-solution
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fttx-material-passive-solution-1.html
+Uri: https://www.magithacitranusantara.com/page/fttx-material-passive-solution
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fttx-material-passive-solution-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/fttx-outdoor--drop-cable-rectangle-type
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\fttx-outdoor--drop-cable-rectangle-type-1.html
+Uri: https://www.magithacitranusantara.com/page/fttx-outdoor--drop-cable-rectangle-type
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\fttx-outdoor--drop-cable-rectangle-type-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/iso--certificate
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\iso--certificate-1.html
+Uri: https://www.magithacitranusantara.com/page/iso--certificate
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\iso--certificate-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.html
+Uri: https://www.magithacitranusantara.com/page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/pre-connectorized-drop-cable
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\pre-connectorized-drop-cable-1.html
+Uri: https://www.magithacitranusantara.com/page/pre-connectorized-drop-cable
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\pre-connectorized-drop-cable-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/sekapur-sirih
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\sekapur-sirih-1.html
+Uri: https://www.magithacitranusantara.com/page/sekapur-sirih
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\sekapur-sirih-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/selayang-pandang
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\selayang-pandang-1.html
+Uri: https://www.magithacitranusantara.com/page/selayang-pandang
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\selayang-pandang-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/site.webmanifest
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\site.webmanifest-1.html
+Uri: https://www.magithacitranusantara.com/page/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\site.webmanifest-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\smk-borsya-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.html
+Uri: https://www.magithacitranusantara.com/page/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/splitter-modular
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\splitter-modular-1.html
+Uri: https://www.magithacitranusantara.com/page/splitter-modular
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\splitter-modular-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/page/visi--misi
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\page\visi--misi-1.html
+Uri: https://www.magithacitranusantara.com/page/visi--misi
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\page\visi--misi-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/animate.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\animate.min-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/animate.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\animate.min-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/bootstrap.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\bootstrap.min-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\bootstrap.min-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/flaticon.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\flaticon-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/flaticon.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\flaticon-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/fontawesome-all.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\fontawesome-all.min-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/fontawesome-all.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\fontawesome-all.min-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/icofont.min.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\icofont.min-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/icofont.min.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\icofont.min-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/magnific-popup.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\magnific-popup-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/magnific-popup.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\magnific-popup-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/main.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\main-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/main.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\main-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/meanmenu.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\meanmenu-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/meanmenu.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\meanmenu-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/odometer-theme-default.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\odometer-theme-default-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/odometer-theme-default.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\odometer-theme-default-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/css/swipper.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\css\swipper-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/css/swipper.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\css\swipper-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-2.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-2.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-3.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-3.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.svg
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.svg
 Content Type: image/svg+xml
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-brands-400.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-brands-400-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-2.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-duotone-900.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-2.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-3.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-duotone-900.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-3.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.svg
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-duotone-900.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.svg
 Content Type: image/svg+xml
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-duotone-900.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-duotone-900.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-duotone-900.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-duotone-900-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-2.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-light-300.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-2.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-3.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-light-300.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-3.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-1.svg
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-light-300.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-1.svg
 Content Type: image/svg+xml
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-light-300.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-light-300.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-light-300-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-light-300.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-light-300-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-2.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-2.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-3.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-3.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.svg
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.svg
 Content Type: image/svg+xml
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-regular-400.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-regular-400-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.eot
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-2.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-2.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.eot?
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-3.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-3.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.svg
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.svg
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.svg
 Content Type: image/svg+xml
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.ttf
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/fa-solid-900.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\fa-solid-900-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/flaticon.eot?c708bd3057ef78ead39180658bf93316
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\flaticon-1.eot
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/flaticon.eot?c708bd3057ef78ead39180658bf93316
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\flaticon-1.eot
 Content Type: application/vnd.ms-fontobject
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/flaticon.ttf?c708bd3057ef78ead39180658bf93316
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\flaticon-1.ttf
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/flaticon.ttf?c708bd3057ef78ead39180658bf93316
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\flaticon-1.ttf
 Content Type: font/ttf
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/fonts/icofont.woff
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\fonts\icofont-1.woff
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/fonts/icofont.woff
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\fonts\icofont-1.woff
 Content Type: font/woff
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/ideal_logo_bg.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\ideal_logo_bg-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/ideal_logo_bg.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\ideal_logo_bg-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/line_shape.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape2-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/line_shape2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape2-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/line_shape3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\line_shape3-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/line_shape3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\line_shape3-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/pattern_box.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\pattern_box-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/pattern_box.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\pattern_box-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/promo_pattern.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\promo_pattern-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/promo_pattern.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\promo_pattern-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/bg/slide_line3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\bg\slide_line3-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/bg/slide_line3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\bg\slide_line3-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/favicon.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\favicon-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/favicon.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\favicon-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial1.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial1-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/hero/testimonial1.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial1-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial2.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial2-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/hero/testimonial2.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial2-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/hero/testimonial3.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\hero\testimonial3-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/hero/testimonial3.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\hero\testimonial3-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/img/logo/logo.png
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\img\logo\logo-1.png
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/img/logo/logo.png
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\img\logo\logo-1.png
 Content Type: image/png
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/appair.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\appair.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/appair.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\appair.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/back-to-top.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\back-to-top.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/back-to-top.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\back-to-top.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/bootstrap.bundle.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\bootstrap.bundle.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\bootstrap.bundle.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/imagesloaded.pkgd.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\imagesloaded.pkgd.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/imagesloaded.pkgd.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\imagesloaded.pkgd.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/isotope.pkgd.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\isotope.pkgd.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/isotope.pkgd.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\isotope.pkgd.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.magnific-popup.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.magnific-popup.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.magnific-popup.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.meanmenu.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.meanmenu.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/jquery.meanmenu.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.meanmenu.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/jquery.scrollUp.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\jquery.scrollUp.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/jquery.scrollUp.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\jquery.scrollUp.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/main.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\main-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/main.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\main-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/mouse-wheel.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\mouse-wheel.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/mouse-wheel.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\mouse-wheel.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/odometer.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\odometer.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/odometer.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\odometer.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/swipper-bundle.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\swipper-bundle.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/swipper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\swipper-bundle.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/js/wow.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\js\wow.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/js/wow.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\js\wow.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/lazyload/jquery.lazy.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.plugins.min-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/lazyload/jquery.lazy.plugins.min.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\lazyload\jquery.lazy.plugins.min-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\js\youtube-video-player.jquery-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/youtube/player/js/youtube-video-player.jquery.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\js\youtube-video-player.jquery-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\jquery.mousewheel-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\jquery.mousewheel-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar-1.css
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar-1.css
 Content Type: text/css
 
-Uri: https://www.borsyacipta.com/public/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar-1.js
+Uri: https://www.magithacitranusantara.com/frontend/tionco/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\frontend\tionco\assets\vendor\youtube\player\packages\perfect-scrollbar\perfect-scrollbar-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/public/js/app.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\public\js\app-1.js
+Uri: https://www.magithacitranusantara.com/public/js/app.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\public\js\app-1.js
 Content Type: application/javascript
 
-Uri: https://www.borsyacipta.com/tag/halaman
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\halaman-1.html
+Uri: https://www.magithacitranusantara.com/tag/halaman
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\halaman-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/tag/optical-fiber-cables
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\optical-fiber-cables-1.html
+Uri: https://www.magithacitranusantara.com/tag/optical-fiber-cables
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\optical-fiber-cables-1.html
 Content Type: text/html
 
-Uri: https://www.borsyacipta.com/tag/services
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\tag\services-1.html
+Uri: https://www.magithacitranusantara.com/tag/services
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\tag\services-1.html
 Content Type: text/html
 
 Uri: https://www.youtube.com/iframe_api
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\iframe_api
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\iframe_api
 Content Type: text/javascript
 
 Uri: https://www.youtube.com/s/player/f05de49d/www-widgetapi.vflset/www-widgetapi.js
-File Name: C:\Downloaded Web Sites\www.borsyacipta.com\s\player\f05de49d\www-widgetapi.vflset\www-widgetapi.js
+File Name: C:\Downloaded Web Sites\www.magithacitranusantara.com\s\player\f05de49d\www-widgetapi.vflset\www-widgetapi.js
 Content Type: text/javascript
 
