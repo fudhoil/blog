@@ -12,7 +12,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.magithacitranusantara.com">
+    <meta property="og:url" content="http://www.mcncommunica.com">
     <meta property="og:title" content="PT. Magitha Citra Nusantara (MCN)">
     <meta property="og:description"
         content="A company that focuses on providing telecommunication materials and services based on fiber optic technology. Currently, PT. MCN is quite taken into account in Indonesian telecommunications. With the motto &quot;The Power of Change&quot; spurred PT. MCN to always adapt to various changes and technological advances. The quality of production and the trust of partners is a priority for us.">
@@ -20,7 +20,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="http://www.magithacitranusantara.com">
+    <meta property="twitter:url" content="http://www.mcncommunica.com">
     <meta property="twitter:title" content="PT. Magitha Citra Nusantara (MCN)">
     <meta property="twitter:description"
         content="A company that focuses on providing telecommunication materials and services based on fiber optic technology. Currently, PT. MCN is quite taken into account in Indonesian telecommunications. With the motto &quot;The Power of Change&quot; spurred PT. MCN to always adapt to various changes and technological advances. The quality of production and the trust of partners is a priority for us.">
@@ -125,10 +125,10 @@
 
 
                             <div class="top_info_single has_left_icon theme_1">
-                                <a href="mailto:humas@magithacitranusantara.com"><i class="flaticon-email"></i></a>
+                                <a href="mailto:humas@mcncommunica.com"><i class="flaticon-email"></i></a>
                                 <div class="top_info_single_right">
                                     <span>Email Address</span>
-                                    <a href="mailto:humas@magithacitranusantara.com">humas@magithacitranusantara.com</a>
+                                    <a href="mailto:humas@mcncommunica.com">humas@mcncommunica.com</a>
                                 </div>
                             </div>
 
@@ -262,8 +262,8 @@
                             Commercial Estate Blok A2 No.7 Bandung</span></a>
                     <a href="tel:622254412751" class="theme-2"><i
                             class="fal fa-phone"></i><span>622254412751</span></a>
-                    <a href="mailto:humas@magithacitranusantara.com" class="theme-3"><i
-                            class="far fa-envelope"></i><span>humas@magithacitranusantara.com</span></a>
+                    <a href="mailto:humas@mcncommunica.com" class="theme-3"><i
+                            class="far fa-envelope"></i><span>humas@mcncommunica.com</span></a>
 
                 </div>
 
@@ -320,10 +320,10 @@
                             </div>
                             <div class="footer_content">
                                 <div class="footer_address3">
-                                    <a class="address_line" href="mailto:humas@magithacitranusantara.com"
+                                    <a class="address_line" href="mailto:humas@mcncommunica.com"
                                         target="_blank">
                                         <span class="address_icon"><i class="fal fa-envelope"></i></span>
-                                        <span class="address_text">humas@magithacitranusantara.com</span>
+                                        <span class="address_text">humas@mcncommunica.com</span>
                                     </a>
                                     <a class="address_line" href="tel:622254412751" target="_blank">
                                         <span class="address_icon"><i class="fal fa-phone"></i></span>
