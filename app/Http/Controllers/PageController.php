@@ -25,4 +25,9 @@ class PageController extends Controller
     {
         return view('page/iso-certificate');
     }
+
+    public function borsyaAkademi()
+    {
+        return view('page/borsya-akademi');
+    }
 }

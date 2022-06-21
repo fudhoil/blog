@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,5 @@ Route::prefix('page')->group(function () {
     Route::get('/selayang-pandang', 'PageController@selayangPandang');
     Route::get('/visi-misi', 'PageController@visiMisi');
     Route::get('/iso-certificate', 'PageController@isoCertificate');
+    Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
 });
