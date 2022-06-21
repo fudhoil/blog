@@ -91,4 +91,8 @@ class PostController extends Controller
 
         return response()->json(['success' => 'Post deleted!']);
     }
+
+    public function allPosts(){
+        return view('posts.all-posts');
+    }
 }

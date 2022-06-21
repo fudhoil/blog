@@ -29,6 +29,10 @@ Route::prefix('page')->group(function () {
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
 });
 
+Route::prefix('post')->group(function () {
+    Route::get('/all-posts', 'PostController@allPosts');
+});
+
 Route::get('/post', 'PostController@index')->name('post');
 Route::post('/post', 'PostController@store')->name('post.store');
 Route::get('/post/{id}', 'PostController@edit')->name('post.edit');
