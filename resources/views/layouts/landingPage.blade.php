@@ -156,7 +156,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li>
-                                        <a href="index.htm">Home</a>
+                                        <a href="mcncommunica.com">Home</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">About Us</a>
