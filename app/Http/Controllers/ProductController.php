@@ -67,7 +67,7 @@ class ProductController extends Controller
         );
         return response()->json(['success' => 'Produk saved successfully!']);
     }
-    
+
     public function edit($id)
     {
         $User = Product::find($id);
