@@ -7,127 +7,25 @@
             wire:id="0G8xGMJPjMUEk60ayB7s" class="slider3_area fix mtm_62">
             <div class="slider3_wrapper">
                 <div class="slider3_active swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/borysa-group.jpg') }}">
-                            </div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">Group</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/magitha-foundation" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
+                    <div class="slide3_item swiper-slide">
+                        <div class="slide3_bg" data-background="{{ url('backend/image/slider/borysa-group.jpg') }}">
+                        </div>
+                        <div class="slide3_item_inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xxl-12">
+                                        <div class="slide3_item_content">
+                                            <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">MCN <span
+                                                    class="slide_line">Communica</span></h2>
+                                            <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
+                                                <a href="page/magitha-foundation" class="slide3_btn i_right">More <i
+                                                        class="fal fa-long-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide2.jpg') }}"></div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">Akademi</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/selayang-pandang" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide3.jpg') }}"></div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">Boutique</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/selayang-pandang" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide4.jpg') }}"></div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">TV</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/selayang-pandang" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide1.jpg') }}"></div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">Foundation</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/selayang-pandang" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide3_item swiper-slide">
-                            <div class="slide3_bg" data-background="{{ url('backend/image/slider/slide5.jpg') }}"></div>
-                            <div class="slide3_item_inner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="slide3_item_content">
-                                                <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">Magitha <span
-                                                        class="slide_line">Services</span></h2>
-                                                <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                    <a href="page/selayang-pandang" class="slide3_btn i_right">More <i
-                                                            class="fal fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="slide3_navigation">
-                        <div class="slide3_button_next"><i class="fal fa-long-arrow-right"></i></div>
-                        <div class="slide3_button_prev"><i class="fal fa-long-arrow-left"></i></div>
                     </div>
                 </div>
                 <div class="slider_thumb_area wow fadeInUp" data-wow-delay="0.9s">

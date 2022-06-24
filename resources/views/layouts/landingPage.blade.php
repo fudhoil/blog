@@ -187,7 +187,7 @@
                             <nav>
                                 <ul class="menu-right">
                                     <li>
-                                        <a href="tag/optical-fiber-cables.html">Products</a>
+                                        <a href="{{ url('post/all-posts') }}">Products</a>
                                     </li>
                                     <li>
                                         <a href="album.html">Gallery</a>
@@ -320,8 +320,7 @@
                             </div>
                             <div class="footer_content">
                                 <div class="footer_address3">
-                                    <a class="address_line" href="mailto:humas@mcncommunica.com"
-                                        target="_blank">
+                                    <a class="address_line" href="mailto:humas@mcncommunica.com" target="_blank">
                                         <span class="address_icon"><i class="fal fa-envelope"></i></span>
                                         <span class="address_text">humas@mcncommunica.com</span>
                                     </a>

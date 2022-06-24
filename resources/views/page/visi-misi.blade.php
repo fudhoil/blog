@@ -22,7 +22,8 @@
                         <div class="blog_details_wrapper mb-40">
                             <div class="blog_details_content">
                                 <center>
-                                    <img src="../backend/image/news/big/visi--misi.jpg" class="img-responsive" />
+                                    <img src="{{ url('backend/image/news/big/visi--misi.jpg') }}"
+                                        class="img-responsive" />
                                 </center>
                                 <p class="mb-55"></p>
                                 <div>
