@@ -43,13 +43,13 @@ CSS INDEX
 28. Back To Top
 29. Footer
 
-******************************************************* 
+*******************************************************
 *************************************************************** */
 /*
 ************
 *************************
 01. common
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @import url("../../../../../css2");
 body {
@@ -429,7 +429,7 @@ input:-ms-input-placeholder {
   --clr-body-heading: #1b2c64;
   --clr-body-text: #777;
   --clr-body-soft_bg: #f6f6f6;
-  --clr-theme-1: #ad9535;
+  --clr-theme-1: #FECC30
   --clr-theme-2: #0439ab;
   --clr-theme-3: #ffc000;
   --clr-theme-4: #00319a;
@@ -1808,7 +1808,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 02. Header
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .logo_img {
   display: inline-block;
@@ -1904,7 +1904,7 @@ input:-ms-input-placeholder {
   -ms-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .top_info_single:is(.theme_1) i:hover {
   color: #fff;
@@ -1914,7 +1914,7 @@ input:-ms-input-placeholder {
   text-decoration: none;
 }
 .top_info_single:is(.theme_1) a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .top_info_single:is(.theme_2) i {
   -webkit-transition: all 0.3s linear 0s;
@@ -1957,7 +1957,7 @@ input:-ms-input-placeholder {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   clip-path: polygon(100% 0, 100% 57%, 50% 100%, 0 57%, 0 0, 50% 21%);
 }
 
@@ -2024,7 +2024,7 @@ input:-ms-input-placeholder {
   top: 120%;
   width: 220px;
   background-color: #fff;
-  border-top: 5px solid var(--clr-theme-1);
+  border-top: 5px solid #FECC30;
   color: #fff;
   opacity: 0;
   visibility: hidden;
@@ -2071,7 +2071,7 @@ input:-ms-input-placeholder {
   color: #000;
 }
 .main_menu1 ul li .sub-menu li a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .main_menu1 ul:is(.menu-right) li {
   margin-right: 0;
@@ -2335,7 +2335,7 @@ input:-ms-input-placeholder {
   top: 120%;
   width: 220px;
   background-color: #fff;
-  border-top: 5px solid var(--clr-theme-1);
+  border-top: 5px solid #FECC30;
   color: #fff;
   opacity: 0;
   visibility: hidden;
@@ -2363,7 +2363,7 @@ input:-ms-input-placeholder {
   color: #000;
 }
 .main_menu ul li .sub-menu li a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .main_menu ul li:last-child {
   margin-right: 0;
@@ -2412,7 +2412,7 @@ input:-ms-input-placeholder {
   background-color: var(--clr-theme-2);
 }
 .right_icons span:is(.bars_icon) {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 
 /*header 3*/
@@ -2498,7 +2498,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 09. Breadcrumb
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .breadcrumb_area {
   padding-top: calc(160px + 100px);
@@ -2599,7 +2599,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 04. Slider
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bg_cover {
   background-size: cover;
@@ -2944,7 +2944,7 @@ input:-ms-input-placeholder {
 .slide_line {
   position: relative;
   display: inline-block;
-  color: #ad9535;
+  color: #FECC30
 }
 .slide_line:after {
   position: absolute;
@@ -2967,7 +2967,7 @@ input:-ms-input-placeholder {
   height: 60px;
   line-height: 60px;
   display: inline-block;
-  background-color: #ad9535;
+  background-color: #FECC30
   padding: 0 45px;
   border-radius: 30px;
   transition: 0.3s;
@@ -3152,12 +3152,12 @@ input:-ms-input-placeholder {
 ************
 *************************
 10. Button
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .consult_btn {
   height: 50px;
   line-height: 44px;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   display: inline-block;
   padding: 0 41px;
   color: #fff;
@@ -3169,8 +3169,8 @@ input:-ms-input-placeholder {
   margin-bottom: 6px;
 }
 .consult_btn:hover {
-  border-color: var(--clr-theme-1);
-  color: var(--clr-theme-1);
+  border-color: #FECC30;
+  color: #FECC30;
   background-color: transparent;
 }
 
@@ -3216,7 +3216,7 @@ input:-ms-input-placeholder {
 .theme_btn {
   display: inline-block;
   height: 60px;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   line-height: 60px;
   font-size: 16px;
   color: #fff;
@@ -3230,8 +3230,8 @@ input:-ms-input-placeholder {
 }
 .theme_btn:is(.is_border):hover {
   background-color: transparent;
-  border-color: var(--clr-theme-1);
-  color: var(--clr-theme-1);
+  border-color: #FECC30;
+  color: #FECC30;
   text-decoration: underline;
 }
 .theme_btn:is(.black_bg) {
@@ -3255,21 +3255,21 @@ input:-ms-input-placeholder {
 }
 .theme_btn:is(.soft_theme) {
   background-color: #fff7eb;
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .theme_btn:is(.soft_theme):hover {
   text-decoration: underline;
   color: #fff;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 
 /*
 ************
 *************************
 06. Animated
-******************************************************* 
+*******************************************************
 *************************************************************** */
-/* circle animation effect 
+/* circle animation effect
 ----------------------------------*/
 .circle-shape-change {
   -webkit-border-radius: 45% 55% 60% 40%/59% 56% 44% 41%;
@@ -3293,7 +3293,7 @@ input:-ms-input-placeholder {
     border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
   }
 }
-/* movement animation effect 
+/* movement animation effect
 ----------------------------------*/
 .horizontal_move50px {
   -webkit-animation: horizontal_move50 8s linear 0s infinite alternate;
@@ -3358,7 +3358,7 @@ input:-ms-input-placeholder {
     transform: translateX(0px);
   }
 }
-/* image animation effect 
+/* image animation effect
 ----------------------------------*/
 .img-animation-left, .img-animation-right {
   -webkit-animation-name: vamtam-scale-out-left;
@@ -3395,7 +3395,7 @@ input:-ms-input-placeholder {
     transform: translateX(0);
   }
 }
-/* visible animation effect 
+/* visible animation effect
 ----------------------------------*/
 .top_right_visible_animation {
   -webkit-animation-name: top_right_visible;
@@ -3432,7 +3432,7 @@ input:-ms-input-placeholder {
     opacity: 1;
   }
 }
-/* hvr-buzz-out animation effect 
+/* hvr-buzz-out animation effect
 ----------------------------------*/
 @-webkit-keyframes hvr-buzz-out {
   10% {
@@ -3518,7 +3518,7 @@ input:-ms-input-placeholder {
     transform: translateX(-1px) rotate(0);
   }
 }
-/* wobble-vertical animation effect 
+/* wobble-vertical animation effect
 ----------------------------------*/
 @-webkit-keyframes wobble-vertical {
   16.65% {
@@ -3607,7 +3607,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 03. Hero
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px) {
   br {
@@ -3702,7 +3702,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 05. About
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px) {
   br {
@@ -3831,7 +3831,7 @@ input:-ms-input-placeholder {
 }
 
 .theme_count_bg {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .theme_count_bg img {
   position: absolute;
@@ -3894,7 +3894,7 @@ input:-ms-input-placeholder {
 }
 
 .theme_text {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .gray_text {
@@ -4010,7 +4010,7 @@ input:-ms-input-placeholder {
 }
 .single_mission i {
   font-size: 60px;
-  color: var(--clr-theme-1);
+  color: #FECC30;
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -4453,7 +4453,7 @@ input:-ms-input-placeholder {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #ad9535;
+  background-color: #FECC30
   border-radius: 30px;
   transform: rotate(15deg);
   z-index: 1;
@@ -5086,10 +5086,10 @@ input:-ms-input-placeholder {
 ************
 *************************
 21. Promo
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .theme_bg {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 
 .mtm_160 {
@@ -5155,13 +5155,13 @@ input:-ms-input-placeholder {
   visibility: visible;
 }
 .single_promo_box:hover i {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .single_promo_box:hover .promo_btn {
   color: #000;
 }
 .single_promo_box:hover .promo_btn:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
   text-decoration: underline;
 }
 .single_promo_box:hover .promo_btn:is(.theme2_clr) {
@@ -5232,7 +5232,7 @@ input:-ms-input-placeholder {
 }
 
 .promo_theme {
-  color: var(--clr-theme-1);
+  color: #FECC30;
   display: block;
 }
 
@@ -5305,14 +5305,14 @@ input:-ms-input-placeholder {
 ************
 *************************
 22. Section Title
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .before_soft_bg {
   background-color: #1b2c64;
 }
 
 .line_colored {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .pb-215 {
@@ -5531,7 +5531,7 @@ input:-ms-input-placeholder {
   color: #999;
 }
 .sub_title2:is(.theme-1) {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .title2 {
@@ -5594,13 +5594,13 @@ input:-ms-input-placeholder {
   color: #999;
 }
 .std_sub_title:is(.theme-1) {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .std_sub_title:is(.theme-1):after {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .std_sub_title:is(.theme-1):before {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .std_sub_title:after {
   position: absolute;
@@ -5644,7 +5644,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 11. Circular Progress
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .progress_circle {
   width: 70px;
@@ -5775,10 +5775,10 @@ input:-ms-input-placeholder {
   transform: scale(0.96);
 }
 .mission_progress_single .progress_circle:is(.theme-1) .progress-bar {
-  border-color: var(--clr-theme-1);
+  border-color: #FECC30;
 }
 .mission_progress_single .progress_circle:is(.theme-1) span {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .mission_progress_single .progress_circle:is(.theme-2):after {
   border-color: #f4f4f4;
@@ -5827,7 +5827,7 @@ input:-ms-input-placeholder {
 .progress-value .value {
   font-size: 40px;
   font-weight: 600;
-  color: var(--clr-theme-1);
+  color: #FECC30;
   font-family: "Poppins", sans-serif;
 }
 .progress-value .value span {
@@ -5855,8 +5855,8 @@ input:-ms-input-placeholder {
   color: var(--clr-common-black);
 }
 
-/* This for loop creates the necessary css animation names 
-Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+/* This for loop creates the necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
 .progress_circle[data-percentage="1"] .progress-right .progress-bar {
   animation: loading-1 0.5s linear forwards;
@@ -7147,7 +7147,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 08. Brand
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .happy_sponsors {
   display: inline-block;
@@ -7369,7 +7369,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 07. Blog
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .soft_bg {
   background-color: var(--clr-body-soft_bg);
@@ -7439,7 +7439,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: 0.3s;
 }
 .author_name:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .blog_title {
@@ -7463,7 +7463,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: 0.3s;
 }
 .blog_title:hover a {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .blog_title:is(.theme-2):hover a {
   color: var(--clr-theme-2);
@@ -7563,7 +7563,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: 0.3s;
 }
 .meta_blog:hover i {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .meta_blog:is(.theme-2):hover i {
   color: var(--clr-theme-2);
@@ -7575,7 +7575,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .meta_tag {
   text-decoration: underline;
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .meta_tag:is(.theme-2) {
   color: var(--clr-theme-2);
@@ -7945,7 +7945,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: calc(50% - 160px);
   height: 4px;
   content: "";
-  background-color: #ad9535;
+  background-color: #FECC30
   z-index: 1;
 }
 @media (max-width: 767.99px), only screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -8111,7 +8111,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   height: 50px;
   width: 50px;
   text-align: center;
-  background-color: #ad9535;
+  background-color: #FECC30
   line-height: 50px;
   color: #fff;
   display: inline-block;
@@ -8160,7 +8160,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 14. Cta
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .cta_text {
   font-size: 18px;
@@ -8190,7 +8190,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 18. Portfolio
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .theme_bg2 {
   background-color: var(--clr-theme-2);
@@ -8604,7 +8604,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 27. Testimonial
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .blue_bg_before {
   position: relative;
@@ -9075,7 +9075,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 17. Newsletter
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .newsletter_area {
   position: relative;
@@ -9212,7 +9212,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
 }
 .newsletter_form button:hover {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .newsletter_form:before {
   position: absolute;
@@ -9331,7 +9331,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 23. Service
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .soft_gray_bg {
   background-color: #f7f7f7;
@@ -9499,7 +9499,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 26. Team
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .single_team:hover .single_team_img img {
   transform: scale3d(1.1, 1.1, 1.1);
@@ -9630,7 +9630,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 13. Counter
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .counter_bg_left {
   position: absolute;
@@ -9774,7 +9774,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 19. Pricing
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .pricing__tab .nav {
   border: none;
@@ -10000,7 +10000,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 12. Contact
-******************************************************* 
+*******************************************************
 *************************************************************** */
 input::placeholder {
   transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
@@ -10309,7 +10309,7 @@ textarea:focus::placeholder {
 ************
 *************************
 15. FAQs
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .accordion-item:first-of-type .accordion-button:is(.faq_button) {
   border-radius: 0px;
@@ -10508,7 +10508,7 @@ textarea:focus::placeholder {
 ************
 *************************
 25. Single
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media only screen and (min-width: 992px) and (max-width: 1199.99px) {
   .t_person_info:is(.pl-50) {
@@ -11222,7 +11222,7 @@ p.blacktext {
 ************
 *************************
 20. Progress
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .team_progress_single {
   overflow: hidden;
@@ -11240,7 +11240,7 @@ p.blacktext {
   background-color: #f1f1f1;
 }
 .progress:is(.team_progress) .progress-bar:is(.theme-1) {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .progress:is(.team_progress) .progress-bar:is(.theme-2) {
   background-color: var(--clr-theme-2);
@@ -11250,7 +11250,7 @@ p.blacktext {
   float: right;
 }
 .progress_value:is(.theme-1) {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .progress_value:is(.theme-2) {
   color: var(--clr-theme-2);
@@ -11260,7 +11260,7 @@ p.blacktext {
 ************
 *************************
 16. News
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .news_meta_wrapper:is(.meta_border_top) {
   border-top: 1px solid #e7e7e7;
@@ -12447,7 +12447,7 @@ p.blacktext {
 ************
 *************************
 24. Sidebar
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .header-icon {
   position: relative;
@@ -12472,7 +12472,7 @@ p.blacktext {
   display: inline-block;
   width: 40px;
   height: 100%;
-  background-image: linear-gradient(45deg, transparent, var(--clr-theme-1));
+  background-image: linear-gradient(45deg, transparent, #FECC30);
 }
 .search-button i {
   color: #fff;
@@ -12507,7 +12507,7 @@ button.side-info-close {
   font-size: 16px;
   height: 45px;
   width: 45px;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   color: #fff;
   border-radius: 50%;
 }
@@ -12564,7 +12564,7 @@ button.side-info-close:hover {
 }
 .offset_search_button:hover {
   color: #fff;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 
 .contact-list > a {
@@ -12590,10 +12590,10 @@ button.side-info-close:hover {
 }
 .contact-list > a:is(.theme-1) i {
   color: var(--clr-common-white);
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .contact-list > a:is(.theme-1):hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .contact-list > a:is(.theme-2) i {
   color: var(--clr-common-white);
@@ -12659,7 +12659,7 @@ button.side-info-close:hover {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   color: #fff;
 }
 .top_social:is(.offset_social) a:not(:last-child) {
@@ -12698,13 +12698,13 @@ button.side-info-close:hover {
   color: #fff;
 }
 .nice-select:is(.widget) .option:is(.focus) {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .nice-select:is(.widget) .option:is(.selected):is(.focus) {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 .nice-select:is(.widget) .option:hover {
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
 }
 
 /* Menu Search
@@ -12890,7 +12890,7 @@ input.main-search-input:-ms-input-placeholder {
 ************
 *************************
 28. Back To Top
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .progress-wrap {
   position: fixed;
@@ -12966,7 +12966,7 @@ input.main-search-input:-ms-input-placeholder {
 ************
 *************************
 29. Footer
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px), only screen and (min-width: 768px) and (max-width: 991.99px), only screen and (min-width: 992px) and (max-width: 1199.99px) {
   .footer_widget {
@@ -13015,7 +13015,7 @@ input.main-search-input:-ms-input-placeholder {
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: var(--clr-theme-1);
+  background-color: #FECC30;
   content: "";
 }
 
@@ -13030,7 +13030,7 @@ input.main-search-input:-ms-input-placeholder {
   transition: 0.3s;
 }
 .info_line a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .footer_links ul li {
@@ -13056,12 +13056,12 @@ input.main-search-input:-ms-input-placeholder {
 }
 .footer_links ul li:hover > a {
   padding-left: 20px;
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .footer_links ul li:hover > a:before {
   opacity: 1;
   visibility: visible;
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .footer_links:is(.w_50) ul li {
   width: 50%;
@@ -13118,7 +13118,7 @@ input.main-search-input:-ms-input-placeholder {
   text-decoration: none;
 }
 .footer_blog_title:hover a {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .footer_blog:last-child {
@@ -13156,7 +13156,7 @@ input.main-search-input:-ms-input-placeholder {
   margin-left: 0;
 }
 .footer_social a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 
 .copyright_text {
@@ -13177,7 +13177,7 @@ input.main-search-input:-ms-input-placeholder {
   text-decoration: none;
 }
 .copyright_text a:hover {
-  color: var(--clr-theme-1);
+  color: #FECC30;
 }
 .copyright_text:is(.is_white) {
   color: #fff;
