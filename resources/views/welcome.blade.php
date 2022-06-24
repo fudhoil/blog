@@ -690,7 +690,7 @@
 
         <style type="text/css">
             .black_bg_half {
-                background: #ad9535;
+                background: #ffc107;
             }
         </style>
     </main>
