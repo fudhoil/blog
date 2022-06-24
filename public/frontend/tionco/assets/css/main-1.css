@@ -2967,7 +2967,7 @@ input:-ms-input-placeholder {
   height: 60px;
   line-height: 60px;
   display: inline-block;
-  background-color: #FECC30
+  background-color: #FECC30;
   padding: 0 45px;
   border-radius: 30px;
   transition: 0.3s;
@@ -4453,7 +4453,7 @@ input:-ms-input-placeholder {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #FECC30
+  background-color: #FECC30;
   border-radius: 30px;
   transform: rotate(15deg);
   z-index: 1;
@@ -7945,7 +7945,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: calc(50% - 160px);
   height: 4px;
   content: "";
-  background-color: #FECC30
+  background-color: #FECC30;
   z-index: 1;
 }
 @media (max-width: 767.99px), only screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -8111,7 +8111,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   height: 50px;
   width: 50px;
   text-align: center;
-  background-color: #FECC30
+  background-color: #FECC30;
   line-height: 50px;
   color: #fff;
   display: inline-block;
