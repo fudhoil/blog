@@ -187,7 +187,7 @@
                             <nav>
                                 <ul class="menu-right">
                                     <li>
-                                        <a href="{{ url('post/all-posts') }}">Products</a>
+                                        <a href="{{ url('page/products') }}">Products</a>
                                     </li>
                                     <li>
                                         <a href="album.html">Gallery</a>

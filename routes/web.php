@@ -27,10 +27,7 @@ Route::prefix('page')->group(function () {
     Route::get('/visi-misi', 'PageController@visiMisi');
     Route::get('/iso-certificate', 'PageController@isoCertificate');
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
-});
-
-Route::prefix('post')->group(function () {
-    Route::get('/all-posts', 'PageController@allPosts');
+    Route::get('/products', 'PageController@allPosts');
 });
 
 Route::get('/post', 'PostController@index')->name('post');
