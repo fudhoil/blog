@@ -43,13 +43,13 @@ CSS INDEX
 28. Back To Top
 29. Footer
 
-******************************************************* 
+*******************************************************
 *************************************************************** */
 /*
 ************
 *************************
 01. common
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @import url("../../../../../css2");
 body {
@@ -429,7 +429,7 @@ input:-ms-input-placeholder {
   --clr-body-heading: #1b2c64;
   --clr-body-text: #777;
   --clr-body-soft_bg: #f6f6f6;
-  --clr-theme-1: #ad9535;
+  --clr-theme-1: #FECC30;
   --clr-theme-2: #0439ab;
   --clr-theme-3: #ffc000;
   --clr-theme-4: #00319a;
@@ -1808,7 +1808,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 02. Header
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .logo_img {
   display: inline-block;
@@ -2498,7 +2498,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 09. Breadcrumb
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .breadcrumb_area {
   padding-top: calc(160px + 100px);
@@ -2599,7 +2599,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 04. Slider
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bg_cover {
   background-size: cover;
@@ -2944,7 +2944,7 @@ input:-ms-input-placeholder {
 .slide_line {
   position: relative;
   display: inline-block;
-  color: #ad9535;
+  color: #FECC30;
 }
 .slide_line:after {
   position: absolute;
@@ -2967,7 +2967,7 @@ input:-ms-input-placeholder {
   height: 60px;
   line-height: 60px;
   display: inline-block;
-  background-color: #ad9535;
+  background-color: #FECC30;
   padding: 0 45px;
   border-radius: 30px;
   transition: 0.3s;
@@ -3152,7 +3152,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 10. Button
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .consult_btn {
   height: 50px;
@@ -3267,9 +3267,9 @@ input:-ms-input-placeholder {
 ************
 *************************
 06. Animated
-******************************************************* 
+*******************************************************
 *************************************************************** */
-/* circle animation effect 
+/* circle animation effect
 ----------------------------------*/
 .circle-shape-change {
   -webkit-border-radius: 45% 55% 60% 40%/59% 56% 44% 41%;
@@ -3293,7 +3293,7 @@ input:-ms-input-placeholder {
     border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
   }
 }
-/* movement animation effect 
+/* movement animation effect
 ----------------------------------*/
 .horizontal_move50px {
   -webkit-animation: horizontal_move50 8s linear 0s infinite alternate;
@@ -3358,7 +3358,7 @@ input:-ms-input-placeholder {
     transform: translateX(0px);
   }
 }
-/* image animation effect 
+/* image animation effect
 ----------------------------------*/
 .img-animation-left, .img-animation-right {
   -webkit-animation-name: vamtam-scale-out-left;
@@ -3395,7 +3395,7 @@ input:-ms-input-placeholder {
     transform: translateX(0);
   }
 }
-/* visible animation effect 
+/* visible animation effect
 ----------------------------------*/
 .top_right_visible_animation {
   -webkit-animation-name: top_right_visible;
@@ -3432,7 +3432,7 @@ input:-ms-input-placeholder {
     opacity: 1;
   }
 }
-/* hvr-buzz-out animation effect 
+/* hvr-buzz-out animation effect
 ----------------------------------*/
 @-webkit-keyframes hvr-buzz-out {
   10% {
@@ -3518,7 +3518,7 @@ input:-ms-input-placeholder {
     transform: translateX(-1px) rotate(0);
   }
 }
-/* wobble-vertical animation effect 
+/* wobble-vertical animation effect
 ----------------------------------*/
 @-webkit-keyframes wobble-vertical {
   16.65% {
@@ -3607,7 +3607,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 03. Hero
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px) {
   br {
@@ -3702,7 +3702,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 05. About
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px) {
   br {
@@ -4453,7 +4453,7 @@ input:-ms-input-placeholder {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #ad9535;
+  background-color: #FECC30;
   border-radius: 30px;
   transform: rotate(15deg);
   z-index: 1;
@@ -5086,7 +5086,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 21. Promo
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .theme_bg {
   background-color: var(--clr-theme-1);
@@ -5305,7 +5305,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 22. Section Title
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .before_soft_bg {
   background-color: #1b2c64;
@@ -5644,7 +5644,7 @@ input:-ms-input-placeholder {
 ************
 *************************
 11. Circular Progress
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .progress_circle {
   width: 70px;
@@ -5855,8 +5855,8 @@ input:-ms-input-placeholder {
   color: var(--clr-common-black);
 }
 
-/* This for loop creates the necessary css animation names 
-Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+/* This for loop creates the necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
 .progress_circle[data-percentage="1"] .progress-right .progress-bar {
   animation: loading-1 0.5s linear forwards;
@@ -7147,7 +7147,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 08. Brand
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .happy_sponsors {
   display: inline-block;
@@ -7369,7 +7369,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 07. Blog
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .soft_bg {
   background-color: var(--clr-body-soft_bg);
@@ -7945,7 +7945,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: calc(50% - 160px);
   height: 4px;
   content: "";
-  background-color: #ad9535;
+  background-color: #FECC30;
   z-index: 1;
 }
 @media (max-width: 767.99px), only screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -8111,7 +8111,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   height: 50px;
   width: 50px;
   text-align: center;
-  background-color: #ad9535;
+  background-color: #FECC30;
   line-height: 50px;
   color: #fff;
   display: inline-block;
@@ -8160,7 +8160,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 14. Cta
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .cta_text {
   font-size: 18px;
@@ -8190,7 +8190,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 18. Portfolio
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .theme_bg2 {
   background-color: var(--clr-theme-2);
@@ -8604,7 +8604,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 27. Testimonial
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .blue_bg_before {
   position: relative;
@@ -9075,7 +9075,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 17. Newsletter
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .newsletter_area {
   position: relative;
@@ -9331,7 +9331,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 23. Service
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .soft_gray_bg {
   background-color: #f7f7f7;
@@ -9499,7 +9499,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 26. Team
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .single_team:hover .single_team_img img {
   transform: scale3d(1.1, 1.1, 1.1);
@@ -9630,7 +9630,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 13. Counter
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .counter_bg_left {
   position: absolute;
@@ -9774,7 +9774,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 19. Pricing
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .pricing__tab .nav {
   border: none;
@@ -10000,7 +10000,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ************
 *************************
 12. Contact
-******************************************************* 
+*******************************************************
 *************************************************************** */
 input::placeholder {
   transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
@@ -10309,7 +10309,7 @@ textarea:focus::placeholder {
 ************
 *************************
 15. FAQs
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .accordion-item:first-of-type .accordion-button:is(.faq_button) {
   border-radius: 0px;
@@ -10508,7 +10508,7 @@ textarea:focus::placeholder {
 ************
 *************************
 25. Single
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media only screen and (min-width: 992px) and (max-width: 1199.99px) {
   .t_person_info:is(.pl-50) {
@@ -11222,7 +11222,7 @@ p.blacktext {
 ************
 *************************
 20. Progress
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .team_progress_single {
   overflow: hidden;
@@ -11260,7 +11260,7 @@ p.blacktext {
 ************
 *************************
 16. News
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .news_meta_wrapper:is(.meta_border_top) {
   border-top: 1px solid #e7e7e7;
@@ -12447,7 +12447,7 @@ p.blacktext {
 ************
 *************************
 24. Sidebar
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .header-icon {
   position: relative;
@@ -12890,7 +12890,7 @@ input.main-search-input:-ms-input-placeholder {
 ************
 *************************
 28. Back To Top
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .progress-wrap {
   position: fixed;
@@ -12966,7 +12966,7 @@ input.main-search-input:-ms-input-placeholder {
 ************
 *************************
 29. Footer
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @media (max-width: 767.99px), only screen and (min-width: 768px) and (max-width: 991.99px), only screen and (min-width: 992px) and (max-width: 1199.99px) {
   .footer_widget {
