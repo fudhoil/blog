@@ -30,4 +30,8 @@ class PageController extends Controller
     {
         return view('page/borsya-akademi');
     }
+
+    public function allPosts(){
+        return view('posts.all-posts');
+    }
 }

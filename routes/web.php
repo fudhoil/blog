@@ -30,7 +30,7 @@ Route::prefix('page')->group(function () {
 });
 
 Route::prefix('post')->group(function () {
-    Route::get('/all-posts', 'PostController@allPosts');
+    Route::get('/all-posts', 'PageController@allPosts');
 });
 
 Route::get('/post', 'PostController@index')->name('post');
