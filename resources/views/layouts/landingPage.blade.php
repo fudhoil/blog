@@ -125,10 +125,10 @@
 
 
                             <div class="top_info_single has_left_icon theme_1">
-                                <a href="mailto:humas@mcncommunica.com"><i class="flaticon-email"></i></a>
+                                <a href="mailto:info@mcncommunica.com"><i class="flaticon-email"></i></a>
                                 <div class="top_info_single_right">
                                     <span>Email Address</span>
-                                    <a href="mailto:humas@mcncommunica.com">humas@mcncommunica.com</a>
+                                    <a href="mailto:info@mcncommunica.com">info@mcncommunica.com</a>
                                 </div>
                             </div>
 
@@ -139,9 +139,9 @@
                         <div class="top_info_single header_top_right text-end has_left_icon theme_1">
                             <div class="top_info_single_right">
                                 <span>Get Support</span>
-                                <a href="tel:622254412751">622254412751</a>
+                                <a href="tel:6281123456789">+62 81123456789</a>
                             </div>
-                            <a href="tel:622254412751"><i class="flaticon-call ml-20"></i></a>
+                            <a href="tel:6281123456789"><i class="flaticon-call ml-20"></i></a>
                         </div>
 
                     </div>
@@ -299,15 +299,7 @@
                             </div>
                             <div class="footer_widget_content mt-40">
                                 <b>Kantor Pusat</b><br>
-                                Jalan Kopo Bizpark Commercial Estate Blok A2 No.7, Kota Bandung, Jawa Barat.
-                                40227<br><br>
-                                <b>Jakarta Selatan</b><br>
-                                Sequis Centre (10th Floor) Jl. Jend. Sudirman No.71, Jakarta Selatan 12190<br><br>
-                                <b>Korea Selatan</b><br>
-                                1803-5 – A Gunpo IT Valley 17, Gosan-ro 148 beon-gil, Gunpo-si, Gyeonggi-do Korea
-                                435-733<br><br>
-                                <b>Sumbawa Besar</b><br>
-                                Jalan Setia Budi No.14F Sumbawa Besar, NTB. 84311
+                                Jln. Brawijaya No. 2B Cakranegara Selatan, Mataram - Nusa Tenggara Barat<br><br>
                             </div>
                         </div>
                     </div>
@@ -320,18 +312,19 @@
                             </div>
                             <div class="footer_content">
                                 <div class="footer_address3">
-                                    <a class="address_line" href="mailto:humas@mcncommunica.com" target="_blank">
+                                    <a class="address_line" href="mailto:info@mcncommunica.com" target="_blank">
                                         <span class="address_icon"><i class="fal fa-envelope"></i></span>
-                                        <span class="address_text">humas@mcncommunica.com</span>
+                                        <span class="address_text">info@mcncommunica.com</span>
                                     </a>
-                                    <a class="address_line" href="tel:622254412751" target="_blank">
+                                    <a class="address_line" href="tel:6281123456789" target="_blank">
                                         <span class="address_icon"><i class="fal fa-phone"></i></span>
-                                        <span class="address_text">622254412751</span>
+                                        <span class="address_text">+62 81123456789</span>
                                     </a>
                                     <a class="address_line" href="#" target="_blank">
                                         <span class="address_icon"><i class="fal fa-map-marker-alt"></i></span>
-                                        <span class="address_text">Jalan kopo BizPark Commercial Estate Blok A2 No.7
-                                            Bandung</span>
+                                        <span class="address_text">Jln. Brawijaya No. 2B Cakranegara Selatan,
+                                            Mataram - Nusa Tenggara Barat
+                                            </span>
                                     </a>
 
 
@@ -495,7 +488,7 @@
         var mapOptions = {
             zoomControl: false,
             attributionControl: false,
-            center: [-6.9512526, 107.5860536],
+            center: [-8.594557214097897, 116.12998525319193],
             zoom: 10,
             layers: [basemaps.OpenStreetMaps]
         };
@@ -504,11 +497,11 @@
         var map = L.map("map", mapOptions);
 
         // Location
-        L.marker([-6.9512526, 107.5860536]).addTo(map)
-            .bindPopup("<h5>PT. Magitha Citra Nusantara</h5>Jalan kopo BizPark Commercial Estate Blok A2 No.7 Bandung")
+        L.marker([-8.594557214097897, 116.12998525319193]).addTo(map)
+            .bindPopup("<h5>PT. Magitha Citra Nusantara</h5>Jln. Brawijaya No. 2B Cakranegara Selata Mataram - Nusa Tenggara Barat")
             .openPopup();
 
-        L.circle([-6.9512526, 107.5860536], 250, {
+        L.circle([-8.594557214097897, 116.12998525319193], 250, {
             color: 'blue',
             fillColor: '#2ecc71',
             fillOpacity: 0.2
