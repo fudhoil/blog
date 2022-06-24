@@ -18,6 +18,7 @@
                                     <th>Title</th>
                                     <th>Description</th>
                                     <th>Image</th>
+                                    <th>Image Name</th>
                                     <th>Created At</th>
                                     <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
@@ -62,8 +63,9 @@
                     @csrf
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" id="title" placeholder="Title"><br>
-                        <input type="text" name="description" class="form-control" id="description" placeholder="Deskripsi"><br>
+                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
                         <input type="file" name="image" class="form-control" id="image" placeholder="Foto"><br>
+                        <a href="" id="image_name" name="image_name" value=""></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_post" id="id_post" value="">
@@ -82,6 +84,14 @@
 
 @push('scripts')
 <script>
+    let YourEditor;
+        ClassicEditor
+            .create(document.querySelector('#description'))
+            .then(editor => {
+                window.editor = editor;
+                YourEditor = editor;
+            })
+
     $('document').ready(function () {
         // success alert
         function swal_success() {
@@ -132,6 +142,10 @@
                     }
                 },
                 {
+                    data: 'image_name',
+                    name: 'image_name',
+                },
+                {
                     data: 'created_at',
                     name: 'created_at'
                 },
@@ -169,24 +183,25 @@
                 $('#modal-user').modal('show');
                 $('#id_post').val(data.id_post);
                 $('#title').val(data.title);
-                $('#description').val(data.description);
-                $('#image').val(data.image);
+                YourEditor.setData(data.description);
+                // $('#image').val('');
+                $('#image_name').html(data.image_name);
+                $('#image_name').attr("href", data.image);
             })
         });
-
     
         // initialize btn save
         $('#saveBtn').click(function (e) {
-            var formData = new FormData($("#formUser")[0]);
+            var formData = new FormData(this);
             // console.log(formData);
                var id_post = $('#id_post').val();
                var title = $('#title').val();
-               var description = $('#description').val();
+               var desc = YourEditor.getData();
                var image = $('#image').val();
                var created_at = $('#created_at').val();
                var updated_at = $('#updated_at').val();
-                console.log(title);
-                console.log(image);
+                // console.log(title);
+                // console.log(image);
             e.preventDefault();
             $(this).html('Save');
             $.ajax({
