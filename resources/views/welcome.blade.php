@@ -94,8 +94,11 @@
                 <div class="row">
                     <div class="col-xxl-12 col-12">
                         <div class="about_wrapper pl-110">
-                            <a href="#"><img src="{{ url('frontend/tionco/assets/img/favicon.png') }}"
-                                    class="lazy" alt="logo"></a>
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo_middle_wrapper">
+                                    <a href="#" class="logo_middle"><img src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
+                                </div>
+                            </div>
                             <div class="about_right">
                                 <span class="abs_about wow fadeInUp" data-wow-delay="0.3s">About</span>
                                 <h2 class="big_title wow fadeInUp" data-wow-delay="0.5s">
