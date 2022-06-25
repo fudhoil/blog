@@ -2,7 +2,13 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h2>{{ $title }}</h2>
+                <div class="d-flex align-items-center justify-content-left">
+                    <h2 class="mt-2">{{ $title }}</h2>
+                    <a href="{{ url('page/articles') }}" target="_blank">
+                        <div class="btn btn-sm btn-pill btn-outline-primary py-1 mx-2">view Posts</div>
+                    </a>
+
+                </div>
                 <div class="d-flex flex-row-reverse"><button
                         class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewUser"><i
                             class="fas fa-plus"></i>Add data </button></div>
@@ -16,13 +22,11 @@
                                     {{-- <th>No.</th> --}}
                                     <th>No</th>
                                     <th>Title</th>
-                                    <th>Description</th>
                                     <th>Posted By</th>
                                     <th>Views</th>
                                     <th>Image</th>
                                     <th>Image Name</th>
                                     <th>Created At</th>
-                                    <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
                                 </tr>
 
@@ -65,10 +69,13 @@
                     method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" id="title" placeholder="Title"><br>
+                        <input type="text" name="title" class="form-control" id="title"
+                            placeholder="Title"><br>
                         <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
-                        <input type="text" name="posted_by" class="form-control" id="posted_by" placeholder="Post By"><br>
-                        <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
+                        <input type="text" name="posted_by" class="form-control" id="posted_by" placeholder="Post By"
+                            value="{{ Auth::user()->name }}" disabled><br>
+                        <input type="file" name="image" class="form-control" id="image" required
+                            placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
                         <input type="hidden" name="created_at" id="views" value="">
                         <input type="hidden" name="created_at" id="created_at" value="">
@@ -99,7 +106,7 @@
                 YourEditor = editor;
             })
 
-            $("#modal-user").on("hidden.bs.modal", function(e) {
+        $("#modal-user").on("hidden.bs.modal", function(e) {
             $('#image').prop('required', true);
             $('#image_name').html('');
             YourEditor.setData('');
@@ -135,18 +142,13 @@
                     'copy', 'excel', 'pdf'
                 ],
                 ajax: "{{ url('post') }}",
-                columns: [
-                    {
+                columns: [{
                         data: 'DT_RowIndex',
                         name: 'DT_RowIndex'
                     },
                     {
                         data: 'title',
                         name: 'title'
-                    },
-                    {
-                        data: 'description',
-                        name: 'description'
                     },
                     {
                         data: 'posted_by',
@@ -169,11 +171,14 @@
                     },
                     {
                         data: 'created_at',
-                        name: 'created_at'
-                    },
-                    {
-                        data: 'updated_at',
-                        name: 'updated_at'
+                        name: 'created_at',
+                        render: function(data, type, full, meta) {
+                            if (data == '01/01/1970') {
+                                return '';
+                            } else {
+                                return data;
+                            }
+                        }
                     },
                     {
                         data: 'action',
@@ -190,7 +195,7 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-            
+
             // initialize btn add
             $('#createNewUser').click(function() {
                 $('#saveBtn').val("tambah produk");
@@ -245,7 +250,7 @@
                                 swal_error();
 
                             } else {
-                                
+
                                 setTimeout(function() {
                                     $('#tableUser')
                                         .DataTable().ajax

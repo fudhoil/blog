@@ -39,7 +39,11 @@ class PostController extends Controller
 
                     return $btn;
                 })
-                ->rawColumns(['action'])
+                ->addColumn('created_at', function ($row) {
+                    $date =  date('d/m/Y', strtotime($row->created_at));
+                    return $date;
+                })
+                ->rawColumns(['action', 'created_at'])
                 ->make(true);
         }
 
@@ -52,7 +56,7 @@ class PostController extends Controller
         $request->validate([
             'image' => 'image'
         ]);
-        if($request->hasFile('image') == false){
+        if ($request->hasFile('image') == false) {
             $post = Post::findOrFail($request->id_post);
             $file_name = $post->image_name;
             $file_path = $post->image;
@@ -62,7 +66,8 @@ class PostController extends Controller
             $file_name = $file->getClientOriginalName();
             $file_path = $request->file('image')->store('gambar/post');
         }
-        Post::updateOrCreate(['id_post' => $request->id_post],
+        Post::updateOrCreate(
+            ['id_post' => $request->id_post],
             [
                 'title' => $request->title,
                 'description' => $request->description,
@@ -91,7 +96,8 @@ class PostController extends Controller
         return response()->json(['success' => 'Post deleted!']);
     }
 
-    public function allPosts(){
+    public function allPosts()
+    {
         return view('posts.all-posts');
     }
 }

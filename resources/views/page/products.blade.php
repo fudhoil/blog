@@ -29,8 +29,8 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="single_blog3_img img_effect_white w_img">
-                                        <a href="{{ asset($product->image) }}"><img src="{{ asset($product->image) }}"
-                                                alt="img" class="lazy" /></a>
+                                        <a href="{{ url('page/product/' . $product->id_product) }}"><img
+                                                src="{{ asset($product->image) }}" alt="img" class="lazy" /></a>
                                     </div>
                                     <div class="single_blog3_content">
                                         <span class="blog3_cat">Optical Fiber Cables</span>
@@ -51,86 +51,6 @@
                                 </div>
                             </div>
                         @endforeach
-                        {{-- <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="../page/fiber-optical-patch-cord.html"><img
-                                            src="../backend/image/news/middle/fiber-optical-patch-cord.png" alt="img"
-                                            class="lazy" /></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Optical Fiber Cables</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">05</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title">
-                                        <a href="../page/fiber-optical-patch-cord.html">FIBER OPTICAL PATCH CORD</a>
-                                    </h4>
-                                    <p>
-                                        FEATURESLow insertion lossVarious
-                                        connector type availableHigh return
-                                        loss100% in-house
-                                        testedAPPLICATIONSFiber
-                                        optictelecomm ...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="../page/pre-connectorized-drop-cable.html"><img
-                                            src="../backend/image/news/middle/pre-connectorized-drop-cable.png"
-                                            alt="img" class="lazy" /></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Optical Fiber Cables</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">05</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title">
-                                        <a href="../page/pre-connectorized-drop-cable.html">PRE-CONNECTORIZED DROP CABLE</a>
-                                    </h4>
-                                    <p>
-                                        Tensile load & compression
-                                        characteristics are enhanced by
-                                        inserting a steel wire and FRPs,
-                                        offering protection for optical f
-                                        ...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="../page/fttx-outdoor--drop-cable-rectangle-type.html"><img
-                                            src="../backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png"
-                                            alt="img" class="lazy" /></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Optical Fiber Cables</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">05</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title">
-                                        <a href="../page/fttx-outdoor--drop-cable-rectangle-type.html">FTTX OUTDOOR DROP
-                                            CABLE
-                                            (Rectangle Type)</a>
-                                    </h4>
-                                    <p>
-                                        Ensile load & compression
-                                        characteristics are enhanced by
-                                        inserting a steel wire and FRPs,
-                                        offering protection for optical fi
-                                        ...
-                                    </p>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </div>

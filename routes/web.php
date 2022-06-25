@@ -14,13 +14,11 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Auth::routes();
 
-Route::get('/welcome', 'HomeController@index')->name('welcome');
+Route::get('/', 'PageController@index');
+Route::get('/welcome', 'PageController@index')->name('welcome');
 Route::get('/home', 'HomeController@admin')->name('home');
 Route::prefix('page')->group(function () {
     Route::get('/selayang-pandang', 'PageController@selayangPandang');
@@ -29,6 +27,8 @@ Route::prefix('page')->group(function () {
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
     Route::get('/products', 'PageController@allPosts');
     Route::get('/articles', 'PageController@allArticles');
+    Route::get('/article/{id}', 'PageController@getArticle');
+    Route::get('/product/{id}', 'PageController@getProduct');
 });
 
 Route::get('/post', 'PostController@index')->name('post');

@@ -28,62 +28,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="slider_thumb_area wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="container">
-                        <div class="slider3_thumb_active swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">Group</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">Akademi</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">Boutique</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">TV</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">Foundation</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slide_thumb_wrap">
-                                        <div class="slide_thumb">
-                                            <i class="flaticon-brick"></i>
-                                            <span class="thumb_text">Services</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- slider3_area-end -->
@@ -96,7 +40,9 @@
                         <div class="about_wrapper pl-110">
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo_middle_wrapper">
-                                    <a href="#" class="logo_middle"><img src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
+                                    <a href="#" class="logo_middle"><img
+                                            src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}"
+                                            alt="logo"></a>
                                 </div>
                             </div>
                             <div class="about_right">
@@ -139,8 +85,8 @@
                                             <div class="single-counter soft_count_bg">
                                                 <img class="lazy wow fadeInLeft" data-wow-delay="0.5s"
                                                     src="{{ url('backend/image/counter/3.png') }}" alt="counter_img">
-                                                <h2 class=" count_number"><span class="odometer"
-                                                        data-count="100">00</span></h2>
+                                                <h2 class=" count_number"><span class="odometer" data-count="100">00</span>
+                                                </h2>
                                                 <span class="">Our Projects</span>
                                             </div>
                                         </div>
@@ -412,90 +358,28 @@
                 <div class="blog2_wrapper">
                     <div class="blog2_active swiper-container">
                         <div class="blog2_wrapper swiper-wrapper">
-
-                            <div class="blog2_slide swiper-slide">
-                                <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="blog_img img_effect_white w_img">
-                                        <a href="page/splitter-modular.html"><img
-                                                src="{{ url('backend/image/news/middle/splitter-modular.png') }}"
-                                                alt="blog-img"></a>
-                                    </div>
-                                    <div class="blog_content blog_content2 blog_border2">
-                                        <div class="author_meta2 pt-15 mt-25 is_bordertop">
-                                            <div class="">
-                                                <div class="author_text2">
-                                                    <h4 class="theme-2 dmsans"><a
-                                                            href="page/splitter-modular.html">SPLITTER MODULAR</a></h4>
-                                                    <span class="designation2 dmsans">Optical Fiber Cables</span>
+                            @foreach ($products as $product)
+                                <div class="blog2_slide swiper-slide">
+                                    <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="blog_img img_effect_white w_img">
+                                            <a href="{{ url('page/product/' . $product->id_product) }}"><img
+                                                    src="{{ asset($product->image) }}" alt="blog-img"></a>
+                                        </div>
+                                        <div class="blog_content blog_content2 blog_border2">
+                                            <div class="author_meta2 pt-15 mt-25 is_bordertop">
+                                                <div class="">
+                                                    <div class="author_text2">
+                                                        <h4 class="theme-2 dmsans"><a
+                                                                href="{{ url('page/product/' . $product->id_product) }}">{{ $product->title_product }}</a>
+                                                        </h4>
+                                                        <span class="designation2 dmsans">Optical Fiber Cables</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog2_slide swiper-slide">
-                                <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="blog_img img_effect_white w_img">
-                                        <a href="page/fiber-optical-patch-cord.html"><img
-                                                src="{{ url('backend/image/news/middle/fiber-optical-patch-cord.png') }}"
-                                                alt="blog-img"></a>
-                                    </div>
-                                    <div class="blog_content blog_content2 blog_border2">
-                                        <div class="author_meta2 pt-15 mt-25 is_bordertop">
-                                            <div class="">
-                                                <div class="author_text2">
-                                                    <h4 class="theme-2 dmsans"><a
-                                                            href="page/fiber-optical-patch-cord.html">FIBER OPTICAL PATCH
-                                                            CORD</a></h4>
-                                                    <span class="designation2 dmsans">Optical Fiber Cables</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog2_slide swiper-slide">
-                                <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="blog_img img_effect_white w_img">
-                                        <a href="page/pre-connectorized-drop-cable.html"><img
-                                                src="{{ url('backend/image/news/middle/pre-connectorized-drop-cable.png') }}"
-                                                alt="blog-img"></a>
-                                    </div>
-                                    <div class="blog_content blog_content2 blog_border2">
-                                        <div class="author_meta2 pt-15 mt-25 is_bordertop">
-                                            <div class="">
-                                                <div class="author_text2">
-                                                    <h4 class="theme-2 dmsans"><a
-                                                            href="page/pre-connectorized-drop-cable.html">PRE-CONNECTORIZED
-                                                            DROP CABLE</a></h4>
-                                                    <span class="designation2 dmsans">Optical Fiber Cables</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog2_slide swiper-slide">
-                                <div class="single_blog single_blog2 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="blog_img img_effect_white w_img">
-                                        <a href="page/fttx-outdoor--drop-cable-rectangle-type.html"><img
-                                                src="{{ url('backend/image/news/middle/fttx-outdoor--drop-cable-rectangle-type.png') }}"
-                                                alt="blog-img"></a>
-                                    </div>
-                                    <div class="blog_content blog_content2 blog_border2">
-                                        <div class="author_meta2 pt-15 mt-25 is_bordertop">
-                                            <div class="">
-                                                <div class="author_text2">
-                                                    <h4 class="theme-2 dmsans"><a
-                                                            href="page/fttx-outdoor--drop-cable-rectangle-type.html">FTTX
-                                                            OUTDOOR DROP CABLE (Rectangle Type)</a></h4>
-                                                    <span class="designation2 dmsans">Optical Fiber Cables</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                         <!-- If we need navigation buttons -->
                         <div class="blog2_navigation wow fadeInUp" data-wow-delay="0.3s">
@@ -622,68 +506,26 @@
                 </div>
                 <div class="blog_section_wrapper3">
                     <div class="row">
-
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.html"><img
-                                            src="{{ url('backend/image/news/middle/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.jpeg') }}"
-                                            alt="img" class="lazy"></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Halaman</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">04</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title"><a
-                                            href="page/boris-syaifullah-apresiasi-barmulang-untuk-memajukan-sumbawa.html">Boris
-                                            Syaifullah Apresiasi Barmulang Untuk Memajukan Sumbawa</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.html"><img
-                                            src="b{{ url('ackend/image/news/middle/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.jpg') }}"
-                                            alt="img" class="lazy"></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Halaman</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">04</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title"><a
-                                            href="page/pengukuhan-ketua-ikatan-keluarga-besar-purna-migran-sumbawa-ikpms.html">Pengukuhan
-                                            Ketua Ikatan Keluarga Besar Purna Migran Sumbawa (IKPMS)</a></h4>
+                        @foreach ($posts as $post)
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="single_blog3_img img_effect_white w_img">
+                                        <a href="{{ url('page/article/' . $post->id_product) }}"><img
+                                                src="{{ asset($post->image) }}" alt="img" class="lazy"></a>
+                                    </div>
+                                    <div class="single_blog3_content">
+                                        <span class="blog3_cat">Halaman</span>
+                                        <span class="blog3_date">
+                                            <span class="date_numb">04</span>
+                                            <span class="date_text">Sep</span>
+                                        </span>
+                                        <h4 class="blog3_title"><a
+                                                href="{{ url('page/article/' . $post->id_product) }}">{{ $post->title }}</a>
+                                        </h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a
-                                        href="page/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.html"><img
-                                            src="{{ url('backend/image/news/middle/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.jpg') }}"
-                                            alt="img" class="lazy"></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Halaman</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">04</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title"><a
-                                            href="page/smk-magitha-tel-ntb-pertama-dan-satu-satunya-di-indonesia-bagian-timur.html">SMK
-                                            Magitha-Tel NTB. Pertama dan Satu-Satunya di Indonesia Bagian Timur</a></h4>
-                                </div>
-                            </div>
-                        </div>
-
-
-
+                        @endforeach
                     </div>
                 </div>
             </div>

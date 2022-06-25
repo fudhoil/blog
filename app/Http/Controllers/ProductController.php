@@ -38,6 +38,10 @@ class ProductController extends Controller
 
                     return $btn;
                 })
+                ->addColumn('created_at', function ($row) {
+                    $date =  date('d/m/Y', strtotime($row->created_at));
+                    return $date;
+                })
                 ->rawColumns(['action'])
                 ->make(true);
         }
@@ -50,7 +54,7 @@ class ProductController extends Controller
         $request->validate([
             'image' => 'image'
         ]);
-        if($request->hasFile('image') == false){
+        if ($request->hasFile('image') == false) {
             $id_product = Product::findOrFail($request->id_product);
             $file_name = $id_product->image_name;
             $file_path = $id_product->image;
@@ -60,7 +64,8 @@ class ProductController extends Controller
             $file_name = $file->getClientOriginalName();
             $file_path = $request->file('image')->store('gambar/post');
         }
-        Product::updateOrCreate(['id_product' => $request->id_product],
+        Product::updateOrCreate(
+            ['id_product' => $request->id_product],
             [
                 'title_product' => $request->title_product,
                 'description_product' => $request->description_product,

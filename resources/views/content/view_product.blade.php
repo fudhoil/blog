@@ -2,7 +2,12 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h2>{{ $title }}</h2>
+                <div class="d-flex align-items-center justify-content-left">
+                    <h2 class="mt-2">{{ $title }}</h2>
+                    <a href="{{ url('page/products') }}" target="_blank">
+                        <div class="btn btn-sm btn-pill btn-outline-primary py-1 mx-2">view Products</div>
+                    </a>
+                </div>
                 <div class="d-flex flex-row-reverse"><button
                         class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewUser"><i
                             class="fas fa-plus"></i>Add data </button></div>
@@ -16,10 +21,8 @@
                                     {{-- <th>No.</th> --}}
                                     <th>Id Product</th>
                                     <th>Title Product</th>
-                                    <th>Description Product</th>
                                     <th>Image</th>
                                     <th>Created At</th>
-                                    <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
                                 </tr>
 
@@ -62,9 +65,11 @@
                     action="{{ route('product.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title_product" class="form-control" id="title_product" placeholder="Title Product"><br>
+                        <input type="text" name="title_product" class="form-control" id="title_product"
+                            placeholder="Title Product"><br>
                         <textarea name="description_product" class="form-control" id="description_product" placeholder="Deskripsi Product"></textarea><br>
-                        <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
+                        <input type="file" name="image" class="form-control" id="image" required
+                            placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
@@ -74,7 +79,8 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-light-primary font-weight-bold"
                     data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save changes</button>
+                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save
+                    changes</button>
             </div>
             </form>
         </div>
@@ -93,12 +99,12 @@
                 YourEditor = editor;
             })
 
-            $("#modal-user").on("hidden.bs.modal", function(e) {
+        $("#modal-user").on("hidden.bs.modal", function(e) {
             $('#image').prop('required', true);
             $('#image_name').html('');
             YourEditor.setData('');
         });
-        
+
         $('document').ready(function() {
             // success alert
             function swal_success() {
@@ -138,10 +144,6 @@
                         name: 'title_product'
                     },
                     {
-                        data: 'description_product',
-                        name: 'description_product'
-                    },
-                    {
                         data: 'image',
                         name: 'image',
                         render: function(data, type, full, meta) {
@@ -150,11 +152,14 @@
                     },
                     {
                         data: 'created_at',
-                        name: 'created_at'
-                    },
-                    {
-                        data: 'updated_at',
-                        name: 'updated_at'
+                        name: 'created_at',
+                        render: function(data, type, full, meta) {
+                            if (data == '01/01/1970') {
+                                return '';
+                            } else {
+                                return data;
+                            }
+                        }
                     },
                     {
                         data: 'action',

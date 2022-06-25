@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="bg-blue-me font-weight-bold text-center">
-                       LOGIN ADMIN
+                        LOGIN ADMIN
                     </div>
 
                     <div class="card-body">
@@ -73,17 +73,9 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
-                                    <button type="submit" class="btn btn-outline-primary">
-                                    <a href="{{ route('register') }}">{{ __('Register') }}</a>
-                                    </button>
-                                    <br></br>
-                                    @if (Route::has('password.request'))
-                                        <a class="btn btn-link" href="{{ route('password.request') }}">
-                                            {{ __('Forgot Your Password?') }}
-                                        </a>
-                                    @endif
+                                    <br>
                                 </div>
-                                
+
                             </div>
                         </form>
                     </div>
