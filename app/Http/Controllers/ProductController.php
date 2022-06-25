@@ -65,7 +65,10 @@ class ProductController extends Controller
                 'updated_at' => $request->updated_at,
             ]
         );
-        return response()->json(['success' => 'Produk saved successfully!']);
+        return response()->json([
+            'success' => 'Produk saved successfully!',
+            'error' => false,
+        ]);
     }
 
     public function edit($id)

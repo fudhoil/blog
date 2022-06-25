@@ -28,6 +28,7 @@ Route::prefix('page')->group(function () {
     Route::get('/iso-certificate', 'PageController@isoCertificate');
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
     Route::get('/products', 'PageController@allPosts');
+    Route::get('/articles', 'PageController@allArticles');
 });
 
 Route::get('/post', 'PostController@index')->name('post');

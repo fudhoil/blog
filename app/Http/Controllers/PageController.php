@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -31,7 +33,16 @@ class PageController extends Controller
         return view('page/borsya-akademi');
     }
 
-    public function allPosts(){
-        return view('posts.all-posts');
+    public function allPosts()
+    {
+        $products = Product::all();
+        return view('page/products', ['products' => $products]);
+    }
+
+    public function allArticles()
+    {
+        $articles = Post::all();
+        $products = Product::all();
+        return view('page/articles', ['articles' => $articles, 'products' => $products]);
     }
 }

@@ -48,15 +48,9 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
-        // dd($request->all());
         $request->validate([
             'image' => 'image'
         ]);
-        if($request->hasFile('image') == false){
-            $post = Post::findOrFail($request->id_post);
-            $file_name = $post->image_name;
-            $file_path = $post->image;
-        }
         if ($request->hasFile('image') == true) {
             // $destination = 'public/image/post';
             $file = $request->file('image');
@@ -67,21 +61,18 @@ class PostController extends Controller
             //     File::delete($upload);
             // }
             $file_path = $request->file('image')->store('gambar/post');
+            $request->merge([
+                'image' => $file,
+                'image_name' => $file_name
+            ]);
+        } else {
         }
         // return response()->json(['code'=>1,'msg'=>'Updated']);
-        Post::updateOrCreate(['id_post' => $request->id_post],
-            [
-                'title' => $request->title,
-                'description' => $request->description,
-                //  'image' => url('/').'/public/storage/files/'.$file_name,
-                'image' => $file_path,
-                'image_name' => $file_name,
-                'created_at' => $request->created_at,
-                'updated_at' => $request->updated_at,
-
-            ]
-        );
-        return response()->json(['success' => 'Produk saved successfully!']);
+        Post::updateOrCreate($request->except(['_token']));
+        return response()->json([
+            'success' => 'Produk saved successfully!',
+            'error' => false
+        ]);
     }
 
     public function edit($id)
@@ -97,7 +88,8 @@ class PostController extends Controller
         return response()->json(['success' => 'Post deleted!']);
     }
 
-    public function allPosts(){
+    public function allPosts()
+    {
         return view('posts.all-posts');
     }
 }
