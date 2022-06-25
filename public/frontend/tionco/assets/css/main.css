@@ -434,6 +434,9 @@ input:-ms-input-placeholder {
   --clr-theme-3: #ffc000;
   --clr-theme-4: #00319a;
 }
+.bg-blue-me{
+  color: #1b2c64;
+}
 
 .text-common-white {
   color: #fff;
@@ -1936,7 +1939,7 @@ input:-ms-input-placeholder {
 }
 
 .header_top_clip_one {
-  height: 120px;
+  height: 100px;
   display: flex;
   align-items: center;
   background-color: #1b2c64;
@@ -1947,7 +1950,7 @@ input:-ms-input-placeholder {
   z-index: 2;
   display: flex;
   align-items: center;
-  height: 142px;
+  height: 102px;
   margin-top: -30px;
 }
 .menu_clip_one:before {

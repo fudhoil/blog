@@ -417,6 +417,10 @@ h6,
   font-size: 0.9rem;
 }
 
+.bg-blue-me{
+  color: #1b2c64;
+}
+
 .lead {
   font-size: 1.125rem;
   font-weight: 300;
