@@ -76,7 +76,8 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-light-primary font-weight-bold"
                     data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary font-weight-bold" id="saveBtn">Save changes</button>
+                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save
+                    changes</button>
             </div>
             </form>
         </div>
@@ -194,45 +195,57 @@
             });
 
             // initialize btn save
-            $('#saveBtn').click(function(e) {
-                var formData = new FormData(this);
-                // console.log(formData);
-                var id_post = $('#id_post').val();
-                var title = $('#title').val();
-                var desc = YourEditor.getData();
-                var image = $('#image').val();
-                var created_at = $('#created_at').val();
-                var updated_at = $('#updated_at').val();
-                // console.log(title);
-                // console.log(image);
-                e.preventDefault();
-                $(this).html('Save');
-                $.ajax({
-                    data: formData,
-                    url: "{{ route('post.store') }}",
-                    type: "POST",
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    success: function(data) {
-                        console.log(data.success);
-                        $('#formUser').trigger("reset");
-                        $('#modal-user').modal('hide');
-                        Swal.fire({
-                            type: "success",
-                            title: 'Success!',
-                            text: response.success,
-                            confirmButtonClass: 'btn btn-success',
-                        });
-                        table.draw();
-                    },
-                    error: function(data) {
-                        console.log(data);
-                        swal_error();
-                        $('#saveBtn').html('Save Changes');
+
+
+            Array.prototype.filter.call($('#formUser'), function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        form.classList.add('invalid');
                     }
+                    form.classList.add('was-validated');
+                    event.preventDefault();
+
+                    var data = new FormData(this);
+
+                    $.ajax({
+                        url: '{{ route('post.store') }}',
+                        type: 'POST',
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr(
+                                'content')
+                        },
+                        data: data,
+                        contentType: false,
+                        processData: false,
+                        success: function(response) {
+                            if (response.error) {
+
+                                swal_error();
+
+                            } else {
+
+                                setTimeout(function() {
+                                    $('#tableUser')
+                                        .DataTable().ajax
+                                        .reload();
+
+                                }, 1000);
+
+                                swal_success();
+
+                            }
+                            var reset_form = $('#formUser')[0];
+                            $(reset_form).removeClass('was-validated');
+                            reset_form.reset();
+                            $('#modal-user').modal('hide');
+
+                        },
+                    });
+
                 });
+
             });
+
             // initialize btn delete
             $('body').on('click', '.deleteUser', function(e) {
                 var id_post = $(this).data("id");

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h2>{{$title}}</h2>
+                <h2>{{ $title }}</h2>
                 <div class="d-flex flex-row-reverse"><button
                         class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewUser"><i
                             class="fas fa-plus"></i>Add data </button></div>
@@ -22,7 +22,7 @@
                                     <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
                                 </tr>
-                                
+
                             </thead>
                             <tbody class="text-center">
                                 {{-- @foreach ($users as $r_users)
@@ -58,11 +58,14 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form id="formUser" name="formUser" enctype="multipart/form-data" action="{{ route('product.store') }}" method="POST">
+                <form id="formUser" name="formUser" enctype="multipart/form-data"
+                    action="{{ route('product.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title_product" class="form-control" id="title_product" placeholder="Title Product"><br>
-                        <input type="text" name="description_product" class="form-control" id="description_product" placeholder="Deskripsi Product"><br>
+                        <input type="text" name="title_product" class="form-control" id="title_product"
+                            placeholder="Title Product"><br>
+                        <input type="text" name="description_product" class="form-control" id="description_product"
+                            placeholder="Deskripsi Product"><br>
                         <input type="file" name="image" class="form-control" id="image" placeholder="Foto"><br>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
@@ -70,10 +73,11 @@
                     </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-light-primary font-weight-bold"
+                    data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary font-weight-bold" id="saveBtn">Save changes</button>
             </div>
-        </form>
+            </form>
         </div>
     </div>
 </div>
@@ -81,167 +85,165 @@
 
 
 @push('scripts')
-<script>
-    $('document').ready(function () {
-        // success alert
-        function swal_success() {
-            Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Your work has been saved',
-                showConfirmButton: false,
-                timer: 1000
-            })
-        }
-        // error alert
-        function swal_error() {
-            Swal.fire({
-                position: 'centered',
-                icon: 'error',
-                title: 'Something goes wrong !',
-                showConfirmButton: true,
-            })
-        }
-        // table serverside
-        var table = $('#tableUser').DataTable({
-            processing: false,
-            serverSide: true,
-            ordering: false,
-            dom: 'Bfrtip',
-            buttons: [
-                'copy', 'excel', 'pdf'
-            ],
-            ajax: "{{ url('product') }}",
-            columns: [{
-                    data: 'id_product',
-                    name: 'id_product'
-                },
-                {
-                    data: 'title_product',
-                    name: 'title_product'
-                },
-                {
-                    data: 'description_product',
-                    name: 'description_product'
-                },
-                {
-                    data: 'image',
-                    name: 'image',
-                    render: function( data, type, full, meta ) {
-                        return "<img src=\"" + data + "\" height=\"50\"/>";
-                    }
-                },
-                {
-                    data: 'created_at',
-                    name: 'created_at'
-                },
-                {
-                    data: 'updated_at',
-                    name: 'updated_at'
-                },
-                {
-                    data: 'action',
-                    name: 'action',
-                    orderable: false,
-                    searchable: false
-                },
-            ]
-        });
-        
-        // csrf token
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    <script>
+        $('document').ready(function() {
+            // success alert
+            function swal_success() {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Your work has been saved',
+                    showConfirmButton: false,
+                    timer: 1000
+                })
             }
-        });
-        // initialize btn add
-        $('#createNewUser').click(function () {
-            $('#saveBtn').val("tambah produk");
-            $('#id_product').val('');
-            $('#formUser').trigger("reset");
-            $('#modal-user').modal('show');
-        });
-        // initialize btn edit
-        $('body').on('click', '.editUser', function () {
-            var id_product = $(this).data('id');
-            $.get("{{url('product')}}" + '/' + id_product , function (data) {
-                $('#saveBtn').val("edit-user");
-                $('#modal-user').modal('show');
-                $('#id_product').val(data.id_product);
-                $('#title_product').val(data.title_product);
-                $('#description_product').val(data.description_product);
-                $('#image').val(data.image);
-            })
-        });
+            // error alert
+            function swal_error() {
+                Swal.fire({
+                    position: 'centered',
+                    icon: 'error',
+                    title: 'Something goes wrong !',
+                    showConfirmButton: true,
+                })
+            }
+            // table serverside
+            var table = $('#tableUser').DataTable({
+                processing: false,
+                serverSide: true,
+                ordering: false,
+                dom: 'Bfrtip',
+                buttons: [
+                    'copy', 'excel', 'pdf'
+                ],
+                ajax: "{{ url('product') }}",
+                columns: [{
+                        data: 'id_product',
+                        name: 'id_product'
+                    },
+                    {
+                        data: 'title_product',
+                        name: 'title_product'
+                    },
+                    {
+                        data: 'description_product',
+                        name: 'description_product'
+                    },
+                    {
+                        data: 'image',
+                        name: 'image',
+                        render: function(data, type, full, meta) {
+                            return "<img src=\"" + data + "\" height=\"50\"/>";
+                        }
+                    },
+                    {
+                        data: 'created_at',
+                        name: 'created_at'
+                    },
+                    {
+                        data: 'updated_at',
+                        name: 'updated_at'
+                    },
+                    {
+                        data: 'action',
+                        name: 'action',
+                        orderable: false,
+                        searchable: false
+                    },
+                ]
+            });
 
-    
-        // initialize btn save
-        $('#saveBtn').click(function (e) {
-            var formData = new FormData($("#formUser")[0]);
-            // console.log(formData);
-               var id_product = $('#id_product').val();
-               var title_product = $('#title_product').val();
-               var description_product = $('#description_product').val();
-               var image = $('#image').val();
-               var created_at = $('#created_at').val();
-               var updated_at = $('#updated_at').val();
-            e.preventDefault();
-            $(this).html('Save');
-            $.ajax({
-                data: formData,
-                url: "{{ route('product.store') }}",
-                type: "POST",
-                cache: false,
-                contentType: false,
-                processData: false,
-                success: function (data) {
-                    console.log(data);
-                    $('#formUser').trigger("reset");
-                    $('#modal-user').modal('hide');
-                    swal_success();
-                    table.draw();
-                },
-                error: function (data) {
-                    console.log(data);
-                    swal_error();
-                    $('#saveBtn').html('Save Changes');
+            // csrf token
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-        });
-        // initialize btn delete
-        $('body').on('click', '.deleteUser', function (e) {
-            var id_product = $(this).data("id");
-            console.log(id_product);
+            // initialize btn add
+            $('#createNewUser').click(function() {
+                $('#saveBtn').val("tambah produk");
+                $('#id_product').val('');
+                $('#formUser').trigger("reset");
+                $('#modal-user').modal('show');
+            });
+            // initialize btn edit
+            $('body').on('click', '.editUser', function() {
+                var id_product = $(this).data('id');
+                $.get("{{ url('product') }}" + '/' + id_product, function(data) {
+                    $('#saveBtn').val("edit-user");
+                    $('#modal-user').modal('show');
+                    $('#id_product').val(data.id_product);
+                    $('#title_product').val(data.title_product);
+                    $('#description_product').val(data.description_product);
+                    $('#image').val(data.image);
+                })
+            });
 
-            Swal.fire({
-                title: 'Are you sure?',
-                text: "You won't be able to revert this!",
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, delete it!'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    $.ajax({
-                        type: "DELETE",
-                        url: "{{ url('/product/') }}" + '/' + id_product,
-                        success: function (data) {
+
+            // initialize btn save
+            $('#saveBtn').click(function(e) {
+                var formData = new FormData($("#formUser")[0]);
+                // console.log(formData);
+                var id_product = $('#id_product').val();
+                var title_product = $('#title_product').val();
+                var description_product = $('#description_product').val();
+                var image = $('#image').val();
+                var created_at = $('#created_at').val();
+                var updated_at = $('#updated_at').val();
+                e.preventDefault();
+                $(this).html('Save');
+                $.ajax({
+                    data: formData,
+                    url: "{{ route('product.store') }}",
+                    type: "POST",
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        if (data.error) {
+
+                        } else {
+                            $('#formUser').trigger("reset");
+                            $('#modal-user').modal('hide');
                             swal_success();
-                            table.draw();
-                        },
-                        error: function (data) {
-                            swal_error();
+                            $('#tableUser').DataTable().ajax.reload();
                         }
-                    });
-                }
-            })
+                    }
+                });
+            });
+
+            // initialize btn delete
+            $('body').on('click', '.deleteUser', function(e) {
+                var id_product = $(this).data("id");
+                console.log(id_product);
+
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            type: "DELETE",
+                            url: "{{ url('/product/') }}" + '/' + id_product,
+                            success: function(data) {
+                                swal_success();
+                                table.draw();
+                            },
+                            error: function(data) {
+                                swal_error();
+                            }
+                        });
+                    }
+                })
+            });
+
+            // statusing
+
+
         });
-
-        // statusing
-
-
-    });
-
-</script>
+    </script>
 @endpush

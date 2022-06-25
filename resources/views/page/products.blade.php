@@ -25,31 +25,32 @@
                 </div>
                 <div class="blog_section_wrapper3">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="single_blog3_img img_effect_white w_img">
-                                    <a href="{{ url('page/splitter-modular.html') }}"><img
-                                            src="{{ url('backend/image/news/middle/splitter-modular.png') }}"
-                                            alt="img" class="lazy" /></a>
-                                </div>
-                                <div class="single_blog3_content">
-                                    <span class="blog3_cat">Optical Fiber Cables</span>
-                                    <span class="blog3_date">
-                                        <span class="date_numb">05</span>
-                                        <span class="date_text">Sep</span>
-                                    </span>
-                                    <h4 class="blog3_title">
-                                        <a href="{{ url('page/splitter-modular.html') }}">SPLITTER MODULAR</a>
-                                    </h4>
-                                    <p>
-                                        PLC (planar lightwave circuit)
-                                        splitter is fabricated by using
-                                        silica optical waveguide technology.
-                                        It features wide operatin ...
-                                    </p>
+                        @foreach ($products as $product)
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="single_blog3_img img_effect_white w_img">
+                                        <a href="{{ asset($product->image) }}"><img src="{{ asset($product->image) }}"
+                                                alt="img" class="lazy" /></a>
+                                    </div>
+                                    <div class="single_blog3_content">
+                                        <span class="blog3_cat">Optical Fiber Cables</span>
+                                        <span class="blog3_date">
+                                            <span
+                                                class="date_numb">{{ \Carbon\Carbon::parse($product->created_at)->format('d') }}</span>
+                                            <span
+                                                class="date_text">{{ \Carbon\Carbon::parse($product->created_at)->format('F') }}</span>
+                                        </span>
+                                        <h4 class="blog3_title">
+                                            <a
+                                                href="{{ url('page/splitter-modular.html') }}">{{ $product->title_product }}</a>
+                                        </h4>
+                                        <p>
+                                            {{ $product->description_product }}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        @endforeach
                         {{-- <div class="col-lg-4 col-md-6">
                             <div class="single_blog3 mb-30 wow fadeInLeft" data-wow-delay="0.3s">
                                 <div class="single_blog3_img img_effect_white w_img">

@@ -169,7 +169,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="category/articles.html">News</a>
+                                        <a href="{{ url('page/articles') }}">News</a>
                                     </li>
                                 </ul>
                             </nav>
