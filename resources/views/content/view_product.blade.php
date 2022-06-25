@@ -62,11 +62,10 @@
                     action="{{ route('product.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title_product" class="form-control" id="title_product"
-                            placeholder="Title Product"><br>
-                        <input type="text" name="description_product" class="form-control" id="description_product"
-                            placeholder="Deskripsi Product"><br>
-                        <input type="file" name="image" class="form-control" id="image" placeholder="Foto"><br>
+                        <input type="text" name="title_product" class="form-control" id="title_product" placeholder="Title Product"><br>
+                        <textarea name="description_product" class="form-control" id="description_product" placeholder="Deskripsi Product"></textarea><br>
+                        <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
+                        <a href="" id="image_name" name="image_name" value=""></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_product" id="id_product" value="">
@@ -75,7 +74,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-light-primary font-weight-bold"
                     data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary font-weight-bold" id="saveBtn">Save changes</button>
+                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save changes</button>
             </div>
             </form>
         </div>
@@ -86,6 +85,20 @@
 
 @push('scripts')
     <script>
+        let YourEditor;
+        ClassicEditor
+            .create(document.querySelector('#description_product'))
+            .then(editor => {
+                window.editor = editor;
+                YourEditor = editor;
+            })
+
+            $("#modal-user").on("hidden.bs.modal", function(e) {
+            $('#image').prop('required', true);
+            $('#image_name').html('');
+            YourEditor.setData('');
+        });
+        
         $('document').ready(function() {
             // success alert
             function swal_success() {
@@ -169,46 +182,67 @@
             $('body').on('click', '.editUser', function() {
                 var id_product = $(this).data('id');
                 $.get("{{ url('product') }}" + '/' + id_product, function(data) {
-                    $('#saveBtn').val("edit-user");
+                    $('#image').removeAttr('required');
                     $('#modal-user').modal('show');
                     $('#id_product').val(data.id_product);
                     $('#title_product').val(data.title_product);
-                    $('#description_product').val(data.description_product);
-                    $('#image').val(data.image);
+                    YourEditor.setData(data.description_product);
+                    $('#image_name').html(data.image_name);
+                    $('#image_name').attr("href", data.image);
                 })
             });
 
 
             // initialize btn save
-            $('#saveBtn').click(function(e) {
-                var formData = new FormData($("#formUser")[0]);
-                // console.log(formData);
-                var id_product = $('#id_product').val();
-                var title_product = $('#title_product').val();
-                var description_product = $('#description_product').val();
-                var image = $('#image').val();
-                var created_at = $('#created_at').val();
-                var updated_at = $('#updated_at').val();
-                e.preventDefault();
-                $(this).html('Save');
-                $.ajax({
-                    data: formData,
-                    url: "{{ route('product.store') }}",
-                    type: "POST",
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    success: function(data) {
-                        if (data.error) {
-
-                        } else {
-                            $('#formUser').trigger("reset");
-                            $('#modal-user').modal('hide');
-                            swal_success();
-                            $('#tableUser').DataTable().ajax.reload();
-                        }
+            Array.prototype.filter.call($('#formUser'), function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        form.classList.add('invalid');
                     }
+                    form.classList.add('was-validated');
+                    event.preventDefault();
+
+                    var data = new FormData(this);
+
+                    $.ajax({
+                        url: '{{ route('product.store') }}',
+                        type: 'POST',
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr(
+                                'content')
+                        },
+                        data: data,
+                        contentType: false,
+                        processData: false,
+                        success: function(response) {
+                            if (response.error) {
+
+                                swal_error();
+
+                            } else {
+
+                                setTimeout(function() {
+                                    $('#tableUser')
+                                        .DataTable().ajax
+                                        .reload();
+
+                                }, 1000);
+
+                                swal_success();
+
+                            }
+                            var reset_form = $('#formUser')[0];
+                            $(reset_form).removeClass('was-validated');
+                            YourEditor.setData('');
+                            $('#image').attr('required');
+                            reset_form.reset();
+                            $('#modal-user').modal('hide');
+
+                        },
+                    });
+
                 });
+
             });
 
             // initialize btn delete

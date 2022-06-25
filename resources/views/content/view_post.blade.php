@@ -14,9 +14,11 @@
                             <thead class="font-weight-bold text-center">
                                 <tr>
                                     {{-- <th>No.</th> --}}
-                                    <th>Id Post</th>
+                                    <th>No</th>
                                     <th>Title</th>
                                     <th>Description</th>
+                                    <th>Posted By</th>
+                                    <th>Views</th>
                                     <th>Image</th>
                                     <th>Image Name</th>
                                     <th>Created At</th>
@@ -63,11 +65,12 @@
                     method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" id="title"
-                            placeholder="Title"><br>
+                        <input type="text" name="title" class="form-control" id="title" placeholder="Title"><br>
                         <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
-                        <input type="file" name="image" class="form-control" id="image" placeholder="Foto"><br>
+                        <input type="text" name="posted_by" class="form-control" id="posted_by" placeholder="Post By"><br>
+                        <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
+                        <input type="hidden" name="created_at" id="views" value="">
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_post" id="id_post" value="">
@@ -95,6 +98,12 @@
                 window.editor = editor;
                 YourEditor = editor;
             })
+
+            $("#modal-user").on("hidden.bs.modal", function(e) {
+            $('#image').prop('required', true);
+            $('#image_name').html('');
+            YourEditor.setData('');
+        });
 
         $('document').ready(function() {
             // success alert
@@ -126,9 +135,10 @@
                     'copy', 'excel', 'pdf'
                 ],
                 ajax: "{{ url('post') }}",
-                columns: [{
-                        data: 'id_post',
-                        name: 'id_post'
+                columns: [
+                    {
+                        data: 'DT_RowIndex',
+                        name: 'DT_RowIndex'
                     },
                     {
                         data: 'title',
@@ -137,6 +147,14 @@
                     {
                         data: 'description',
                         name: 'description'
+                    },
+                    {
+                        data: 'posted_by',
+                        name: 'posted_by'
+                    },
+                    {
+                        data: 'views',
+                        name: 'views'
                     },
                     {
                         data: 'image',
@@ -172,6 +190,7 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
+            
             // initialize btn add
             $('#createNewUser').click(function() {
                 $('#saveBtn').val("tambah produk");
@@ -179,15 +198,17 @@
                 $('#formUser').trigger("reset");
                 $('#modal-user').modal('show');
             });
+
             // initialize btn edit
             $('body').on('click', '.editUser', function() {
                 var id_post = $(this).data('id');
                 $.get("{{ url('post') }}" + '/' + id_post, function(data) {
-                    $('#saveBtn').val("edit-user");
+                    $('#image').removeAttr('required');
                     $('#modal-user').modal('show');
                     $('#id_post').val(data.id_post);
                     $('#title').val(data.title);
                     YourEditor.setData(data.description);
+                    $('#posted_by').val(data.posted_by);
                     // $('#image').val('');
                     $('#image_name').html(data.image_name);
                     $('#image_name').attr("href", data.image);
@@ -206,6 +227,7 @@
                     event.preventDefault();
 
                     var data = new FormData(this);
+                    YourEditor.setData('');
 
                     $.ajax({
                         url: '{{ route('post.store') }}',
@@ -223,7 +245,7 @@
                                 swal_error();
 
                             } else {
-
+                                
                                 setTimeout(function() {
                                     $('#tableUser')
                                         .DataTable().ajax
@@ -236,6 +258,8 @@
                             }
                             var reset_form = $('#formUser')[0];
                             $(reset_form).removeClass('was-validated');
+                            YourEditor.setData('');
+                            $('#image').attr('required');
                             reset_form.reset();
                             $('#modal-user').modal('hide');
 

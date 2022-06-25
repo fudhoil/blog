@@ -18,6 +18,7 @@ class CreateProduct extends Migration
             $table->string('title_product');
             $table->text('description_product');
             $table->string('image')->nullable();
+            $table->string('image_name')->nullable();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });

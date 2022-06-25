@@ -19,7 +19,9 @@ class Post extends Authenticatable
     protected $fillable = [
         'title',
         'description',
+        'posted_by',
         'image',
         'image_name',
+        'views',
     ];
 }

@@ -21,5 +21,6 @@ class Product extends Authenticatable
         'title_product',
         'description_product',
         'image',
+        'image_name',
     ];
 }
