@@ -5,7 +5,17 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('Login') }}</div>
+                    <div class="card-body row justify-content-center">
+                        <div class="col-md-4 p-4">
+                            <div class="logo_middle_wrapper">
+                                <a href="#" class="logo_middle"><img
+                                        src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-blue-me font-weight-bold text-center">
+                       LOGIN ADMIN
+                    </div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">
@@ -63,13 +73,17 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
-
+                                    <button type="submit" class="btn btn-outline-primary">
+                                    <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    </button>
+                                    <br></br>
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
                                             {{ __('Forgot Your Password?') }}
                                         </a>
                                     @endif
                                 </div>
+                                
                             </div>
                         </form>
                     </div>
