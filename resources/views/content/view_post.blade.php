@@ -2,7 +2,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h2>{{$title}}</h2>
+                <h2>{{ $title }}</h2>
                 <div class="d-flex flex-row-reverse"><button
                         class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewUser"><i
                             class="fas fa-plus"></i>Add data </button></div>
@@ -23,7 +23,7 @@
                                     <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
                                 </tr>
-                                
+
                             </thead>
                             <tbody class="text-center">
                                 {{-- @foreach ($users as $r_users)
@@ -59,10 +59,12 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form id="formUser" name="formUser" enctype="multipart/form-data" action="{{ route('post.store') }}" method="POST">
+                <form id="formUser" name="formUser" enctype="multipart/form-data" action="{{ route('post.store') }}"
+                    method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" id="title" placeholder="Title"><br>
+                        <input type="text" name="title" class="form-control" id="title"
+                            placeholder="Title"><br>
                         <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
                         <input type="file" name="image" class="form-control" id="image" placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
@@ -72,10 +74,11 @@
                     </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-light-primary font-weight-bold"
+                    data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary font-weight-bold" id="saveBtn">Save changes</button>
             </div>
-        </form>
+            </form>
         </div>
     </div>
 </div>
@@ -83,8 +86,8 @@
 
 
 @push('scripts')
-<script>
-    let YourEditor;
+    <script>
+        let YourEditor;
         ClassicEditor
             .create(document.querySelector('#description'))
             .then(editor => {
@@ -92,173 +95,177 @@
                 YourEditor = editor;
             })
 
-    $('document').ready(function () {
-        // success alert
-        function swal_success() {
-            Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Your work has been saved',
-                showConfirmButton: false,
-                timer: 1000
-            })
-        }
-        // error alert
-        function swal_error() {
-            Swal.fire({
-                position: 'centered',
-                icon: 'error',
-                title: 'Something goes wrong !',
-                showConfirmButton: true,
-            })
-        }
-        // table serverside
-        var table = $('#tableUser').DataTable({
-            processing: false,
-            serverSide: true,
-            ordering: false,
-            dom: 'Bfrtip',
-            buttons: [
-                'copy', 'excel', 'pdf'
-            ],
-            ajax: "{{ url('post') }}",
-            columns: [{
-                    data: 'id_post',
-                    name: 'id_post'
-                },
-                {
-                    data: 'title',
-                    name: 'title'
-                },
-                {
-                    data: 'description',
-                    name: 'description'
-                },
-                {
-                    data: 'image',
-                    name: 'image',
-                    render: function( data, type, full, meta ) {
-                        return "<img src=\"" + data + "\" height=\"50\"/>";
-                    }
-                },
-                {
-                    data: 'image_name',
-                    name: 'image_name',
-                },
-                {
-                    data: 'created_at',
-                    name: 'created_at'
-                },
-                {
-                    data: 'updated_at',
-                    name: 'updated_at'
-                },
-                {
-                    data: 'action',
-                    name: 'action',
-                    orderable: false,
-                    searchable: false
-                },
-            ]
-        });
-        
-        // csrf token
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        $('document').ready(function() {
+            // success alert
+            function swal_success() {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Your work has been saved',
+                    showConfirmButton: false,
+                    timer: 1000
+                })
             }
-        });
-        // initialize btn add
-        $('#createNewUser').click(function () {
-            $('#saveBtn').val("tambah produk");
-            $('#id_post').val('');
-            $('#formUser').trigger("reset");
-            $('#modal-user').modal('show');
-        });
-        // initialize btn edit
-        $('body').on('click', '.editUser', function () {
-            var id_post = $(this).data('id');
-            $.get("{{url('post')}}" + '/' + id_post , function (data) {
-                $('#saveBtn').val("edit-user");
-                $('#modal-user').modal('show');
-                $('#id_post').val(data.id_post);
-                $('#title').val(data.title);
-                YourEditor.setData(data.description);
-                // $('#image').val('');
-                $('#image_name').html(data.image_name);
-                $('#image_name').attr("href", data.image);
-            })
-        });
-    
-        // initialize btn save
-        $('#saveBtn').click(function (e) {
-            var formData = new FormData(this);
-            // console.log(formData);
-               var id_post = $('#id_post').val();
-               var title = $('#title').val();
-               var desc = YourEditor.getData();
-               var image = $('#image').val();
-               var created_at = $('#created_at').val();
-               var updated_at = $('#updated_at').val();
-                // console.log(title);
-                // console.log(image);
-            e.preventDefault();
-            $(this).html('Save');
-            $.ajax({
-                data: formData,
-                url: "{{ route('post.store') }}",
-                type: "POST",
-                cache: false,
-                contentType: false,
-                processData: false,
-                success: function (data) {
-                    console.log(data);
-                    $('#formUser').trigger("reset");
-                    $('#modal-user').modal('hide');
-                    swal_success();
-                    table.draw();
-                },
-                error: function (data) {
-                    console.log(data);
-                    swal_error();
-                    $('#saveBtn').html('Save Changes');
+            // error alert
+            function swal_error() {
+                Swal.fire({
+                    position: 'centered',
+                    icon: 'error',
+                    title: 'Something goes wrong !',
+                    showConfirmButton: true,
+                })
+            }
+            // table serverside
+            var table = $('#tableUser').DataTable({
+                processing: false,
+                serverSide: true,
+                ordering: false,
+                dom: 'Bfrtip',
+                buttons: [
+                    'copy', 'excel', 'pdf'
+                ],
+                ajax: "{{ url('post') }}",
+                columns: [{
+                        data: 'id_post',
+                        name: 'id_post'
+                    },
+                    {
+                        data: 'title',
+                        name: 'title'
+                    },
+                    {
+                        data: 'description',
+                        name: 'description'
+                    },
+                    {
+                        data: 'image',
+                        name: 'image',
+                        render: function(data, type, full, meta) {
+                            return "<img src=\"" + data + "\" height=\"50\"/>";
+                        }
+                    },
+                    {
+                        data: 'image_name',
+                        name: 'image_name',
+                    },
+                    {
+                        data: 'created_at',
+                        name: 'created_at'
+                    },
+                    {
+                        data: 'updated_at',
+                        name: 'updated_at'
+                    },
+                    {
+                        data: 'action',
+                        name: 'action',
+                        orderable: false,
+                        searchable: false
+                    },
+                ]
+            });
+
+            // csrf token
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
+            // initialize btn add
+            $('#createNewUser').click(function() {
+                $('#saveBtn').val("tambah produk");
+                $('#id_post').val('');
+                $('#formUser').trigger("reset");
+                $('#modal-user').modal('show');
+            });
+            // initialize btn edit
+            $('body').on('click', '.editUser', function() {
+                var id_post = $(this).data('id');
+                $.get("{{ url('post') }}" + '/' + id_post, function(data) {
+                    $('#saveBtn').val("edit-user");
+                    $('#modal-user').modal('show');
+                    $('#id_post').val(data.id_post);
+                    $('#title').val(data.title);
+                    YourEditor.setData(data.description);
+                    // $('#image').val('');
+                    $('#image_name').html(data.image_name);
+                    $('#image_name').attr("href", data.image);
+                })
+            });
+
+            // initialize btn save
+            $('#saveBtn').click(function(e) {
+                var formData = new FormData(this);
+                // console.log(formData);
+                var id_post = $('#id_post').val();
+                var title = $('#title').val();
+                var desc = YourEditor.getData();
+                var image = $('#image').val();
+                var created_at = $('#created_at').val();
+                var updated_at = $('#updated_at').val();
+                // console.log(title);
+                // console.log(image);
+                e.preventDefault();
+                $(this).html('Save');
+                $.ajax({
+                    data: formData,
+                    url: "{{ route('post.store') }}",
+                    type: "POST",
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        console.log(data.success);
+                        $('#formUser').trigger("reset");
+                        $('#modal-user').modal('hide');
+                        Swal.fire({
+                            type: "success",
+                            title: 'Success!',
+                            text: response.success,
+                            confirmButtonClass: 'btn btn-success',
+                        });
+                        table.draw();
+                    },
+                    error: function(data) {
+                        console.log(data);
+                        swal_error();
+                        $('#saveBtn').html('Save Changes');
+                    }
+                });
+            });
+            // initialize btn delete
+            $('body').on('click', '.deleteUser', function(e) {
+                var id_post = $(this).data("id");
+                console.log(id_post);
+
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            type: "DELETE",
+                            url: "{{ url('/post/') }}" + '/' + id_post,
+                            success: function(data) {
+                                swal_success();
+                                table.draw();
+                            },
+                            error: function(data) {
+                                swal_error();
+                            }
+                        });
+                    }
+                })
+            });
+
+            // statusing
+
+
         });
-        // initialize btn delete
-        $('body').on('click', '.deleteUser', function (e) {
-            var id_post = $(this).data("id");
-            console.log(id_post);
-
-            Swal.fire({
-                title: 'Are you sure?',
-                text: "You won't be able to revert this!",
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, delete it!'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    $.ajax({
-                        type: "DELETE",
-                        url: "{{ url('/post/') }}" + '/' + id_post,
-                        success: function (data) {
-                            swal_success();
-                            table.draw();
-                        },
-                        error: function (data) {
-                            swal_error();
-                        }
-                    });
-                }
-            })
-        });
-
-        // statusing
-
-
-    });
-
-</script>
+    </script>
 @endpush

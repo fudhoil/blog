@@ -53,10 +53,10 @@ class ProductController extends Controller
 
         if ($request->hasFile('image') == true) {
             $file_name = $request->file('image')->store('gambar/product');
-
         }
         // return response()->json(['code'=>1,'msg'=>'Updated']);
-        Product::updateOrCreate(['id_product' => $request->id_product],
+        Product::updateOrCreate(
+            ['id_product' => $request->id_product],
             [
                 'title_product' => $request->title_product,
                 'description_product' => $request->description_product,
