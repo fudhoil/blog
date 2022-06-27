@@ -255,6 +255,10 @@ input:-ms-input-placeholder {
   position: absolute;
 }
 
+.p-betumbok {
+  transform: translate(0px, 80px);
+  z-index: 3;
+}
 .text_center {
   text-align: center;
 }
