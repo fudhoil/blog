@@ -1,0 +1,25 @@
+.head-bg {
+    transform: translateY(-45px);
+    background-image:url('https://picsum.photos/1920/1080');
+    min-height: 500px;
+      /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.head-title {
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    z-index: 5;
+}
+
+.head-more {
+    top: 55%;
+    left: 10%;
+    position: absolute;
+    z-index: 5;
+}

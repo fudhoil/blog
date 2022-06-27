@@ -11,7 +11,7 @@
                     <div class="col-xl-12">
                         <div class="breadcrumb_section">
                             <ul class="breadcrumb-list">
-                                <li class="trail-item trail-begin"><a href="index.htm">Home</a></li>
+                                <li class="trail-item trail-begin"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="trail-item trail-end"><span class="active">Gallery</span></li>
                             </ul>
                             <h2 class="breadcrumb_title">Activity & Production</h2>
@@ -22,7 +22,7 @@
         </section>
 
         <!-- portfolio_area-start -->
-        <div class="cportfolio_area pb-90 fix">
+        {{-- <div class="cportfolio_area pb-90 fix">
             <div class="container">
                 <div class="row cportfolio_active">
 
@@ -86,7 +86,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- portfolio_area-end -->
 
 

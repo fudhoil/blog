@@ -19,7 +19,7 @@ Auth::routes([
     'register' => false, // Registration Routes...
     'reset' => false, // Password Reset Routes...
     'verify' => false, // Email Verification Routes...
-  ]);
+]);
 
 Route::get('/', 'PageController@index');
 Route::get('/welcome', 'PageController@index')->name('welcome');
@@ -29,6 +29,8 @@ Route::prefix('page')->group(function () {
     Route::get('/visi-misi', 'PageController@visiMisi');
     Route::get('/iso-certificate', 'PageController@isoCertificate');
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
+    Route::get('/galery', 'PageController@galery');
+    Route::get('/services', 'PageController@services');
     Route::get('/products', 'PageController@allPosts');
     Route::get('/articles', 'PageController@allArticles');
     Route::get('/article/{id}', 'PageController@getArticle');

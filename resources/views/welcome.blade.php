@@ -3,34 +3,16 @@
     <div class="offcanvas-overlay"></div>
     <!-- main_area_start -->
     <main>
-        <div wire:initial-data="{&quot;id&quot;:&quot;0G8xGMJPjMUEk60ayB7s&quot;,&quot;name&quot;:&quot;site.index&quot;,&quot;redirectTo&quot;:false,&quot;locale&quot;:&quot;id&quot;,&quot;events&quot;:[],&quot;eventQueue&quot;:[],&quot;dispatchQueue&quot;:[],&quot;data&quot;:{&quot;page&quot;:1},&quot;children&quot;:[],&quot;checksum&quot;:&quot;cff90179396ef3a14d4a2ddafea52b9220464af01937a15725bd0d9e364e85a5&quot;}"
-            wire:id="0G8xGMJPjMUEk60ayB7s" class="slider3_area fix mtm_62">
-            <div class="slider3_wrapper">
-                <div class="slider3_active swiper-container">
-                    <div class="slide3_item swiper-slide">
-                        <div class="slide3_bg" data-background="{{ url('backend/image/slider/borysa-group.jpg') }}">
-                        </div>
-                        <div class="slide3_item_inner">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xxl-12">
-                                        <div class="slide3_item_content">
-                                            <h2 class="slide3_title wow fadeInUp" data-wow-delay="0.3s">MCN <span
-                                                    class="slide_line">Communica</span></h2>
-                                            <div class="slide_button mt-40 wow fadeInUp" data-wow-delay="0.5s">
-                                                <a href="page/magitha-foundation" class="slide3_btn i_right">More <i
-                                                        class="fal fa-long-arrow-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="head-bg">
+        </div>
+        <div class="d-flex flex-column">
+            <h2 class="head-title">MCN <span class="slide_line">Communica</span>
+            </h2>
+            <div class="head-more">
+                <a href="{{ url('/') }}" class="slide3_btn i_right">More <i class="fal fa-long-arrow-right"></i></a>
             </div>
         </div>
-        <!-- slider3_area-end -->
+        <!-- slider1_area-end -->
 
         <!-- about_area-start -->
         <section class="about_area pt-120 pb-120 soft_gray_bg fix">
@@ -41,7 +23,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo_middle_wrapper">
                                     <a href="#" class="logo_middle"><img
-                                            src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}"
+                                            src="{{ url('frontend/tionco/assets/img/logo/logo1.png') }}"
                                             alt="logo"></a>
                                 </div>
                             </div>
@@ -91,12 +73,8 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -112,7 +90,8 @@
                     <div class="col-xxl-12">
                         <div class="section_title text-center">
                             <span class="sub_title wow fadeInUp" data-wow-delay="0.3s">Our Products</span>
-                            <h2 class="title wow fadeInUp text-white" data-wow-delay="0.5s">Products & Services</h2>
+                            <h2 class="title wow fadeInUp text-white" data-wow-delay="0.5s" id="services">Products &
+                                Services</h2>
                         </div>
                     </div>
                 </div>
@@ -193,8 +172,9 @@
                             <div class="promo_cta_wrapper theme_bg wow fadeInUp" data-wow-delay="0.3s">
                                 <p class="wow fadeInLeft" data-wow-delay="0.3s">Keeping Yourself Existence By Continually
                                     Improving And Adapting</p>
-                                <a href="tag/services.html" class="theme_btn black_bg is_border wow fadeInRight"
-                                    data-wow-delay="0.3s">All Services</a>
+                                <a href="{{ url('page/services') }}"
+                                    class="theme_btn black_bg is_border wow fadeInRight" data-wow-delay="0.3s">All
+                                    Services</a>
                             </div>
                         </div>
 
@@ -223,76 +203,76 @@
                         <div class="swiper-wrapper">
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
-                                    <a href="gallery/kegiatan-a.html">
+                                    <a href="#">
                                         <img src="{{ url('backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
                                 <div class="p_blog_text">
                                     <h4 class="p_blog_title">
-                                        <a href="gallery/kegiatan-a.html">Kegiatan A</a>
+                                        <a href="#">Kegiatan A</a>
                                     </h4>
                                     <div class="p_meta">
-                                        <a href="gallery/kegiatan-a.html"><i class="fal fa-user"></i><span
+                                        <a href="#"><i class="fal fa-user"></i><span
                                                 class="p_meta_author">Jakarta</span></a>
-                                        <a href="gallery/kegiatan-a.html"><i class="fal fa-clock"></i><span
+                                        <a href="#"><i class="fal fa-clock"></i><span
                                                 class="p_meta_time">2021-09-04 08:46:34</span></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
-                                    <a href="gallery/kegiatan-b.html">
+                                    <a href="#">
                                         <img src="{{ url('backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
                                 <div class="p_blog_text">
                                     <h4 class="p_blog_title">
-                                        <a href="gallery/kegiatan-b.html">Kegiatan B</a>
+                                        <a href="#">Kegiatan B</a>
                                     </h4>
                                     <div class="p_meta">
-                                        <a href="gallery/kegiatan-b.html"><i class="fal fa-user"></i><span
+                                        <a href="#"><i class="fal fa-user"></i><span
                                                 class="p_meta_author">Bandung</span></a>
-                                        <a href="gallery/kegiatan-b.html"><i class="fal fa-clock"></i><span
+                                        <a href="#"><i class="fal fa-clock"></i><span
                                                 class="p_meta_time">2021-09-04 08:46:34</span></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
-                                    <a href="gallery/kegiatan-c.html">
+                                    <a href="#">
                                         <img src="{{ url('backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
                                 <div class="p_blog_text">
                                     <h4 class="p_blog_title">
-                                        <a href="gallery/kegiatan-c.html">Kegiatan C</a>
+                                        <a href="#">Kegiatan C</a>
                                     </h4>
                                     <div class="p_meta">
-                                        <a href="gallery/kegiatan-c.html"><i class="fal fa-user"></i><span
+                                        <a href="#"><i class="fal fa-user"></i><span
                                                 class="p_meta_author">Surabaya</span></a>
-                                        <a href="gallery/kegiatan-c.html"><i class="fal fa-clock"></i><span
+                                        <a href="#"><i class="fal fa-clock"></i><span
                                                 class="p_meta_time">2021-09-04 08:46:34</span></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="portfolio_blog_slide swiper-slide">
                                 <div class="p_blog_img">
-                                    <a href="gallery/sekolah-smk.html">
+                                    <a href="#">
                                         <img src="{{ url('backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg') }}"
                                             alt="portfolio" class="lazy">
                                     </a>
                                 </div>
                                 <div class="p_blog_text">
                                     <h4 class="p_blog_title">
-                                        <a href="gallery/sekolah-smk.html">Peletakan Batu Pertama</a>
+                                        <a href="#">Peletakan Batu Pertama</a>
                                     </h4>
                                     <div class="p_meta">
-                                        <a href="gallery/sekolah-smk.html"><i class="fal fa-user"></i><span
-                                                class="p_meta_author">SMK Magitha Telekomunikasi</span></a>
-                                        <a href="gallery/sekolah-smk.html"><i class="fal fa-clock"></i><span
+                                        <a href="#"><i class="fal fa-user"></i><span class="p_meta_author">SMK
+                                                Magitha Telekomunikasi</span></a>
+                                        <a href="#"><i class="fal fa-clock"></i><span
                                                 class="p_meta_time">2021-09-04 08:46:34</span></a>
                                     </div>
                                 </div>

@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/swipper.css') }}">
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/icofont.min.css') }}">
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/style.css') }}">
     <!-- Livewire Styles -->
     <style>
         [wire\:loading] {
@@ -156,7 +157,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">About Us</a>
@@ -190,10 +191,10 @@
                                         <a href="{{ url('page/products') }}">Products</a>
                                     </li>
                                     <li>
-                                        <a href="album.html">Gallery</a>
+                                        <a href="{{ url('page/galery') }}">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="tag/services.html">Services</a>
+                                        <a href="{{ url('page/services') }}">Services</a>
                                     </li>
                                 </ul>
                             </nav>

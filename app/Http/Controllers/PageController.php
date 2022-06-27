@@ -30,9 +30,14 @@ class PageController extends Controller
         return view('page/iso-certificate');
     }
 
-    public function borsyaAkademi()
+    public function services()
     {
-        return view('page/borsya-akademi');
+        return view('page/services');
+    }
+
+    public function galery()
+    {
+        return view('page/galery');
     }
 
     public function allPosts()

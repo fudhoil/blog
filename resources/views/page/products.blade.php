@@ -45,7 +45,7 @@
                                                 href="{{ url('page/splitter-modular.html') }}">{{ $product->title_product }}</a>
                                         </h4>
                                         <p>
-                                            {{ $product->description_product }}
+                                            {!! Str::words("$product->description_product", 55, ' ...') !!}
                                         </p>
                                     </div>
                                 </div>
