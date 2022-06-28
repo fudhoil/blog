@@ -69,7 +69,7 @@
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/post" class="menu-link">
                         <span class="menu-icon fas fa-book-open">
-                            
+
                         </span>
                         <span class="menu-text">Post</span>
                     </a>
@@ -78,7 +78,7 @@
                 {{-- <li class="menu-item" aria-haspopup="true">
                     <a href="/project" class="menu-link">
                         <span class="menu-icon fas fa-chalkboard">
-                            
+
                         </span>
                         <span class="menu-text">Project</span>
                     </a>
@@ -87,7 +87,7 @@
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/product" class="menu-link">
                         <span class="menu-icon fas fa-laptop">
-                          
+
                         </span>
                         <span class="menu-text">Product</span>
                     </a>
@@ -96,18 +96,18 @@
                 {{-- <li class="menu-item" aria-haspopup="true">
                     <a href="/client" class="menu-link">
                         <span class="menu-icon fas fa-users">
-                           
+
                         </span>
                         <span class="menu-text">Partners / Clients</span>
                     </a>
                 </li> --}}
 
                 <li class="menu-item" aria-haspopup="true">
-                    <a href="/calendar" class="menu-link">
-                        <span class="menu-icon fas fa-calendar">
-                           
+                    <a href="/galery" class="menu-link">
+                        <span class="menu-icon fas fa-image">
+
                         </span>
-                        <span class="menu-text">Calendar</span>
+                        <span class="menu-text">Galery</span>
                     </a>
                 </li>
                 <hr style="border: 1px solid white; margin-left:10px; margin-right:10px;">
