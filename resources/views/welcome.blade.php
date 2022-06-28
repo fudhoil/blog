@@ -201,83 +201,26 @@
                 <div class="blog-conteiner-shadow wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio_blog_active swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="portfolio_blog_slide swiper-slide">
-                                <div class="p_blog_img">
-                                    <a href="#">
-                                        <img src="{{ url('backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg') }}"
-                                            alt="portfolio" class="lazy">
-                                    </a>
-                                </div>
-                                <div class="p_blog_text">
-                                    <h4 class="p_blog_title">
-                                        <a href="#">Kegiatan A</a>
-                                    </h4>
-                                    <div class="p_meta">
-                                        <a href="#"><i class="fal fa-user"></i><span
-                                                class="p_meta_author">Jakarta</span></a>
-                                        <a href="#"><i class="fal fa-clock"></i><span
-                                                class="p_meta_time">2021-09-04 08:46:34</span></a>
+                            @foreach ($galeries as $galery)
+                                <div class="portfolio_blog_slide swiper-slide">
+                                    <div class="p_blog_img">
+                                        <a href="#">
+                                            <img src="{{ asset($galery->image) }}" alt="portfolio" class="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="p_blog_text">
+                                        <h4 class="p_blog_title">
+                                            <a href="#">{{ $galery->title }}</a>
+                                        </h4>
+                                        <div class="p_meta">
+                                            <a href="#"><i class="fal fa-user"></i><span
+                                                    class="p_meta_author">{{ $galery->posted_by }}</span></a>
+                                            <a href="#"><i class="fal fa-clock"></i><span
+                                                    class="p_meta_time">{{ \Carbon\Carbon::parse($galery->created_at)->format('Y-m-d h:i:s') }}</span></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="portfolio_blog_slide swiper-slide">
-                                <div class="p_blog_img">
-                                    <a href="#">
-                                        <img src="{{ url('backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg') }}"
-                                            alt="portfolio" class="lazy">
-                                    </a>
-                                </div>
-                                <div class="p_blog_text">
-                                    <h4 class="p_blog_title">
-                                        <a href="#">Kegiatan B</a>
-                                    </h4>
-                                    <div class="p_meta">
-                                        <a href="#"><i class="fal fa-user"></i><span
-                                                class="p_meta_author">Bandung</span></a>
-                                        <a href="#"><i class="fal fa-clock"></i><span
-                                                class="p_meta_time">2021-09-04 08:46:34</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio_blog_slide swiper-slide">
-                                <div class="p_blog_img">
-                                    <a href="#">
-                                        <img src="{{ url('backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg') }}"
-                                            alt="portfolio" class="lazy">
-                                    </a>
-                                </div>
-                                <div class="p_blog_text">
-                                    <h4 class="p_blog_title">
-                                        <a href="#">Kegiatan C</a>
-                                    </h4>
-                                    <div class="p_meta">
-                                        <a href="#"><i class="fal fa-user"></i><span
-                                                class="p_meta_author">Surabaya</span></a>
-                                        <a href="#"><i class="fal fa-clock"></i><span
-                                                class="p_meta_time">2021-09-04 08:46:34</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio_blog_slide swiper-slide">
-                                <div class="p_blog_img">
-                                    <a href="#">
-                                        <img src="{{ url('backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg') }}"
-                                            alt="portfolio" class="lazy">
-                                    </a>
-                                </div>
-                                <div class="p_blog_text">
-                                    <h4 class="p_blog_title">
-                                        <a href="#">Peletakan Batu Pertama</a>
-                                    </h4>
-                                    <div class="p_meta">
-                                        <a href="#"><i class="fal fa-user"></i><span class="p_meta_author">SMK
-                                                Magitha Telekomunikasi</span></a>
-                                        <a href="#"><i class="fal fa-clock"></i><span
-                                                class="p_meta_time">2021-09-04 08:46:34</span></a>
-                                    </div>
-                                </div>
-                            </div>
-
+                            @endforeach
                         </div>
                         <!-- If we need navigation buttons -->
                         <div class="p_nav_buttons">
@@ -438,35 +381,11 @@
                     </div>
                 </div>
                 <div class="brand_wrapper wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/9.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/8.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/7.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/6.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/5.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/4.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/3.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/2.png') }}" alt="brand" class="lazy">
-                    </div>
-                    <div class="single_brand">
-                        <img src="{{ url('backend/image/promotion/big/1.png') }}" alt="brand" class="lazy">
-                    </div>
-
-
+                    @foreach ($clients as $client)
+                        <div class="single_brand">
+                            <img src="{{ asset($client->image) }}" alt="brand" class="lazy">
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Client;
+use App\Models\Galery;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -12,7 +14,9 @@ class PageController extends Controller
     {
         $posts = Post::latest()->take(3)->get();
         $products = Product::all();
-        return view('welcome', ['posts' => $posts, 'products' => $products]);
+        $galery = Galery::all();
+        $clients = Client::all();
+        return view('welcome', ['posts' => $posts, 'products' => $products, 'galeries' => $galery, 'clients' => $clients]);
     }
 
     public function selayangPandang()
@@ -37,7 +41,8 @@ class PageController extends Controller
 
     public function galery()
     {
-        return view('page/galery');
+        $galery = Galery::all();
+        return view('page/galery', ['galeries' => $galery]);
     }
 
     public function allPosts()

@@ -43,12 +43,19 @@ Route::get('/post/{id}', 'PostController@edit')->name('post.edit');
 Route::post('/post/{id}', 'PostController@store')->name('post.edit');
 Route::delete('/post/{id}', 'PostController@destroy')->name('post.destroy');
 
+// galery
+Route::get('/galery', 'GaleryController@index')->name('galery');
+Route::post('/galery', 'GaleryController@store')->name('galery.store');
+Route::get('/galery/{id}', 'GaleryController@edit')->name('galery.edit');
+Route::post('/galery/{id}', 'GaleryController@store')->name('galery.edit');
+Route::delete('/galery/{id}', 'GaleryController@destroy')->name('galery.destroy');
+
 // project
-Route::get('/project', 'ProjectController@index')->name('project');
-Route::post('/project', 'ProjectController@store')->name('project.store');
-Route::get('/project/{id}', 'ProjectController@edit')->name('project.edit');
-Route::post('/project/{id}', 'ProjectController@store')->name('project.edit');
-Route::delete('/project/{id}', 'ProjectController@destroy')->name('project.destroy');
+// Route::get('/project', 'ProjectController@index')->name('project');
+// Route::post('/project', 'ProjectController@store')->name('project.store');
+// Route::get('/project/{id}', 'ProjectController@edit')->name('project.edit');
+// Route::post('/project/{id}', 'ProjectController@store')->name('project.edit');
+// Route::delete('/project/{id}', 'ProjectController@destroy')->name('project.destroy');
 
 // product
 Route::get('/product', 'ProductController@index')->name('product');

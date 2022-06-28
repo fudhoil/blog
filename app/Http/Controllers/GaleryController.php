@@ -3,16 +3,16 @@
 namespace App\Http\Controllers;
 
 
-use App\Models\Post;
+use App\Models\Galery;
 use Illuminate\Http\Request;
-use Yajra\Datatables\Datatables;
+use \Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
-class PostController extends Controller
+class GaleryController extends Controller
 {
     public function __construct()
     {
@@ -22,21 +22,20 @@ class PostController extends Controller
     public function index(Request $request)
     {
         $data = [
-            'count_user' => Post::all(),
+            'count_user' => Galery::all(),
             'menu'       => 'menu.v_menu_admin',
-            'content'    => 'content.view_post',
-            'title'    => 'Table Post'
+            'content'    => 'content.view_galery',
+            'title'    => 'Table Galery'
         ];
 
         if ($request->ajax()) {
-            // $q_user = Post::select('*')->orderByDesc('created_at');
-            $q_user = Post::select('*');
+            $q_user = Galery::select('*');
             return Datatables::of($q_user)
                 ->addIndexColumn()
                 ->addColumn('action', function ($row) {
 
-                    $btn = '<div data-toggle="tooltip" data-id="' . $row->id_post . '" data-original-title="Edit" class="btn btn-sm btn-icon btn-outline-success btn-circle mr-2 edit editUser"><i class=" fi-rr-edit"></i></div>';
-                    $btn = $btn . ' <div data-toggle="tooltip" data-id="' . $row->id_post . '" data-original-title="Delete" class="btn btn-sm btn-icon btn-outline-danger btn-circle mr-2 deleteUser"><i class="fi-rr-trash"></i></div>';
+                    $btn = '<div data-toggle="tooltip" data-id="' . $row->id_galery . '" data-original-title="Edit" class="btn btn-sm btn-icon btn-outline-success btn-circle mr-2 edit editUser"><i class=" fi-rr-edit"></i></div>';
+                    $btn = $btn . ' <div data-toggle="tooltip" data-id="' . $row->id_galery . '" data-original-title="Delete" class="btn btn-sm btn-icon btn-outline-danger btn-circle mr-2 deleteUser"><i class="fi-rr-trash"></i></div>';
 
                     return $btn;
                 })
@@ -44,7 +43,7 @@ class PostController extends Controller
                     $date =  date('d/m/Y', strtotime($row->created_at));
                     return $date;
                 })
-                ->rawColumns(['action', 'created_at'])
+                ->rawColumns(['action'])
                 ->make(true);
         }
 
@@ -53,22 +52,21 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
-        // dd($request->all());
         $request->validate([
             'image' => 'image'
         ]);
         if ($request->hasFile('image') == false) {
-            $post = Post::findOrFail($request->id_post);
-            $file_name = $post->image_name;
-            $file_path = $post->image;
+            $id_galery = Galery::findOrFail($request->id_galery);
+            $file_name = $id_galery->image_name;
+            $file_path = $id_galery->image;
         }
         if ($request->hasFile('image') == true) {
             $file = $request->file('image');
             $file_name = $file->getClientOriginalName();
-            $file_path = $request->file('image')->store('gambar/post');
+            $file_path = $request->file('image')->store('gambar/galery');
         }
-        Post::updateOrCreate(
-            ['id_post' => $request->id_post],
+        Galery::updateOrCreate(
+            ['id_galery' => $request->id_galery],
             [
                 'title' => $request->title,
                 'description' => $request->description,
@@ -76,29 +74,23 @@ class PostController extends Controller
                 //  'image' => url('/').'/public/storage/files/'.$file_name,
                 'image' => $file_path,
                 'image_name' => $file_name,
-                'views' => $request->views,
                 'created_at' => $request->created_at,
                 'updated_at' => $request->updated_at,
             ]
         );
-        return response()->json(['success' => 'Produk saved successfully!']);
+        return response()->json(['success' => 'Galery saved successfully!']);
     }
 
     public function edit($id)
     {
-        $User = Post::find($id);
+        $User = Galery::find($id);
         return response()->json($User);
     }
 
-    public function destroy($id_post)
+    public function destroy($id_galery)
     {
-        Post::find($id_post)->delete();
+        Galery::find($id_galery)->delete();
 
-        return response()->json(['success' => 'Post deleted!']);
-    }
-
-    public function allPosts()
-    {
-        return view('posts.all-posts');
+        return response()->json(['success' => 'Galery deleted!']);
     }
 }

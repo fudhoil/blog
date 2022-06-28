@@ -62,7 +62,7 @@ class ProductController extends Controller
         if ($request->hasFile('image') == true) {
             $file = $request->file('image');
             $file_name = $file->getClientOriginalName();
-            $file_path = $request->file('image')->store('gambar/post');
+            $file_path = $request->file('image')->store('gambar/product');
         }
         Product::updateOrCreate(
             ['id_product' => $request->id_product],
