@@ -20,7 +20,7 @@ class ClientSeeder extends Seeder
             Client::create([
                 'nama_perusahaan' => '',
                 'description' => '',
-                'image' => 'gambar/client' . $data
+                'image' => 'gambar/client/' . $data
             ]);
         }
     }

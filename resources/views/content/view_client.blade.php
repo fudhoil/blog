@@ -2,7 +2,12 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h2>{{$title}}</h2>
+                <div class="d-flex align-items-center justify-content-left">
+                    <h2 class="mt-2">{{ $title }}</h2>
+                    <a href="{{ url('/') }}" target="_blank">
+                        <div class="btn btn-sm btn-pill btn-outline-primary py-1 mx-2">view Client</div>
+                    </a>
+                </div>
                 <div class="d-flex flex-row-reverse"><button
                         class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewUser"><i
                             class="fas fa-plus"></i>Add data </button></div>

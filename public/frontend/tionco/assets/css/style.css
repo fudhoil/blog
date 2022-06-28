@@ -1,6 +1,6 @@
 .head-bg {
     transform: translateY(-45px);
-    background-image:url('https://picsum.photos/1920/1080');
+    background-image:url('../img/banner/fiber.jpg');
     min-height: 500px;
       /* Create the parallax scrolling effect */
     background-attachment: fixed;

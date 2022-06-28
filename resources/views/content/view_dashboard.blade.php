@@ -14,9 +14,7 @@
                         <!--begin::Header-->
                         <div class="card-header border-0 bg-danger py-5">
                             <h3 class="card-title font-weight-bolder text-white">Dashboard</h3>
-                            <div class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus. Officiis voluptas ratione commodi sunt quo non amet facere esse accusamus. Est temporibus exercitationem, labore sed inventore sapiente ratione delectus.</div>
-                            <div class="text-white">loremasdhasdhasudhasudhasui.</div>
-                            <div class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio officiis excepturi iusto et voluptatum quos harum! Vel sequi inventore labore culpa error necessitatibus, placeat in consequatur amet, suscipit repellat voluptate? </div>
+                            <div class="text-white">PT. Magitha Citra Nusantara (MCN) MCN is an Assembling company that focuses on developing telecommunication fiber optics, especially Passive Solution (FTTX) Material, Fiber to The Home (FTTH), Fiber to the Antenna (FTTA), and all accessories based on fiber optics.</div>
 
                         </div>
                         <!--end::Header-->

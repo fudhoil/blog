@@ -31,6 +31,7 @@
     <link href="{{asset('metch')}}/css/themes/layout/aside/darkf552.css?v=7.1.8" rel="stylesheet" type="text/css" />
     <link href="{{asset('metch')}}/uiicon/css/uicons-regular-rounded.css" rel="stylesheet">
     {{-- cdn --}}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('frontend/tionco/assets/img/favicon.png') }}">
 
     <link rel="stylesheet" type="text/css"
         href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/datatables.min.css" />
