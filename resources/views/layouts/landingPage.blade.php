@@ -140,7 +140,7 @@
                         <div class="top_info_single header_top_right text-end has_left_icon theme_1">
                             <div class="top_info_single_right">
                                 <span>Get Support</span>
-                                <a href="tel:6281123456789">+62 81123456789</a>
+                                <a href="tel:6281123456789">+6281123456789</a>
                             </div>
                             <a href="tel:6281123456789"><i class="flaticon-call ml-20"></i></a>
                         </div>
