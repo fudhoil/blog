@@ -38,6 +38,10 @@ class ProductController extends Controller
 
                     return $btn;
                 })
+                ->addColumn('created_at', function ($row) {
+                    $date =  date('d/m/Y', strtotime($row->created_at));
+                    return $date;
+                })
                 ->rawColumns(['action'])
                 ->make(true);
         }
@@ -48,19 +52,26 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image'
+            'image' => 'image'
         ]);
-
-        if ($request->hasFile('image') == true) {
-            $file_name = $request->file('image')->store('gambar/product');
-
+        if ($request->hasFile('image') == false) {
+            $id_product = Product::findOrFail($request->id_product);
+            $file_name = $id_product->image_name;
+            $file_path = $id_product->image;
         }
-        // return response()->json(['code'=>1,'msg'=>'Updated']);
-        Product::updateOrCreate(['id_product' => $request->id_product],
+        if ($request->hasFile('image') == true) {
+            $file = $request->file('image');
+            $file_name = $file->getClientOriginalName();
+            $file_path = $request->file('image')->store('gambar/post');
+        }
+        Product::updateOrCreate(
+            ['id_product' => $request->id_product],
             [
                 'title_product' => $request->title_product,
                 'description_product' => $request->description_product,
-                'image' => $file_name,
+                //  'image' => url('/').'/public/storage/files/'.$file_name,
+                'image' => $file_path,
+                'image_name' => $file_name,
                 'created_at' => $request->created_at,
                 'updated_at' => $request->updated_at,
             ]

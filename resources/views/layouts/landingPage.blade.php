@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/swipper.css') }}">
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/icofont.min.css') }}">
     <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ url('frontend/tionco/assets/css/style.css') }}">
     <!-- Livewire Styles -->
     <style>
         [wire\:loading] {
@@ -156,7 +157,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li>
-                                        <a href="mcncommunica.com">Home</a>
+                                        <a href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">About Us</a>
@@ -169,7 +170,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="category/articles.html">News</a>
+                                        <a href="{{ url('page/articles') }}">News</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -179,7 +180,7 @@
                     <div class="col-xxl-2 col-lg-2">
                         <div class="logo_middle_wrapper">
                             <a href="#" class="logo_middle"><img
-                                    src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
+                                    src="{{ url('frontend/tionco/assets/img/logo/logo1.png') }}" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xxl-5 col-lg-5 text-end">
@@ -187,13 +188,13 @@
                             <nav>
                                 <ul class="menu-right">
                                     <li>
-                                        <a href="{{ url('post/all-posts') }}">Products</a>
+                                        <a href="{{ url('page/products') }}">Products</a>
                                     </li>
                                     <li>
-                                        <a href="album.html">Gallery</a>
+                                        <a href="{{ url('page/galery') }}">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="tag/services.html">Services</a>
+                                        <a href="{{ url('page/services') }}">Services</a>
                                     </li>
                                 </ul>
                             </nav>

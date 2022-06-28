@@ -1,12 +1,21 @@
 @extends('layouts.admin')
 
-@section('content')
+@section('panel')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('Register') }}</div>
-
+                <div class="card-body row justify-content-center">
+                        <div class="col-md-4 p-4">
+                            <div class="logo_middle_wrapper">
+                                <a href="#" class="logo_middle"><img
+                                        src="{{ url('frontend/tionco/assets/img/logo/logo.png') }}" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-blue-me font-weight-bold text-center">
+                       REGISTER ADMIN
+                    </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('register') }}">
                             @csrf
@@ -76,6 +85,9 @@
                                 <div class="col-md-6 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Register') }}
+                                    </button>
+                                    <button type="submit" class="btn btn-outline-primary">
+                                    <a href="{{ route('login') }}">{{ __('Login') }}</a>
                                     </button>
                                 </div>
                             </div>

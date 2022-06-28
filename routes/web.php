@@ -14,23 +14,27 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Auth::routes();
+Auth::routes([
+    'register' => false, // Registration Routes...
+    'reset' => false, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+]);
 
-Route::get('/welcome', 'HomeController@index')->name('welcome');
+Route::get('/', 'PageController@index');
+Route::get('/welcome', 'PageController@index')->name('welcome');
 Route::get('/home', 'HomeController@admin')->name('home');
 Route::prefix('page')->group(function () {
     Route::get('/selayang-pandang', 'PageController@selayangPandang');
     Route::get('/visi-misi', 'PageController@visiMisi');
     Route::get('/iso-certificate', 'PageController@isoCertificate');
     Route::get('/borsya-akademi', 'PageController@borsyaAkademi');
-});
-
-Route::prefix('post')->group(function () {
-    Route::get('/all-posts', 'PageController@allPosts');
+    Route::get('/galery', 'PageController@galery');
+    Route::get('/services', 'PageController@services');
+    Route::get('/products', 'PageController@allPosts');
+    Route::get('/articles', 'PageController@allArticles');
+    Route::get('/article/{id}', 'PageController@getArticle');
+    Route::get('/product/{id}', 'PageController@getProduct');
 });
 
 Route::get('/post', 'PostController@index')->name('post');

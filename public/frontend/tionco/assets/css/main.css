@@ -58,6 +58,7 @@ body {
   font-style: normal;
   color: var(--clr-body-text);
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .img, img {
@@ -255,6 +256,10 @@ input:-ms-input-placeholder {
   position: absolute;
 }
 
+.p-betumbok {
+  transform: translate(0px, 80px);
+  z-index: 3;
+}
 .text_center {
   text-align: center;
 }
@@ -433,6 +438,9 @@ input:-ms-input-placeholder {
   --clr-theme-2: #0439ab;
   --clr-theme-3: #ffc000;
   --clr-theme-4: #00319a;
+}
+.bg-blue-me{
+  color: #1b2c64;
 }
 
 .text-common-white {
@@ -1936,7 +1944,7 @@ input:-ms-input-placeholder {
 }
 
 .header_top_clip_one {
-  height: 120px;
+  height: 100px;
   display: flex;
   align-items: center;
   background-color: #1b2c64;
@@ -1947,7 +1955,7 @@ input:-ms-input-placeholder {
   z-index: 2;
   display: flex;
   align-items: center;
-  height: 142px;
+  height: 102px;
   margin-top: -30px;
 }
 .menu_clip_one:before {

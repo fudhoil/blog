@@ -39,7 +39,11 @@ class PostController extends Controller
 
                     return $btn;
                 })
-                ->rawColumns(['action'])
+                ->addColumn('created_at', function ($row) {
+                    $date =  date('d/m/Y', strtotime($row->created_at));
+                    return $date;
+                })
+                ->rawColumns(['action', 'created_at'])
                 ->make(true);
         }
 
@@ -48,32 +52,32 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
+        // dd($request->all());
         $request->validate([
-            'image' => 'required|image'
+            'image' => 'image'
         ]);
-
-        if ($request->hasFile('image') == true) {
-            // $destination = 'public/image/post';
-            // $file = $request->file('image');
-            // $file_name = $file->getClientOriginalName();
-            // // $upload=$file->move('/public/storage/files/'.$file_name);
-            // $upload = $request->file('image')->storeAs($destination, $file_name);
-            // if (File::exists($upload)) {
-            //     File::delete($upload);
-            // }
-            $file_name = $request->file('image')->store('gambar/post');
-
+        if ($request->hasFile('image') == false) {
+            $post = Post::findOrFail($request->id_post);
+            $file_name = $post->image_name;
+            $file_path = $post->image;
         }
-        // return response()->json(['code'=>1,'msg'=>'Updated']);
-        Post::updateOrCreate(['id_post' => $request->id_post],
+        if ($request->hasFile('image') == true) {
+            $file = $request->file('image');
+            $file_name = $file->getClientOriginalName();
+            $file_path = $request->file('image')->store('gambar/post');
+        }
+        Post::updateOrCreate(
+            ['id_post' => $request->id_post],
             [
                 'title' => $request->title,
                 'description' => $request->description,
+                'posted_by' => $request->posted_by,
                 //  'image' => url('/').'/public/storage/files/'.$file_name,
-                'image' => $file_name,
+                'image' => $file_path,
+                'image_name' => $file_name,
+                'views' => $request->views,
                 'created_at' => $request->created_at,
                 'updated_at' => $request->updated_at,
-
             ]
         );
         return response()->json(['success' => 'Produk saved successfully!']);
@@ -92,7 +96,8 @@ class PostController extends Controller
         return response()->json(['success' => 'Post deleted!']);
     }
 
-    public function allPosts(){
+    public function allPosts()
+    {
         return view('posts.all-posts');
     }
 }
