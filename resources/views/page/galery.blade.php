@@ -22,71 +22,24 @@
         </section>
 
         <!-- portfolio_area-start -->
-        {{-- <div class="cportfolio_area pb-90 fix">
+        <div class="cportfolio_area pb-90 fix">
             <div class="container">
                 <div class="row cportfolio_active">
-
-                    <div class="col-lg-6 col-md-6 grid-item rennovation reconstruction">
-                        <div class="cportfolio_single mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="cportfolio_img">
-                                <a href="gallery/sekolah-smk.html"><img
-                                        src="backend/image/gallery/f3ddadb40c8c05c3e50a4a42c883aa98.jpeg"
-                                        alt="img"></a>
-                            </div>
-                            <a href="gallery/sekolah-smk.html" class="c_dirsign"><i class="fal fa-long-arrow-right"></i></a>
-                            <div class="cportfolio_text">
-                                <span class="cportfolio_sub">SMK Magitha Telekomunikasi</span>
-                                <h4 class="cportfolio_title theme-3"><a href="gallery/sekolah-smk.html">Peletakan Batu
-                                        Pertama</a></h4>
+                    @foreach ($galeries as $galery)
+                        <div class="col-lg-6 col-md-6 grid-item rennovation reconstruction">
+                            <div class="cportfolio_single mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="cportfolio_img"><img src="{{ asset($galery->image) }}" alt="img">
+                                </div>
+                                <div class="cportfolio_text">
+                                    <span class="cportfolio_sub">{{ $galery->title }}</span>
+                                    <h4 class="cportfolio_title theme-3">{!! $galery->description !!}</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 grid-item rennovation reconstruction">
-                        <div class="cportfolio_single mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="cportfolio_img">
-                                <a href="gallery/kegiatan-c.html"><img
-                                        src="backend/image/gallery/43bcb420f1fb214ea703759c8a1bfc59.jpeg"
-                                        alt="img"></a>
-                            </div>
-                            <a href="gallery/kegiatan-c.html" class="c_dirsign"><i class="fal fa-long-arrow-right"></i></a>
-                            <div class="cportfolio_text">
-                                <span class="cportfolio_sub">Surabaya</span>
-                                <h4 class="cportfolio_title theme-3"><a href="gallery/kegiatan-c.html">Kegiatan C</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 grid-item rennovation reconstruction">
-                        <div class="cportfolio_single mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="cportfolio_img">
-                                <a href="gallery/kegiatan-b.html"><img
-                                        src="backend/image/gallery/594acdae2c1d3535d03ee88daeceda7d.jpeg"
-                                        alt="img"></a>
-                            </div>
-                            <a href="gallery/kegiatan-b.html" class="c_dirsign"><i class="fal fa-long-arrow-right"></i></a>
-                            <div class="cportfolio_text">
-                                <span class="cportfolio_sub">Bandung</span>
-                                <h4 class="cportfolio_title theme-3"><a href="gallery/kegiatan-b.html">Kegiatan B</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 grid-item rennovation reconstruction">
-                        <div class="cportfolio_single mb-30 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="cportfolio_img">
-                                <a href="gallery/kegiatan-a.html"><img
-                                        src="backend/image/gallery/9f7f757d5a225bf20ec539e40a010302.jpeg"
-                                        alt="img"></a>
-                            </div>
-                            <a href="gallery/kegiatan-a.html" class="c_dirsign"><i class="fal fa-long-arrow-right"></i></a>
-                            <div class="cportfolio_text">
-                                <span class="cportfolio_sub">Jakarta</span>
-                                <h4 class="cportfolio_title theme-3"><a href="gallery/kegiatan-a.html">Kegiatan A</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
-        </div> --}}
+        </div>
         <!-- portfolio_area-end -->
 
 

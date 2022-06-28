@@ -93,14 +93,14 @@
                     </a>
                 </li>
 
-                {{-- <li class="menu-item" aria-haspopup="true">
+                <li class="menu-item" aria-haspopup="true">
                     <a href="/client" class="menu-link">
                         <span class="menu-icon fas fa-users">
 
                         </span>
                         <span class="menu-text">Partners / Clients</span>
                     </a>
-                </li> --}}
+                </li>
 
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/galery" class="menu-link">

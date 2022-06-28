@@ -4,8 +4,8 @@
             <div class="card-header">
                 <div class="d-flex align-items-center justify-content-left">
                     <h2 class="mt-2">{{ $title }}</h2>
-                    <a href="{{ url('page/articles') }}" target="_blank">
-                        <div class="btn btn-sm btn-pill btn-outline-primary py-1 mx-2">view Posts</div>
+                    <a href="{{ url('page/galery') }}" target="_blank">
+                        <div class="btn btn-sm btn-pill btn-outline-primary py-1 mx-2">view Galery</div>
                     </a>
 
                 </div>
@@ -23,7 +23,6 @@
                                     <th>No</th>
                                     <th>Title</th>
                                     <th>Posted By</th>
-                                    <th>Views</th>
                                     <th>Image</th>
                                     <th>Image Name</th>
                                     <th>Created At</th>
@@ -59,14 +58,14 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Tambah Produk</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Tambah Galery</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
             <div class="modal-body">
-                <form id="formUser" name="formUser" enctype="multipart/form-data" action="{{ route('post.store') }}"
-                    method="POST">
+                <form id="formUser" name="formUser" enctype="multipart/form-data"
+                    action="{{ route('galery.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" id="title"
@@ -77,10 +76,9 @@
                         <input type="file" name="image" class="form-control" id="image" required
                             placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
-                        <input type="hidden" name="views" id="views" value="">
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
-                        <input type="hidden" name="id_post" id="id_post" value="">
+                        <input type="hidden" name="id_galery" id="id_galery" value="">
                     </div>
             </div>
             <div class="modal-footer">
@@ -141,7 +139,7 @@
                 buttons: [
                     'copy', 'excel', 'pdf'
                 ],
-                ajax: "{{ url('post') }}",
+                ajax: "{{ url('galery') }}",
                 columns: [{
                         data: 'DT_RowIndex',
                         name: 'DT_RowIndex'
@@ -153,10 +151,6 @@
                     {
                         data: 'posted_by',
                         name: 'posted_by'
-                    },
-                    {
-                        data: 'views',
-                        name: 'views'
                     },
                     {
                         data: 'image',
@@ -199,18 +193,18 @@
             // initialize btn add
             $('#createNewUser').click(function() {
                 $('#saveBtn').val("tambah produk");
-                $('#id_post').val('');
+                $('#id_galery').val('');
                 $('#formUser').trigger("reset");
                 $('#modal-user').modal('show');
             });
 
             // initialize btn edit
             $('body').on('click', '.editUser', function() {
-                var id_post = $(this).data('id');
-                $.get("{{ url('post') }}" + '/' + id_post, function(data) {
+                var id_galery = $(this).data('id');
+                $.get("{{ url('post') }}" + '/' + id_galery, function(data) {
                     $('#image').removeAttr('required');
                     $('#modal-user').modal('show');
-                    $('#id_post').val(data.id_post);
+                    $('#id_galery').val(data.id_galery);
                     $('#title').val(data.title);
                     YourEditor.setData(data.description);
                     $('#posted_by').val(data.posted_by);
@@ -235,7 +229,7 @@
                     YourEditor.setData('');
 
                     $.ajax({
-                        url: '{{ route('post.store') }}',
+                        url: '{{ route('galery.store') }}',
                         type: 'POST',
                         headers: {
                             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr(
@@ -277,8 +271,8 @@
 
             // initialize btn delete
             $('body').on('click', '.deleteUser', function(e) {
-                var id_post = $(this).data("id");
-                console.log(id_post);
+                var id_galery = $(this).data("id");
+                console.log(id_galery);
 
                 Swal.fire({
                     title: 'Are you sure?',
@@ -292,7 +286,7 @@
                     if (result.isConfirmed) {
                         $.ajax({
                             type: "DELETE",
-                            url: "{{ url('/post/') }}" + '/' + id_post,
+                            url: "{{ url('/post/') }}" + '/' + id_galery,
                             success: function(data) {
                                 swal_success();
                                 table.draw();
