@@ -71,7 +71,7 @@
                         <span class="menu-icon fas fa-book-open">
 
                         </span>
-                        <span class="menu-text">Post</span>
+                        <span class="menu-text">News / Released</span>
                     </a>
                 </li>
 

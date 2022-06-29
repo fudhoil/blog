@@ -31,18 +31,6 @@
 
                             </thead>
                             <tbody class="text-center">
-                                {{-- @foreach ($users as $r_users)
-                                    <tr>
-                                <td>{{$r_users->id}}</td>
-                                <td>{{$r_users->name}}</td>
-                                <td>{{$r_users->email}}</td>
-                                <td>{{$r_users->level}}</td>
-                                <td>
-                                    <div class="btn btn-success editUser" data-id="{{$r_users->id}}">Edit</div>
-                                    <div class="btn btn-danger deleteUser" data-id="{{$r_users->id}}">Delete</div>
-                                </td>
-                                </tr>
-                                @endforeach --}}
                             </tbody>
                         </table>
                     </div>
@@ -68,13 +56,10 @@
                     action="{{ route('galery.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" id="title"
-                            placeholder="Title"><br>
-                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
-                        <input type="text" name="posted_by" class="form-control" id="posted_by"
-                            placeholder="{{ Auth::user()->name }}" value="" disabled><br>
-                        <input type="file" name="image" class="form-control" id="image" required
-                            placeholder="Foto"><br>
+                        <input type="text" name="title" class="form-control" id="title" placeholder="Title" required><br>
+                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi" required></textarea><br>
+                        <input type="text" name="posted_by" class="form-control" id="posted_by" placeholder="{{ Auth::user()->name }}" value="" disabled><br>
+                        <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
                         <a href="" id="image_name" name="image_name" value=""></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
@@ -82,10 +67,8 @@
                     </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light-primary font-weight-bold"
-                    data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save
-                    changes</button>
+                <button type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary font-weight-bold" name="submit" id="submit">Save changes</button>
             </div>
             </form>
         </div>

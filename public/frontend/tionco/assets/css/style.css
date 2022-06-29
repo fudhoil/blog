@@ -14,12 +14,12 @@
     top: 40%;
     left: 10%;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
 }
 
 .head-more {
     top: 55%;
     left: 10%;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
 }
