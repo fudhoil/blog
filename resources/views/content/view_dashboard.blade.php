@@ -157,7 +157,7 @@
                                 </span>
                                 <div class="d-flex flex-column text-right">
                                     <span class="text-dark-75 font-weight-bolder font-size-h3"></span>
-                                    <span class="text-muted font-weight-bold mt-2">Data Views</span>
+                                    <span class="text-muted font-weight-bold mt-2">Data Views ({{ \Carbon\Carbon::now()->format('Y') }})</span>
                                 </div>
                             </div>
                             <div>

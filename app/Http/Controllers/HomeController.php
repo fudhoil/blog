@@ -25,7 +25,9 @@ class HomeController extends Controller
 
     public function admin()
     {
+        $now = \Carbon\Carbon::now()->format('Y');
         $posts = Post::select('views', 'created_at')
+        ->whereYear('created_at', $now)
         ->get()
         ->groupBy(function($date) {
             //return Carbon::parse($date->created_at)->format('Y'); // grouping by years
