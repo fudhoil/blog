@@ -2,7 +2,7 @@
     <!--begin::Brand-->
     <div class="brand flex-column-auto" id="kt_brand">
         <!--begin::Logo-->
-        <a href="#" class="brand-logo">
+        <a href="{{ url('/home') }}" class="brand-logo">
             {{-- <img alt="Logo" src="{{asset('metch')}}/media/logos/logo-light.png" /> --}}
             <span class="text-center">
                 {{-- <i class="fab fa-angrycreative fa-4x"></i> --}}
@@ -113,11 +113,11 @@
                 <hr style="border: 1px solid white; margin-left:10px; margin-right:10px;">
 
                 <li class="menu-item" aria-haspopup="true">
-                    <a href="#" class="menu-link">
+                    <a href="{{ url('/') }}" target="_blank" class="menu-link">
                         <span class="menu-icon fas fa-cog">
 
                         </span>
-                        <span class="menu-text">App Settings</span>
+                        <span class="menu-text">View Landing Page</span>
                     </a>
                 </li>
 

@@ -83,7 +83,7 @@
     <!--begin::Header Mobile-->
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
-        <a href="#">
+        <a href="{{ url('/home') }}">
             {{-- <img alt="Logo" src="{{asset('metch')}}/media/logos/logo-light.png" /> --}}
                 <img src="{{ 'backend/logo2.png' }}" width="100px" alt="#home">
         </a>
@@ -287,51 +287,8 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/datatables.min.js"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        const labels = [
-          'January',
-          'February',
-          'March',
-          'April',
-          'May',
-          'June',
-          'July',
-          'August',
-          'September',
-          'October',
-          'November',
-          'Desember',
-        ];
-        let myObj = {!! str_replace('&quot;', '', json_encode($count_views)) !!};
-        let array = [];
-        let values = Object.values(myObj);
-        Array.prototype.push.apply(array, values);
-        // console.log(array);
-        const data = {
-          labels: labels,
-          datasets: [{
-            label: 'Total Views',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: array,
-          }]
-        };
-
-        const config = {
-          type: 'line',
-          data: data,
-          options: {}
-        };
-      </script>
-
-        <script>
-            const myChart = new Chart(
-            document.getElementById('myChart'),
-            config
-            );
-        </script>
-
     @stack('scripts')
+    @yield('script')
     <!--end::Page Scripts-->
 </body>
 <!--end::Body-->

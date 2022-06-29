@@ -175,3 +175,48 @@
     </div>
     <!--end::Entry-->
 </div>
+@section('script')
+<script>
+    const labels = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'Desember',
+    ];
+    let myObj = {!! str_replace('&quot;', '', json_encode($count_views)) !!};
+    let array = [];
+    let values = Object.values(myObj);
+    Array.prototype.push.apply(array, values);
+    // console.log(array);
+    const data = {
+      labels: labels,
+      datasets: [{
+        label: 'Total Views',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: array,
+      }]
+    };
+
+    const config = {
+      type: 'line',
+      data: data,
+      options: {}
+    };
+  </script>
+
+    <script>
+        const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+        );
+    </script>
+@endsection
