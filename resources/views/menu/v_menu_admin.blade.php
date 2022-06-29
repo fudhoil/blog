@@ -104,7 +104,7 @@
 
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/galery" class="menu-link">
-                        <span class="menu-icon fas fa-calendar">
+                        <span class="menu-icon fas fa-image">
 
                         </span>
                         <span class="menu-text">Galery</span>
