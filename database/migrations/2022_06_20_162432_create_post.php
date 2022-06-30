@@ -20,7 +20,7 @@ class CreatePost extends Migration
             $table->string('posted_by');
             $table->string('image')->nullable();
             $table->string('image_name')->nullable();
-            $table->integer('views')->nullable();
+            $table->integer('views')->default(0);
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });

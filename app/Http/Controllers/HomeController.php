@@ -31,14 +31,14 @@ class HomeController extends Controller
         ->get()
         ->groupBy(function($date) {
             //return Carbon::parse($date->created_at)->format('Y'); // grouping by years
-            return Carbon::parse($date->created_at)->format('m'); // grouping by months
+            return \Carbon\Carbon::parse($date->created_at)->format('m'); // grouping by months
         });
 
         $postmcount = [];
         $postArr = [];
 
         foreach ($posts as $key => $value) {
-            $postmcount[(int)$key] = count($value);
+            $postmcount[(int)$key] = $value->sum('views');
         }
 
         for($i = 1; $i <= 12; $i++){

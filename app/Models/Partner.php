@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class Client extends Authenticatable
+class Partner extends Authenticatable
 {
     public $table = "client";
     use Notifiable;
-    
+
     protected $primaryKey =  'id_client';
     /**
      * The attributes that are mass assignable.

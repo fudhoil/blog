@@ -61,11 +61,13 @@ class PostController extends Controller
             $post = Post::findOrFail($request->id_post);
             $file_name = $post->image_name;
             $file_path = $post->image;
+            $views = $post->views;
         }
         if ($request->hasFile('image') == true) {
             $file = $request->file('image');
             $file_name = $file->getClientOriginalName();
             $file_path = $request->file('image')->store('gambar/post');
+            $views = 0;
         }
         Post::updateOrCreate(
             ['id_post' => $request->id_post],
@@ -76,7 +78,7 @@ class PostController extends Controller
                 //  'image' => url('/').'/public/storage/files/'.$file_name,
                 'image' => $file_path,
                 'image_name' => $file_name,
-                'views' => $request->views,
+                'views' => $views,
                 'created_at' => $request->created_at,
                 'updated_at' => $request->updated_at,
             ]

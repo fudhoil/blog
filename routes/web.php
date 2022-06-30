@@ -65,8 +65,8 @@ Route::post('/product/{id}', 'ProductController@store')->name('product.edit');
 Route::delete('/product/{id}', 'ProductController@destroy')->name('product.destroy');
 
 // partner
-Route::get('/client', 'ClientController@index')->name('client');
-Route::post('/client', 'ClientController@store')->name('client.store');
-Route::get('/client/{id}', 'ClientController@edit')->name('client.edit');
-Route::post('/client/{id}', 'ClientController@store')->name('client.edit');
-Route::delete('/client/{id}', 'ClientController@destroy')->name('client.destroy');
+Route::get('/partner', 'PartnerController@index')->name('partner');
+Route::post('/partner', 'PartnerController@store')->name('partner.store');
+Route::get('/partner/{id}', 'PartnerController@edit')->name('partner.edit');
+Route::post('/partner/{id}', 'PartnerController@store')->name('partner.edit');
+Route::delete('/partner/{id}', 'PartnerController@destroy')->name('partner.destroy');

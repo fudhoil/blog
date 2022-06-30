@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use App\Models\Client;
+use App\Models\Partner;
 use App\Models\Galery;
 use App\Models\Product;
 use Illuminate\Http\Request;
@@ -15,7 +15,7 @@ class PageController extends Controller
         $posts = Post::latest()->take(3)->get();
         $products = Product::all();
         $galery = Galery::all();
-        $clients = Client::all();
+        $clients = Partner::all();
         return view('welcome', ['posts' => $posts, 'products' => $products, 'galeries' => $galery, 'clients' => $clients]);
     }
 
@@ -61,6 +61,9 @@ class PageController extends Controller
     public function getArticle($id)
     {
         $post = Post::where('id_post', $id)->first();
+        $post->update([
+            'views' => $post->views + 1
+        ]);
         return view('page/article', ['post' => $post]);
     }
 

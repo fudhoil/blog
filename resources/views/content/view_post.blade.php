@@ -71,7 +71,7 @@
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" id="title" placeholder="Title"
                             required><br>
-                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi" required></textarea><br>
+                        <textarea name="description" id="description" placeholder="Deskripsi"></textarea><br>
                         <input type="text" name="posted_by" class="form-control" id="posted_by"
                             placeholder="{{ Auth::user()->name }}" value="" disabled><br>
                         <input type="file" name="image" class="form-control" id="image" required

@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use App\Models\Client;
+use App\Models\Partner;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use \Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\File;
 
-class ClientController extends Controller
+class PartnerController extends Controller
 {
     public function __construct()
     {
@@ -21,14 +21,14 @@ class ClientController extends Controller
     public function index(Request $request)
     {
         $data = [
-            'count_user' => Client::all(),
+            'count_user' => Partner::all(),
             'menu'       => 'menu.v_menu_admin',
             'content'    => 'content.view_client',
             'title'    => 'Table Partner & Client'
         ];
 
         if ($request->ajax()) {
-            $q_user = Client::select('*');
+            $q_user = Partner::select('*');
             return Datatables::of($q_user)
                 ->addIndexColumn()
                 ->addColumn('action', function ($row) {
@@ -70,14 +70,14 @@ class ClientController extends Controller
 
     public function edit($id)
     {
-        $User = Client::find($id);
+        $User = Partner::find($id);
         return response()->json($User);
     }
 
 
     public function destroy($id_client)
     {
-        Client::find($id_client)->delete();
+        Partner::find($id_client)->delete();
 
         return response()->json(['success' => 'Post deleted!']);
     }

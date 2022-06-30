@@ -24,7 +24,6 @@
                                     <th>Description Perusahaan</th>
                                     <th>Image</th>
                                     <th>Created At</th>
-                                    <th>Updated At</th>
                                     <th style="width:90px;">Action</th>
                                 </tr>
 
@@ -105,7 +104,7 @@
                 buttons: [
                     'copy', 'excel', 'pdf'
                 ],
-                ajax: "{{ route('client') }}",
+                ajax: "{{ route('partner') }}",
                 columns: [{
                         data: 'id_client',
                         name: 'id_client'
@@ -127,11 +126,14 @@
                     },
                     {
                         data: 'created_at',
-                        name: 'created_at'
-                    },
-                    {
-                        data: 'updated_at',
-                        name: 'updated_at'
+                        name: 'created_at',
+                        render: function(data, type, full, meta) {
+                            if (data == '01/01/1970') {
+                                return '';
+                            } else {
+                                return data;
+                            }
+                        }
                     },
                     {
                         data: 'action',
@@ -158,7 +160,7 @@
             // initialize btn edit
             $('body').on('click', '.editUser', function() {
                 var id_client = $(this).data('id');
-                $.get("{{ url('client') }}" + '/' + id_client, function(data) {
+                $.get("{{ url('partner') }}" + '/' + id_client, function(data) {
                     $('#saveBtn').val("edit-user");
                     $('#image').removeAttr('required');
                     $('#modal-user').modal('show');
@@ -184,7 +186,7 @@
                 $(this).html('Save');
                 $.ajax({
                     data: formData,
-                    url: "{{ route('client.store') }}",
+                    url: "{{ route('partner.store') }}",
                     type: "POST",
                     cache: false,
                     contentType: false,
@@ -220,7 +222,7 @@
                     if (result.isConfirmed) {
                         $.ajax({
                             type: "DELETE",
-                            url: "{{ url('/client/') }}" + '/' + id_client,
+                            url: "{{ url('/partner/') }}" + '/' + id_client,
                             success: function(data) {
                                 swal_success();
                                 table.draw();

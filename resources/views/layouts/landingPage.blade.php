@@ -413,52 +413,8 @@
     <link rel="stylesheet" href="{{ url('leaflet%401.5.1/dist/leaflet.css') }}">
     <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <script src="{{ url('leaflet%401.5.1/dist/leaflet.js') }}"></script>
-
+    @yield('script')
     <script>
-        $(document).ready(function() {
-
-
-            // $("#playlist-horizontal").youtube_video({
-            //   playlist: false,
-            //   channel: 'UCj20ohFNrIJvj3e3e1ZLoBw',
-            //   user: false,
-            //   videos: false,
-            //   max_results: 10,
-            //   pagination: true,
-            //   continuous: true,
-            //   first_video: 0,
-            //   show_playlist: 'auto',
-            //   playlist_type: 'horizontal',
-            //   show_channel_in_playlist:false,
-            //   show_channel_in_title: false,
-            //   width: false,
-            //   show_annotations: false,
-            //   now_playing_text: 'Now Playing',
-            //   load_more_text: 'Load More',
-            //   autoplay: true,
-            //   force_hd: true,
-            //   hide_youtube_logo: true,
-            //   play_control: true,
-            //   time_indicator: 'full',
-            //   volume_control: true,
-            //   share_control: false,
-            //   fwd_bck_control: true,
-            //   youtube_link_control: false,
-            //   fullscreen_control: true,
-            //   playlist_toggle_control:true,
-            //   volume: false,
-            //   show_controls_on_load: true,
-            //   show_controls_on_pause: true,
-            //   show_controls_on_play: false,
-            //   player_vars: {},
-            //   colors: {
-            //     'controls_bg': 'rgba(0,0,0,.9)'
-            //   },
-            //   require_cookie_accept: false
-            // });
-
-        });
-
 
         $(function() {
             $('.lazy').Lazy();
