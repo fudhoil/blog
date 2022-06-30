@@ -57,6 +57,7 @@ class HomeController extends Controller
             'menu'      => 'menu.v_menu_admin',
             'content' => 'content.view_dashboard',
             'count_views' => $postArr,
+            'title'    => 'Dashboard'
         );
         return view('layouts.v_template', $data);
     }
