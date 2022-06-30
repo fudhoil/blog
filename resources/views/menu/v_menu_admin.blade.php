@@ -94,7 +94,7 @@
                 </li>
 
                 <li class="menu-item" aria-haspopup="true">
-                    <a href="/client" class="menu-link">
+                    <a href="/partner" class="menu-link">
                         <span class="menu-icon fas fa-users">
 
                         </span>

@@ -57,6 +57,8 @@
                         <input type="text" name="nama_perusahaan" class="form-control" id="nama_perusahaan" placeholder="Nama Perusahaan"><br>
                         <input type="text" name="description" class="form-control" id="description" placeholder="Deskripsi Perusahaan"><br>
                         <input type="file" name="image" class="form-control" id="image" placeholder="Foto" required><br>
+                        <label for="image" id="image_label">Old image</label>
+                        <a href="" id="image_name" name="image_name" value=""><img id="image_url" width="100%"/></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_client" id="id_client" value="">
@@ -75,6 +77,12 @@
 
 @push('scripts')
     <script>
+        $("#modal-user").on("hidden.bs.modal", function(e) {
+            $('#image').prop('required', true);
+            $('#image_name').html('');
+            $('#image_label').hide();
+        });
+
         $('document').ready(function() {
             // success alert
             function swal_success() {
@@ -167,7 +175,9 @@
                     $('#id_client').val(data.id_client);
                     $('#nama_perusahaan').val(data.nama_perusahaan);
                     $('#description').val(data.description);
-                    $('#image').val(data.image);
+                    $('#image_url').attr('src', data.image);
+                    $('#image_label').show();
+                    $('#image_name').attr("href", data.image);
                 })
             });
 
