@@ -1,10 +1,7 @@
 /node_modules
 /public/hot
 /public/storage
-/public/gambar/client
-/public/gambar/galery
-/public/gambar/post
-/public/gambar/product
+/public/gambar
 /storage/*.key
 /vendor
 .env
