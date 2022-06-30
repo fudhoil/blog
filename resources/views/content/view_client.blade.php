@@ -79,8 +79,8 @@
     <script>
         $("#modal-user").on("hidden.bs.modal", function(e) {
             $('#image').prop('required', true);
-            $('#image_name').html('');
             $('#image_label').hide();
+            $('#image_url').removeAttr('src');
         });
 
         $('document').ready(function() {
