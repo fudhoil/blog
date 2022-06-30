@@ -19,7 +19,7 @@
                             <thead class="font-weight-bold text-center">
                                 <tr>
                                     {{-- <th>No.</th> --}}
-                                    <th>Id Client</th>
+                                    <th>No</th>
                                     <th>Nama Perusahaan</th>
                                     <th>Description Perusahaan</th>
                                     <th>Image</th>
@@ -54,8 +54,11 @@
                     method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="nama_perusahaan" class="form-control" id="nama_perusahaan" placeholder="Nama Perusahaan"><br>
-                        <input type="text" name="description" class="form-control" id="description" placeholder="Deskripsi Perusahaan"><br>
+                        <input type="text" name="nama_perusahaan" class="form-control" id="nama_perusahaan" placeholder="Nama Perusahaan" required>
+                        <div class="is-invalid"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="description" class="form-control" id="description" placeholder="Deskripsi Perusahaan" required><br>
                         <input type="file" name="image" class="form-control" id="image" placeholder="Foto" required><br>
                         <label for="image" id="image_label">Old image</label>
                         <a href="" id="image_name" name="image_name" value=""><img id="image_url" width="100%"/></a>
@@ -81,6 +84,7 @@
             $('#image').prop('required', true);
             $('#image_label').hide();
             $('#image_url').removeAttr('src');
+            $('.is-invalid').html('');
         });
 
         $('document').ready(function() {
@@ -114,8 +118,8 @@
                 ],
                 ajax: "{{ route('partner') }}",
                 columns: [{
-                        data: 'id_client',
-                        name: 'id_client'
+                        data: 'DT_RowIndex',
+                        name: 'DT_RowIndex'
                     },
                     {
                         data: 'nama_perusahaan',
@@ -210,7 +214,8 @@
                     },
                     error: function(data) {
                         console.log(data);
-                        swal_error();
+                        // swal_error();
+                        $('.is-invalid').html('This Field is Required');
                         $('#saveBtn').html('Save Changes');
                     }
                 });
@@ -218,7 +223,6 @@
             // initialize btn delete
             $('body').on('click', '.deleteUser', function(e) {
                 var id_client = $(this).data("id");
-                console.log(id_client);
 
                 Swal.fire({
                     title: 'Are you sure?',

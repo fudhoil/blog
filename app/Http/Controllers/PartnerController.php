@@ -38,6 +38,10 @@ class PartnerController extends Controller
 
                     return $btn;
                 })
+                ->addColumn('created_at', function ($row) {
+                    $date =  date('d/m/Y', strtotime($row->created_at));
+                    return $date;
+                })
                 ->rawColumns(['action'])
                 ->make(true);
         }
@@ -48,8 +52,15 @@ class PartnerController extends Controller
     public function store(Request $request)
     {
         $request->validate([
+            'nama_perusahaan' => 'required',
             'image' => 'required|image'
         ]);
+
+        if ($validate->fails()) {
+            return response()->json([
+                'error' => $validate->errors()->toArray()
+            ]);
+        }
 
         if ($request->hasFile('image') == true) {
             $file_name = $request->file('image')->store('gambar/client');
