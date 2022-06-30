@@ -70,7 +70,8 @@
                         <textarea name="description_product" class="form-control" id="description_product" placeholder="Deskripsi Product"></textarea><br>
                         <input type="file" name="image" class="form-control" id="image" required
                             placeholder="Foto"><br>
-                        <a href="" id="image_name" name="image_name" value=""></a>
+                        <label for="image" id="image_label">Old image</label>
+                        <a href="" id="image_name" name="image_name" value=""><img id="image_url" width="100%"/></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_product" id="id_product" value="">
@@ -101,7 +102,8 @@
 
         $("#modal-user").on("hidden.bs.modal", function(e) {
             $('#image').prop('required', true);
-            $('#image_name').html('');
+            $('#image_label').hide();
+            $('#image_url').removeAttr('src');
             YourEditor.setData('');
         });
 
@@ -192,7 +194,8 @@
                     $('#id_product').val(data.id_product);
                     $('#title_product').val(data.title_product);
                     YourEditor.setData(data.description_product);
-                    $('#image_name').html(data.image_name);
+                    $('#image_url').attr('src', data.image);
+                    $('#image_label').show();
                     $('#image_name').attr("href", data.image);
                 })
             });

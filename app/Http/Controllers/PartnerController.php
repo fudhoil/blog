@@ -56,7 +56,7 @@ class PartnerController extends Controller
 
         }
         // return response()->json(['code'=>1,'msg'=>'Updated']);
-        Client::updateOrCreate(['id_client' => $request->id_client],
+        Partner::updateOrCreate(['id_client' => $request->id_client],
             [
                 'nama_perusahaan' => $request->nama_perusahaan,
                 'description' => $request->description,

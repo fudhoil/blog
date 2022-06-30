@@ -51,16 +51,16 @@
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
+            <form id="formUser" name="formUser" enctype="multipart/form-data" action="{{ route('galery.store') }}" method="POST">
             <div class="modal-body">
-                <form id="formUser" name="formUser" enctype="multipart/form-data"
-                    action="{{ route('galery.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" id="title" placeholder="Title" required><br>
-                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi" required></textarea><br>
+                        <textarea name="description" class="form-control" id="description" placeholder="Deskripsi"></textarea><br>
                         <input type="text" name="posted_by" class="form-control" id="posted_by" placeholder="{{ Auth::user()->name }}" value="" disabled><br>
                         <input type="file" name="image" class="form-control" id="image" required placeholder="Foto"><br>
-                        <a href="" id="image_name" name="image_name" value=""></a>
+                        <label for="image" id="image_label">Old image</label>
+                        <a href="" id="image_name" name="image_name" value=""><img id="image_url" width="100%"/></a>
                         <input type="hidden" name="created_at" id="created_at" value="">
                         <input type="hidden" name="updated_at" id="updated_at" value="">
                         <input type="hidden" name="id_galery" id="id_galery" value="">
@@ -89,7 +89,8 @@
 
         $("#modal-user").on("hidden.bs.modal", function(e) {
             $('#image').prop('required', true);
-            $('#image_name').html('');
+            $('#image_label').hide();
+            $('#image_url').removeAttr('src');
             YourEditor.setData('');
         });
 
@@ -184,7 +185,7 @@
             // initialize btn edit
             $('body').on('click', '.editUser', function() {
                 var id_galery = $(this).data('id');
-                $.get("{{ url('post') }}" + '/' + id_galery, function(data) {
+                $.get("{{ url('galery') }}" + '/' + id_galery, function(data) {
                     $('#image').removeAttr('required');
                     $('#modal-user').modal('show');
                     $('#id_galery').val(data.id_galery);
@@ -192,7 +193,8 @@
                     YourEditor.setData(data.description);
                     $('#posted_by').val(data.posted_by);
                     // $('#image').val('');
-                    $('#image_name').html(data.image_name);
+                    $('#image_url').attr('src', data.image);
+                    $('#image_label').show();
                     $('#image_name').attr("href", data.image);
                 })
             });
