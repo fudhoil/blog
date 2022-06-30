@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Client;
+use App\Models\Partner;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
 
@@ -17,7 +17,7 @@ class ClientSeeder extends Seeder
 
 
         foreach ($datas as $data) {
-            Client::create([
+            Partner::create([
                 'nama_perusahaan' => '',
                 'description' => '',
                 'image' => 'gambar/client/' . $data
