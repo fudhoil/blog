@@ -300,7 +300,7 @@
                             </div>
                             <div class="footer_widget_content mt-40">
                                 <b>Kantor Pusat</b><br>
-                                Jln. Brawijaya No. 2B Cakranegara Selatan, Mataram - Nusa Tenggara Barat<br><br>
+                                Jl. DR. Sutomo, Ombe Rerot, Desa Ombe Baru, Kecamatan Kediri, Lombok Barat, Nusa Tenggara Barat Rt/Rw:01/00<br><br>
                             </div>
                         </div>
                     </div>
@@ -323,8 +323,7 @@
                                     </a>
                                     <a class="address_line" href="#" target="_blank">
                                         <span class="address_icon"><i class="fal fa-map-marker-alt"></i></span>
-                                        <span class="address_text">Jln. Brawijaya No. 2B Cakranegara Selatan,
-                                            Mataram - Nusa Tenggara Barat
+                                        <span class="address_text">Jl. DR. Sutomo, Ombe Rerot, Desa Ombe Baru, Kecamatan Kediri, Lombok Barat, Nusa Tenggara Barat Rt/Rw:01/00
                                             </span>
                                     </a>
 
@@ -360,14 +359,14 @@
                     <div class="col-xxl-7 col-sm-6">
                         <div class="footer_social text-sm-end text-center mb-30 wow fadeInRight"
                             data-wow-delay="0.3s">
-                            <a href="https://www.facebook.com/MagithaGroup" target="_blank"><i
+                            <a href="#" target="_blank"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://instagram.com/magithagroup" target="_blank"><i
+                            <a href="#" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/channel/UChBtMxlGvuk9MCR7ZogYytw" target="_blank"><i
+                            <a href="#" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
-                            <a href="https://www.facebook.com/MagithaGroup" target="_blank"><i
+                            <a href="#" target="_blank"><i
                                     class="fab fa-linkedin-in"></i></a>
                             <div><a href="{{ url('login') }}">Login</a></div>
                         </div>
@@ -455,7 +454,7 @@
 
         // Location
         L.marker([-8.594557214097897, 116.12998525319193]).addTo(map)
-            .bindPopup("<h5>PT. Magitha Citra Nusantara</h5>Jln. Brawijaya No. 2B Cakranegara Selata Mataram - Nusa Tenggara Barat")
+            .bindPopup("<h5>PT. Magitha Citra Nusantara</h5>Jl. DR. Sutomo, Ombe Rerot, Desa Ombe Baru, Kecamatan Kediri, Lombok Barat, Nusa Tenggara Barat Rt/Rw:01/00")
             .openPopup();
 
         L.circle([-8.594557214097897, 116.12998525319193], 250, {
